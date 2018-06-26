@@ -1,0 +1,72 @@
+session_name: basic
+windows:
+- focus: 'true'
+  layout: ce3e,174x48,0,0,1
+  options: {}
+  panes:
+  - pane
+  start_directory: /home/rv/.terminal
+  window_name: zsh
+- layout: ce46,174x48,0,0,9
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/rv/src/project
+  window_name: zsh
+- layout: ce40,174x48,0,0,3
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/rv
+  window_name: zsh
+- layout: 674f,174x48,0,0,10
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/rv
+  window_name: zsh
+- layout: 6750,174x48,0,0,11
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/rv
+  window_name: zsh
+- layout: 6751,174x48,0,0,12
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/rv
+  window_name: zsh
+- layout: 6752,174x48,0,0,13
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/rv
+  window_name: zsh
+- layout: 6753,174x48,0,0,14
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/rv
+  window_name: zsh
+- layout: 6754,174x48,0,0,15
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/rv
+  window_name: zsh
+- layout: 6755,174x48,0,0,16
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/rv
+  window_name: zsh

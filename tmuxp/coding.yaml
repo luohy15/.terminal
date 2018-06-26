@@ -6,7 +6,7 @@ windows:
     automatic-rename: 'off'
   panes:
   - pane
-  start_directory: /home/rv/.dotfiles
+  start_directory: /home/rv/.terminal
   window_name: ""
 - layout: 6493,156x37,0,0,14
   options:

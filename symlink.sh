@@ -1,4 +1,3 @@
-# ln ~/.terminal/* to ~/.*
 ## files: tmux.conf zshrc vimrc
 for f in tmux.conf zshrc vimrc tmuxp config/powerline
 do
@@ -17,7 +16,11 @@ do
     for subdir in `ls $dir`
     do
         echo $dir/$subdir
-        unlink ~/$dir/$subdir
+        if [[ ! -L ~/$dir/$subdir ]]; then
+            rm ~/$dir/$subdir
+        else
+            unlink ~/$dir/$subdir
+        fi
         ln -s ~/.terminal/$dir/$subdir ~/$dir/$subdir
     done
 done
