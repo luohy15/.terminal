@@ -3,7 +3,7 @@ for f in tmux.conf zshrc vimrc tmuxp
 do
     echo $f
     if [ ! -L ~/.$f ]; then
-        rm ~/.$f
+        rm -r ~/.$f
     else
         unlink ~/.$f # rather than rm $f
     fi
