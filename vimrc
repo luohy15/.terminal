@@ -73,9 +73,12 @@ Plug 'lervag/vimtex'
 " Plug 'vim-scripts/YankRing.vim'
 
 " eye candy
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'ryanoasis/vim-devicons'
+let s:uname = system("uname -n | tr -d '\n'")
+if (s:uname == "s5-371")
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
+    Plug 'ryanoasis/vim-devicons'
+endif
 " Plug 'kien/rainbow_parentheses.vim'
 " Plug 'yuttie/comfortable-motion.vim'
 " Plug 'edkolev/tmuxline.vim'
