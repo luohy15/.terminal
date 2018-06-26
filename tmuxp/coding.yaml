@@ -1,0 +1,78 @@
+session_name: coding
+windows:
+- focus: 'true'
+  layout: c8be,156x37,0,0,1
+  options:
+    automatic-rename: 'off'
+  panes:
+  - pane
+  start_directory: /home/rv/.dotfiles
+  window_name: ""
+- layout: 6493,156x37,0,0,14
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/rv/src/project/programming_basic/leetcode
+  window_name: ""
+- layout: 6494,156x37,0,0,15
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/rv/src/project/db_training/SimJoiner
+  window_name: ""
+- layout: 6495,156x37,0,0,16
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/rv
+  window_name: ""
+- layout: 6496,156x37,0,0,17
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/rv
+  window_name: ""
+- layout: 6497,156x37,0,0,18
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/rv
+  window_name: ""
+- layout: 648f,156x37,0,0,10
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/rv
+  window_name: ""
+- layout: 6490,156x37,0,0,11
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/rv
+  window_name: ""
+- layout: 6498,156x37,0,0,19
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/rv
+  window_name: ""
+- layout: 6492,156x37,0,0,13
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/rv
+  window_name: ""

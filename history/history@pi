@@ -1,0 +1,1970 @@
+    1  ls
+    2  cd ..
+    3  exit
+    4  vim .zshrc
+    5  exit
+    6  ls
+    7  cd Desktop
+    8  ls
+    9  cd /
+   10  ls
+   11  cd tmp
+   12  vim .zshrc
+   13  cd ~
+   14  vim .zshrc
+   15  exit
+   16  vim .zshrc
+   17  exit
+   18  ls
+   19  cd python_games
+   20  ls
+   21  python drawing.py
+   22  python wormy.py
+   23  python simulate.py
+   24  python inkspill.py
+   25  vim wormy.py
+   26  exit
+   27  ifconfig
+   28  pwd
+   29  reboot
+   30  exit
+   31  ls
+   32  cd Desktop
+   33  mkdir test
+   34  rm -r test
+   35  ls
+   36  hostname -l
+   37  ls
+   38  reboot
+   39  poweroff
+   40  sudo reboot
+   41  sudo apt-get install xrdp
+   42  ifconfig
+   43  ls
+   44  sudo apt-get update
+   45  ifconfig
+   46  sudo ifconfig
+   47  netstat -nr
+   48  sudo vim /etc/network/interfaces
+   49  sudo raspi-config
+   50  sudo vim /etc/network/interfaces
+   51  sudo ifconfig
+   52  sudo vim /etc/apt/sources.list
+   53  sudo apt-get update
+   54  sudo vim /etc/network/interfaces
+   55  sudo apt-get install udhcpd
+   56  sudo apt-get install hostapd
+   57  sudo ifconfig
+   58  netstat -nr
+   59  sudo vim /etc/network/interfaces
+   60  sudo vim /etc/wpa_supplicant/wpa_supplicant.conf
+   61  sudo reboot
+   62  ls
+   63  sudo vim /etc/wpa_supplicant/wpa_supplicant.conf
+   64  sudo apt-get install dnsmasq
+   65  sudo vim /etc/dnsmasq.conf
+   66  sudo /etc/init.d/dnsmasq restart
+   67  sudo vim /etc/dnsmasq.conf
+   68  sudo /etc/init.d/dnsmasq restart
+   69  exit
+   70  sudo poweroff
+   71  ls
+   72  tmux
+   73  exit
+   74  vim
+   75  exit
+   76  ls
+   77  cd python
+   78  ls
+   79  cd python_games
+   80  ls
+   81  python wormy.py
+   82  sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+   83  cd ..
+   84  ls
+   85  echo $SHELL
+   86  ls
+   87  cd Desktop
+   88  ls
+   89  cat pa-book.pdf
+   90  ls
+   91  l
+   92  ll
+   93  ls
+   94  zsh
+   95  ls
+   96  tmux
+   97  vim
+   98  ls
+   99  desktop
+  100  Desktop
+  101  ls
+  102  cat 2.jpg
+  103  ls
+  104  cd Desktop
+  105  ls
+  106  tmux
+  107  ls
+  108  vim
+  109  sudo apt-get updata
+  110  sudo apt-get update
+  111  ll
+  112  la
+  113  cd ~
+  114  ls
+  115  tmux
+  116  exit
+  117  la
+  118  vim .tmux.conf
+  119  ls
+  120  tmux
+  121  eixt
+  122  exit
+  123  ls
+  124  tmux
+  125  ls
+  126  exit
+  127  ls
+  128  vim .tmux.conf
+  129  ls
+  130  clear
+  131  tmux new -s test
+  132  new -s test
+  133  clear
+  134  ls
+  135  vim .tmux.conf
+  136  sudo raspi-config
+  137  sudo reboot
+  138  sudo raspi-config
+  139  ifconfig
+  140  ip addr
+  141  sudo -i
+  142  ifconfig
+  143  ls
+  144  sudo poweroff
+  145  poweroff
+  146  shutdown
+  147  sudo shutdown
+  148  sudo poweroff
+  149  sudo vim /etc/network/interfaces
+  150  sudo -i
+  151  iw wlan0
+  152  iw wlan0 info
+  153  if down
+  154  ifdown
+  155  ifdown wlan0
+  156  sudo ifdown wlan0
+  157  iw wlan0 info
+  158  cat /etc/hostapd/hostapd.conf
+  159  cat /etc/network/interfaces
+  160  cd /etc/network/interfaces.d
+  161  cd ..
+  162  sudo vim interfaces
+  163  sudo service networking restart
+  164  ip addr
+  165  ping 192.168.1.2
+  166  ifdown eth0
+  167  sudo ifdown eth0
+  168  sudo vim /etc/network/interfaces
+  169  sudo reboot
+  170  ifconfig
+  171  systemctl
+  172  systemctl enable
+  173  systemctl enable hostapd
+  174  sudo systemctl enable hostapd
+  175  sudo systemctl start hostapd
+  176  hostapd -dd /etc/hostapd/hostapd.conf
+  177  sudo hostapd -dd /etc/hostapd/hostapd.conf
+  178  cat /etc/default/hostapd
+  179  sudo vim /etc/default/hostapd
+  180  sudo systemctl enable hostapd
+  181  sudo systemctl start hostapd
+  182  ps aux | grep host
+  183  cat /etc/default/hostapd
+  184  sudo reboot
+  185  sudo vim /etc/hostapd/hostapd.conf
+  186  sudo poweroff
+  187  ls
+  188  cd Documents
+  189  ls
+  190  mkdir Programming Assignment
+  191  cd Programming
+  192  ls
+  193  cd ..
+  194  rm -r Programming Assignment
+  195  ls
+  196  cd Documents
+  197  ls
+  198  cd Programming\ Assignment
+  199  tmux
+  200  exit
+  201  tmux
+  202  ls
+  203  exit
+  204  ifconfig
+  205  exit
+  206  ifconfig
+  207  ls
+  208  pwd
+  209  exit
+  210  ls
+  211  exit
+  212  tmux
+  213  ls
+  214  cd Documents
+  215  ls
+  216  g++ -v
+  217  python -v
+  218  exit
+  219  tmux
+  220  exit
+  221  tmux
+  222  exit
+  223  tmux
+  224  exit
+  225  tmux
+  226  exit
+  227  vim .tmux.conf
+  228  tmux
+  229  exit
+  230  cd ..
+  231  ls
+  232  cd pi
+  233  ls
+  234  exit
+  235  sudo vim .tmux.conf
+  236  tmux
+  237  sudo vim .tmux.conf
+  238  tmux
+  239  exit
+  240  tmux
+  241  ls
+  242  exit
+  243  sudo vim .tmux.conf
+  244  tmux
+  245  exit
+  246  clear
+  247  cd Desktop
+  248  ls
+  249  rm 2.jpg pa-book.pdf
+  250  ls
+  251  cd ..
+  252  exit
+  253  cd Documents
+  254  ls
+  255  cd Programming\ Assignment
+  256  ls
+  257  mkdir stock
+  258  cd stock
+  259  ls
+  260  vim test.cpp
+  261  ls
+  262  cd Documents/Programming\ Assignment/stock
+  263  vim test.cpp
+  264  g++ -o test test.cpp
+  265  ./teset
+  266  ./test
+  267  exot
+  268  exit
+  269  cd Documents/Programming\ Assignment/stock
+  270  tmux
+  271  clear
+  272  ls
+  273  g++ -o test test.cpp
+  274  ./test
+  275  vim test.cpp
+  276  tmux
+  277  ls
+  278  exit
+  279  ls
+  280  exit
+  281  cd Documents/Programming\ Assignment/stock
+  282  ls
+  283  vim test.cpp
+  284  ls
+  285  vim test.cpp
+  286  vim -r test.cpp
+  287  clear
+  288  g++ -o test test.cpp
+  289  ls
+  290  exit
+  291  ls
+  292  cd Documents
+  293  ls
+  294  cd Programming\ Assignment
+  295  ls
+  296  cd stock
+  297  ls
+  298  cd ..
+  299  rm -r Programming\ Assignment
+  300  exit
+  301  ls
+  302  sudo poweroff
+  303  ls
+  304  sudo poweroff
+  305  ls
+  306  vim .tmux.conf
+  307  pwd
+  308  ls
+  309  hexo g
+  310  ls
+  311  crontab -e
+  312  exit
+  313  crontab -e
+  314  clear
+  315  crontab -e
+  316  ls
+  317  time
+  318  ls
+  319  date
+  320  sudo poweroff
+  321  ls
+  322  cd Do
+  323  cd Downloads
+  324  ls
+  325  cd ..
+  326  cd Documents
+  327  ls
+  328  cd BlueJ\ Projects
+  329  ls
+  330  cat README.TXT
+  331  cd ..
+  332  ls
+  333  cd BlueJ\ Projects
+  334  ls
+  335  cd ..
+  336  ls
+  337  cd Public
+  338  ls
+  339  cd ..
+  340  cd Templates
+  341  ls
+  342  cd ..
+  343  ls
+  344  exit
+  345  sudo poweroff
+  346  date
+  347  crontab -e
+  348  cd /sbin
+  349  ls
+  350  find poweroff
+  351  cat power*
+  352  cat poweroff
+  353  ls
+  354  cd ..
+  355  ls
+  356  crontab -e
+  357  sudo crontab -e
+  358  crontab -e
+  359  exit
+  360  crontab -e
+  361  sudo crontab -e
+  362  date
+  363  sudo crontab -e
+  364  date
+  365  ifconfig
+  366  ls
+  367  sudo crontab -e
+  368  exit
+  369  ifconfig
+  370  ls
+  371  tmux
+  372  exit
+  373  ls
+  374  clear
+  375  ls
+  376  exit
+  377  ls
+  378  ifconfig
+  379  startx
+  380  ifconfig
+  381  sudo apt-get remove hostapd
+  382  sudo reboot
+  383  startx
+  384  cd /etc/hostapd
+  385  ls
+  386  cat ifupdown.sh
+  387  startx
+  388  sudo apt-get install hostapd
+  389  hostapd -dd /etc/hostapd/hostapd.conf
+  390  sudo hostapd -dd /etc/hostapd/hostapd.conf
+  391  sudo service hostapd restart
+  392  sudo update-rc.d hostapd defaults
+  393  sudo reboot
+  394  ifconfig
+  395  startx
+  396  ls
+  397  ifconfig
+  398  ls
+  399  exit
+  400  ls
+  401  exit
+  402  sudo fdisk -l
+  403  ls
+  404  cd ..
+  405  ls
+  406  cd ..
+  407  ls
+  408  s
+  409  ls
+  410  cd mnt
+  411  ls
+  412  mkdir usb
+  413  sudo mkdir usb
+  414  ls
+  415  sudo fdisk -l
+  416  cd ..
+  417  cd ~
+  418  ls
+  419  sudo fdisk -l
+  420  sudo apt-get install ntfs-3g
+  421  ls
+  422  pwd
+  423  sudo apt-get install ntfs-3g
+  424  sudo fdisk -l
+  425  sudo fdisk -l\n: 1479552765:0;sudo fdisk -l
+  426  ls
+  427  cd python_games
+  428  ls
+  429  python simulate.py
+  430  ls
+  431  cd ..
+  432  ls
+  433  vim
+  434  ls
+  435  gcc -o test test.c
+  436  vim test.c
+  437  gcc -o test test.c
+  438  vim test.c
+  439  g++ -o test test.c
+  440  vim test.c
+  441  gcc -o test test.c
+  442  ./test
+  443  vim test.c
+  444  ls
+  445  sudo vim /boot/config.txt
+  446  sudo fdisk -l
+  447  ls
+  448  time
+  449  date
+  450  ls
+  451  ll
+  452  clear
+  453  \n
+  454  CDABBBBBBBDDDCCAADAC
+  455  clear
+  456  ls
+  457  exit
+  458  ls
+  459  exit
+  460  ls
+  461  sudo service hostapd stop
+  462  sudo reboot
+  463  ls
+  464  sudo vim /etc/network/interfaces
+  465  sudo reboot
+  466  sudo apt-get install scim-pinyin
+  467  sudo apt-get install fcitx fcitx-googlepinyin
+  468  fcitx
+  469  sudo reboot
+  470  fcitx
+  471  sudo apt-get install fcitx-sogoupinyin
+  472  sudo apt-get install fcitx-pinyin
+  473  la
+  474  cd /mnt
+  475  ls
+  476  cd usb
+  477  ls
+  478  cd ..
+  479  ls
+  480  cd ..
+  481  ls
+  482  cd /mnt
+  483  ls
+  484  cd usb
+  485  ls
+  486  cd ..
+  487  sudo fdisk -l
+  488  cd ..
+  489  sudo vim /etc/fstab
+  490  sudo fdisk -l
+  491  sudo vim /etc/fstab
+  492  sudo reboot
+  493  sudo apt-get install transmission-deamon
+  494  sudo apt-get install transmission
+  495  sudo apt-get install samba
+  496  sudo apt-get install samba-common-bin
+  497  sudo vim /etc/samba/smb.conf
+  498  cp /etc/samba/smb.conf /etc/samba/smb.conf.orig
+  499  sudo cp /etc/samba/smb.conf /etc/samba/smb.conf.orig
+  500  sudo vim /etc/samba/smb.conf
+  501  sudo service samba restart
+  502  sudo vim /etc/samba/smb.conf
+  503  sudo service samba restart
+  504  sudo vim /etc/samba/smb.conf
+  505  sudo service samba restart
+  506  exit
+  507  sudo reboot
+  508  sudo fdisk -l
+  509  sudo vim /etc/samba/smb.conf
+  510  sudo service samba restart
+  511  exit
+  512  sudo reboot
+  513  sudo vim /etc/samba/smb.conf
+  514  exit
+  515  sudo vim /etc/samba/smb.conf
+  516  sudo smbpasswd -a pi
+  517  sudo vim /etc/samba/smb.conf
+  518  sudo service samba restart
+  519  exit
+  520  sudo reboot
+  521  sudo chmod -R 777 /mnt/usb
+  522  sudo samba restart
+  523  sudo vim /etc/network/interfaces
+  524  sudo reboot
+  525  sudo vim /etc/network/interfaces
+  526  sudo apt-get remove hostapd
+  527  sudo reboot
+  528  sudo vim /etc/wpa_supplicant/wpa_supplicant.conf
+  529  sudo service networking restart
+  530  sudo reboot
+  531  sudo samba stop
+  532  sudo service samba stop
+  533  sudo service samba restart
+  534  sudo reboot
+  535  ls
+  536  vim test.c
+  537  exit
+  538  ls
+  539  vim
+  540  vim test.c
+  541  ./test
+  542  tmux
+  543  :q
+  544  ls
+  545  exit
+  546  tmux
+  547  vim .tmux.conf
+  548  exit
+  549  xit
+  550  exit
+  551  ls
+  552  git clone git@github.com:luohy15/.dotfiles.git
+  553  ssh-keygen -t rsa -C "luohycs@gmail.com"
+  554  cd .ssh
+  555  ls
+  556  cat id_rsa.pub
+  557  git clone git@github.com:luohy15/.dotfiles.git
+  558  ls
+  559  rm -rf .dotfiles
+  560  cd ..
+  561  git clone git@github.com:luohy15/.dotfiles.git
+  562  cd .dotfiles
+  563  ls
+  564  cd ..
+  565  ls
+  566  la
+  567  ln -s /home/pi/.dotfiles/vimrc .vimrc
+  568  rm -f .zshrc .tmux.conf
+  569  ln -s /home/pi/.dotfiles/tmux.conf .tmux.conf
+  570  ln -s /home/pi/.dotfiles/zshrc .zshrc
+  571  la
+  572  exit
+  573  ls
+  574  vim test.c
+  575  tmux
+  576  exit
+  577  ls
+  578  vim
+  579  ls
+  580  cd .dotfiles
+  581  ls
+  582  git pull
+  583  ls
+  584  git status
+  585  git checkout zshrc
+  586  git pull
+  587  vim
+  588  ls
+  589  cat setup.md
+  590  git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+  591  vim
+  592  ls
+  593  ln -s ~/.dotfiles/molokai.vim ~/.vim/colors/molokai.vim
+  594  cd ~/.vim
+  595  mkdir colors
+  596  ln -s ~/.dotfiles/molokai.vim ~/.vim/colors/molokai.vim
+  597  vim
+  598  cd ..
+  599  ls
+  600  vim test.c
+  601  tmux
+  602  exit
+  603  vim .zshrc
+  604  which oh-my-zsh
+  605  vim .zshrc
+  606  source .zshrc
+  607  ls
+  608  exit
+  609  ls
+  610  vim
+  611  ls
+  612  cd .dotfiles
+  613  ls
+  614  git status
+  615  exit
+  616  ls
+  617  exit
+  618  ls
+  619  cd .dotfiles
+  620  git status
+  621  git diff vimrc
+  622  git diff zshrc
+  623  git checkout -- vimrc zshrc
+  624  git pull
+  625  ls
+  626  git status
+  627  ls
+  628  exit
+  629  ls
+  630  v
+  631  ls
+  632  cd .dotfiles
+  633  ls
+  634  tmux
+  635  vim setup.md
+  636  get https://github.com/powerline/powerline/
+  637  wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
+  638  exit
+  639  wget https://github.com/powerline/powerline/
+  640  vim setup.md
+  641  wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf
+  642  xset q
+  643  sudo mv PowerlineSymbols.otf /usr/share/fonts/X11/misc
+  644  vim setup.md
+  645  fc-cache -vf /usr/share/fonts/X11/misc
+  646  exit
+  647  cd .dotfiles
+  648  vim setup.md
+  649  mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
+  650  mkdir /home/pi/.config/fontconfig
+  651  mkdir /home/pi/.config/fontconfig/conf.d
+  652  mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
+  653  exit
+  654  ls
+  655  vim
+  656  sudo apt-get install gnome-terminal
+  657  exit
+  658  gnome-terminal
+  659  ls
+  660  cd .dotfiles
+  661  ls
+  662  git status
+  663  cat index.html
+  664  :q
+  665  git status
+  666  git diff zshrc
+  667  vim
+  668  tmux
+  669  vim
+  670  exit
+  671  vim
+  672  cd ..
+  673  git clone git://github.com/pricco/gnome-terminal-colors-monokai.git
+  674  cd gnome-terminal-colors-monokai
+  675  ./install.sh
+  676  sudo apt-get install dconf-cli
+  677  ./install.sh
+  678  ls
+  679  tmux
+  680  vim
+  681  ls
+  682  exit
+  683  tmux
+  684  ls
+  685  exit
+  686  ls
+  687  cd .dotfiles
+  688  ls
+  689  git status
+  690  vim --version
+  691  sudo apt-get remove vim
+  692  sudo apt-get install vim
+  693  vim --version
+  694  sudo apt-get remove vim vim-runtime gvim
+  695  cd ..
+  696  git clone https://github.com/vim/vim.git
+  697  cd vim
+  698  ls
+  699  ./configure --with-features=huge --enable-multibyte --enable-pythoninterp=yes --with-python-config-dir=/usr/lib/python2.7/config-arm-linux-gnueabihf --enable-gui=gtk2 --enable-escope --prefix=/usr
+  700  exit
+  701  ls
+  702  vim
+  703  cd ..
+  704  sudo apt-get install vim
+  705  vim
+  706  ls
+  707  cd ..
+  708  mv vim vim-source
+  709  vim
+  710  ls
+  711  sudo apt-get install exuberant-ctags
+  712  which ctags
+  713  vim .vimrc
+  714  sudo apt-get install stardict sdcv
+  715  ls
+  716  git status
+  717  cd .dotfiles
+  718  ls
+  719  cd /usr/share/stardict/dic
+  720  cd ~/.dotfiles
+  721  vim setup.sh
+  722  git status
+  723  git diff zshrc
+  724  git status
+  725  git diff zshrc
+  726  vim
+  727  git diff zshrc
+  728  exit
+  729  ls
+  730  cd .dotfiles
+  731  ls
+  732  git status
+  733  git diff zshrc
+  734  git checkout -- zshrc
+  735  git pull
+  736  vim
+  737  tmux
+  738  vim zshrc
+  739  tmux
+  740  ls
+  741  cd ..
+  742  exit
+  743  ls
+  744  which tmux
+  745  vim tmux.conf
+  746  tmux
+  747  vim
+  748  exit
+  749  tmux -2
+  750  vim
+  751  exit
+  752  tmux
+  753  :q
+  754  exit
+  755  tmux -2
+  756  ls
+  757  vim
+  758  git status
+  759  vim
+  760  exit
+  761  cd .dotfiles
+  762  ls
+  763  ggpull
+  764  gst
+  765  gd
+  766  git checkout -- tmux.conf zshrc
+  767  ggpull
+  768  ./symlink.sh
+  769  exit
+  770  ls
+  771  tmux
+  772  ifconfig
+  773  pwd
+  774  vim
+  775  ls
+  776  rm test test.c
+  777  ls
+  778  rm test
+  779  rm test.c
+  780  ls
+  781  cd vim-source
+  782  ls
+  783  cd ..
+  784  clear
+  785  pwd
+  786  ls
+  787  tmux
+  788  exit
+  789  sudo apt-get install guake
+  790  guake
+  791  exit
+  792  vim
+  793  ls
+  794  exit
+  795  ifconfig
+  796  ls
+  797  cd Pictures
+  798  ls
+  799  cd ..
+  800  cd python_games
+  801  ls
+  802  feh gem1.png
+  803  pwd
+  804  ls
+  805  cd ..
+  806  ls
+  807  uname -a
+  808  man uname -a
+  809  man arch
+  810  arch
+  811  man arch
+  812  uname
+  813  uname -a
+  814  man uname
+  815  man coreutils
+  816  uname --version
+  817  man hardware
+  818  dmesg
+  819  man dmesg
+  820  ls
+  821  cat /etc/cron.d
+  822  cd /etc/cron.d/ls
+  823  cd /etc/cron.d/
+  824  ls
+  825  cd ..
+  826  ls
+  827  cd cron.daily
+  828  ls
+  829  sudo crontab -e
+  830  ls
+  831  exit
+  832  lspci | NVI
+  833  ls
+  834  pwd
+  835  exit
+  836  ls
+  837  cd gnome-terminal-colors-monokai
+  838  ls
+  839  cd ..
+  840  cd vi
+  841  cd vim-source
+  842  ls
+  843  cd ..
+  844  ls
+  845  vim
+  846  vim --version
+  847  ls
+  848  exi
+  849  exit
+  850  startx
+  851  ifconfig
+  852  exit
+  853  reboot
+  854  ifconfig
+  855  exit
+  856  reboot
+  857  sudo reboot
+  858  ifconfig
+  859  ls
+  860  sudo vim /etc/wpa_supplicant/wpa_supplicant.conf 
+  861  reboot
+  862  ifconfig
+  863  exit
+  864  sudo reboot
+  865  exit
+  866  ls
+  867  ifconfig
+  868  ifup wlan0
+  869  sudo ifup wlan0
+  870  sudo ipdown wlan0 && ifup wlan0
+  871  sudo ifdown wlan0&& ifup wlan0
+  872  sudo ifdown wlan0 && sudo ifup wlan0
+  873  ifconfig
+  874  ifup wlan0
+  875  sudo ifup wlan0
+  876  ifconfig
+  877  ls
+  878  exit
+  879  sudo vim /etc/network/interfaces
+  880  ls
+  881  ifconfig
+  882  ssh
+  883  exit
+  884  sudo ifdown wlan0
+  885  sudo ifup wlan0
+  886  ifconfig
+  887  ls
+  888  exit
+  889  sudo ifdown wlan0
+  890  sudo ifup wlan0
+  891  ifconfig
+  892  exit
+  893  ifconfig
+  894  ls
+  895  sudo ifdown wlan0 && sudo ifup wlan0
+  896  ifconfig
+  897  sudo ifup wlan0
+  898  ifconfig
+  899  exit
+  900  sudo vim /etc/crontab
+  901  sudo vim /usr/local/bin/wifi-rebooter
+  902  chmod a+x /usr/local/bin/wifi-rebooter
+  903  fick
+  904  fuck
+  905  sudo chmod a+x /usr/local/bin/wifi-rebooter
+  906  sudo ifdown --force wlan0
+  907  crontab -e
+  908  sudo crontab -e
+  909  cat /usr/local/bin/wifi-rebooter
+  910  sudo vim /etc/crontab
+  911  sudo crontab -e
+  912  cat /usr/local/bin/wifi-rebooter
+  913  exit
+  914  ls
+  915  pwd
+  916  ifconfig
+  917  cat /usr/local/bin/wifi-rebooter
+  918  crontab -e
+  919  sudo crontab -e
+  920  sudo vim /etc/crontab
+  921  exit
+  922  ifconfig
+  923  ls
+  924  sudo crontab -e
+  925  cat /etc/crontab
+  926  sudo vim /etc/crontab
+  927  exit
+  928  ls
+  929  exit
+  930  ifconfig
+  931  sudo ifup wlan0
+  932  ifconfig
+  933  sudo ifdown wlan0 && sudo ifup wlan0
+  934  ifconfig
+  935  exit
+  936  ls
+  937  pwd
+  938  ifconfig
+  939  lllllls
+  940  ls
+  941  pwd
+  942  ls
+  943  pwd
+  944  crontab -e
+  945  cd /sbin
+  946  ls
+  947  exit
+  948  crontab -l
+  949  crontab -e
+  950  crontab -l
+  951  xev
+  952  ls
+  953  pwd
+  954  lsls
+  955  ls
+  956  ifconfig
+  957  ifup wlan0
+  958  sudo ifup wlan0
+  959  ifconfig
+  960  crontab -l
+  961  /sbin/poweroff
+  962  exit
+  963  crontab -e
+  964  crontab -l
+  965  /sbin/poweroff
+  966  ifconfig
+  967  crontab -e
+  968  sudo vim /etc/crontab
+  969  crontab -e
+  970  sudo vim /etc/crontab
+  971  exit
+  972  ifconfig
+  973  ping google.com
+  974  sudo ping google.com
+  975  ping baidu.com
+  976  sudo ping baidu.com
+  977  crontab -l
+  978  ls
+  979  sudo vim /etc/crontab
+  980  sudo vim /usr/local/bin/wifi-rebooter
+  981  /usr/local/bin/wifi-rebooter
+  982  sudo /usr/local/bin/wifi-rebooter
+  983  ifconfig
+  984  sudo ifup wlan0
+  985  ifconfig
+  986  sudo /usr/local/bin/wifi-rebooter
+  987  ifconfig
+  988  sudo ping 8.8.8.8
+  989  ifup wlan0
+  990  sudo ifup wlan0
+  991  sudo ping 8.8.8.8
+  992  sudo ping -c2 8.8.8.8
+  993  sudo vim /usr/local/bin/wifi-rebooter
+  994  setxkbmap -option ctrl:nocaps
+  995  startx
+  996  sudo vim /etc/crontab
+  997  setxkbmap -option ctrl:nocaps
+  998  xev
+  999  ls
+ 1000  ifconig
+ 1001  ifconfig
+ 1002  sudo vim /usr/local/bin/wifi-rebooter
+ 1003  ifconfig
+ 1004  ping baidu.com
+ 1005  ping -c3 www.baidu.com
+ 1006  ifconfig
+ 1007  ping www.baidu.com
+ 1008  ping 127.0.0.1
+ 1009  sudo ping 127.0.0.1
+ 1010  ping -c3 www.baidu.com
+ 1011  ping -c3 8.8.8.8
+ 1012  sudo ping -c3 8.8.8.8
+ 1013  sudo ping -c3 192.168.0.198
+ 1014  ifdown wlan0
+ 1015  sudo ifdown wlan0
+ 1016  sudo ping -c3 192.168.0.198
+ 1017  sudo vim /usr/local/bin/wifi-rebooter
+ 1018  ifconfig
+ 1019  sudo vim /usr/local/bin/wifi-rebooter
+ 1020  cd /usr/local/bin/
+ 1021  sudo chmod a+x wifi-rebooter
+ 1022  ./wifi-rebooter
+ 1023  sudo -i
+ 1024  crontab -e
+ 1025  sudo vim /etc/crontab
+ 1026  exit
+ 1027  ls
+ 1028  crontab -e
+ 1029  sudo vim /etc/crontab
+ 1030  time
+ 1031  localtime
+ 1032  date
+ 1033  timedatectl
+ 1034  timedatectl set-ntp true
+ 1035  timedatectl
+ 1036  cat /etc/motd
+ 1037  clear
+ 1038  ifconfig
+ 1039  datre
+ 1040  date
+ 1041  startx
+ 1042  ifup wlan0
+ 1043  sudo ifup wlan0
+ 1044  ifconfig
+ 1045  sudo vim /etc/network/interfaces
+ 1046  ifconfig
+ 1047  sudo ifdown wlan0
+ 1048  sudo ifup wlan0
+ 1049  dhcp
+ 1050  history
+ 1051  history | grep dhcp
+ 1052  udhcpd
+ 1053  ls
+ 1054  sudo vim /etc/network/interfaces
+ 1055  dhcp
+ 1056  sudo ifup wlan0
+ 1057  ifconfig
+ 1058  sudo ifdown wlan0
+ 1059  sudo ifup wlan0
+ 1060  ifconfig
+ 1061  exit
+ 1062  crontab -e
+ 1063  vim
+ 1064  tmux
+ 1065  vim
+ 1066  ls
+ 1067  exit
+ 1068  cd .dotfiles
+ 1069  ggpull
+ 1070  exit
+ 1071  sudo vim /etc/network/interfaces
+ 1072  sudo vim /etc/wpa_supplicant/wpa_supplicant.conf 
+ 1073  sudo ifdown wlan0
+ 1074  sudo ifup wlan0
+ 1075  exit
+ 1076  ifconfig
+ 1077  sudo ifup wlan0
+ 1078  ifconfig
+ 1079  sudo ifdown wlan0
+ 1080  ifconfig
+ 1081  sudo ifup wlan0
+ 1082  sudo vim /usr/local/bin/wifi-rebooter
+ 1083  ifconfig
+ 1084  sudo /usr/local/bin/wifi-rebooter
+ 1085  ls
+ 1086  sudo ifdown wlan0
+ 1087  ifconfig
+ 1088  sudo /usr/local/bin/wifi-rebooter
+ 1089  ifconfig
+ 1090  sudo /usr/local/bin/wifi-rebooter
+ 1091  ifconfig
+ 1092  ls
+ 1093  crontab -e
+ 1094  man crontab
+ 1095  crontab -u root 
+ 1096  sudo crontab -u pi
+ 1097  crontab -l
+ 1098  sudo -i
+ 1099  ls
+ 1100  sudo vim /etc/crontab
+ 1101  crontab -e
+ 1102  crontab
+ 1103  DATE
+ 1104  date
+ 1105  sudo vim /etc/crontab
+ 1106  date
+ 1107  crontab -e
+ 1108  date
+ 1109  clear
+ 1110  date
+ 1111  crontab -e
+ 1112  /sbin/reboot
+ 1113  ifconfig
+ 1114  crontab -e
+ 1115  /usr/local/bin/wifi-rebooter
+ 1116  ls
+ 1117  ifconfig
+ 1118  sudo ifdown wlan0
+ 1119  /usr/local/bin/wifi-rebooter
+ 1120  sudo vim /usr/local/bin/wifi-rebooter
+ 1121  ifconfig
+ 1122  sudo crontab -e
+ 1123  date
+ 1124  sudo -i
+ 1125  ifconfig
+ 1126  date
+ 1127  ifconfig
+ 1128  ping www.baidu.com
+ 1129  sudo ping -c3 www.baidu.com
+ 1130  sudo crontab -e
+ 1131  ifconfig
+ 1132  sudo -i
+ 1133  reboot
+ 1134  ifconfig
+ 1135  sudo /usr/local/bin/wifi-rebooter
+ 1136  ifconfig
+ 1137  sudo ping -c3 www.baidu.com
+ 1138  ls
+ 1139  sudo crontab -e
+ 1140  exit
+ 1141  ls
+ 1142  exit
+ 1143  pwd
+ 1144  ls
+ 1145  ldconfig -p
+ 1146  history | grep cuda
+ 1147  history
+ 1148  history | grep ping
+ 1149  history | grep cuda
+ 1150  ls
+ 1151  pwd
+ 1152  sudo apt-get remove cuda
+ 1153  ls
+ 1154  pwd
+ 1155  sudo apt update
+ 1156  ls
+ 1157  ping -c3 www.baidu.com
+ 1158  sudo ping -c3 www.baidu.com
+ 1159  exit
+ 1160  ls
+ 1161  sudo crontab -e
+ 1162  ls
+ 1163  pwd
+ 1164  agu
+ 1165  alias
+ 1166  cd .dotfiles
+ 1167  ggpull
+ 1168  exit
+ 1169  agi
+ 1170  agu
+ 1171  sudo apt install python3-dev python3-pip
+ 1172  sudo -H pip3 install thefuck
+ 1173  exit
+ 1174  ls
+ 1175  clear
+ 1176  exit
+ 1177  ls
+ 1178  sudo ping -c3 www.baidu.com
+ 1179  sudo ping -c3 www.google.com
+ 1180  agu
+ 1181  sudo ping -c3 www.google.com
+ 1182  cat /etc/resolv.conf
+ 1183  cat /etc/resolvconf.conf
+ 1184  exit
+ 1185  pwd
+ 1186  sudo ping -c3 www.google.com
+ 1187  sudo service dnsmasq status
+ 1188  sudo vim /etc/dnsmasq.conf
+ 1189  clear
+ 1190  pwd
+ 1191  sudo ping -c3 www.google.com
+ 1192  pwd
+ 1193  clear
+ 1194  pwd
+ 1195  ls
+ 1196  exit
+ 1197  ifconfig
+ 1198  /usr/local/bin/wifi-rebooter
+ 1199  fuck
+ 1200  sudo /usr/local/bin/wifi-rebooter
+ 1201  ifconfig
+ 1202  ls
+ 1203  sudo crontab -e
+ 1204  ifconfig
+ 1205  sudo vim /usr/local/bin/wifi-rebooter
+ 1206  ifconfig
+ 1207  ping -c3 www.baidu.com
+ 1208  fuck
+ 1209  ping www.baidu.com
+ 1210  fuck
+ 1211  sudo ping www.baidu.com
+ 1212  sudo vim /usr/local/bin/wifi-rebooter
+ 1213  ls
+ 1214  ifconfig
+ 1215  sudo ifdown wlan0
+ 1216  ifconfig
+ 1217  sudo crontab -e
+ 1218  ifconfig
+ 1219  date
+ 1220  sudo crontab -e
+ 1221  sudo vim /usr/local/bin/wifi-rebooter
+ 1222  sudo /usr/local/bin/wifi-rebooter
+ 1223  ifconfig
+ 1224  sudo /usr/local/bin/wifi-rebooter
+ 1225  ifconfig
+ 1226  ls
+ 1227  exit
+ 1228  sudo crontab -e
+ 1229  ls
+ 1230  sudo ping -c3 www.google.com
+ 1231  ifconfig
+ 1232  date
+ 1233  sudo ping -c3 www.baidu.com
+ 1234  ifconfig
+ 1235  sudo /usr/local/bin/wifi-rebooter
+ 1236  sudo ifup wlan0
+ 1237  ifconfig
+ 1238  sudo ifup wlan0
+ 1239  sudo ifdown wlan0
+ 1240  sudo ifup wlan0
+ 1241  ifconfig
+ 1242  sudo vim /etc/wpa_supplicant/wpa_supplicant.conf 
+ 1243  poweroff
+ 1244  ifconifg
+ 1245  ifconfig
+ 1246  sudo ifdown wlan0
+ 1247  ifconfig
+ 1248  ls
+ 1249  sudo service ssh status
+ 1250  ping -c3 www.baidu.com
+ 1251  ls
+ 1252  startx
+ 1253  ip addr
+ 1254  sudo crontab -e
+ 1255  sudo vim /etc/network/interfaces
+ 1256  sudo service networking restart
+ 1257  ifconfig
+ 1258  reboot
+ 1259  ifconfig
+ 1260  sudo vim /etc/network/interfaces
+ 1261  sudo service networking restart
+ 1262  ifconfig
+ 1263  ping -c3 www.baidu.com
+ 1264  fuck
+ 1265  sudo ping -c3 www.baidu.com
+ 1266  ls
+ 1267  ifconfig
+ 1268  tmux
+ 1269  ls
+ 1270  cd .dotfiles
+ 1271  gst
+ 1272  ggpull
+ 1273  agi openvpn
+ 1274  vim vpn9.ovpn
+ 1275  sudo openvpn --config vpn9.ovpn
+ 1276  sudo ping -c3 www.baidu.com
+ 1277  ggpull
+ 1278  sudo ping -c3 www.baidu.com
+ 1279  ggpull
+ 1280  ls
+ 1281  exit
+ 1282  ls
+ 1283  tmux
+ 1284  cd .dotfiles
+ 1285  vim
+ 1286  history
+ 1287  exit
+ 1288  tmux
+ 1289  history
+ 1290  exit
+ 1291  agu
+ 1292  ls
+ 1293  tmux -V
+ 1294  agu
+ 1295  ls
+ 1296  tmux -V
+ 1297  pwd
+ 1298  cd /usr/local/src
+ 1299  ls
+ 1300  wget http://www.no-ip.com/client/linux/noip-duc-linux.tar.gz
+ 1301  cd ~
+ 1302  tmu
+ 1303  tmux
+ 1304  sudo openvpn --config vpn9.ovpn
+ 1305  ls
+ 1306  wget http://www.no-ip.com/client/linux/noip-duc-linux.tar.gz
+ 1307  ls
+ 1308  rm noip-duc-linux.tar.gz
+ 1309  ls
+ 1310  cd /usr/local/src
+ 1311  wget http://www.no-ip.com/client/linux/noip-duc-linux.tar.gz
+ 1312  sudo wget http://www.no-ip.com/client/linux/noip-duc-linux.tar.gz
+ 1313  tar xf noip-duc-linux.tar.gz
+ 1314  sudo tar xf noip-duc-linux.tar.gz
+ 1315  cd noip-2.1.9-1
+ 1316  make install
+ 1317  sudo make install
+ 1318  sudo /usr/local/bin/noip2 -C
+ 1319  sudo ping -c3 www.baidu.com
+ 1320  sudo openvpn --config vpn9.ovpn
+ 1321  sudo ping -c3 www.baidu.com
+ 1322  sudo /usr/local/bin/noip2 -C
+ 1323  htop
+ 1324  agi htop
+ 1325  htop
+ 1326  /usr/local/bin/noip2
+ 1327  cd ~
+ 1328  sudo /usr/local/bin/noip2
+ 1329  exit
+ 1330  ssh pi@mofsy.ddns.net
+ 1331  ping mofsy.ddns.net
+ 1332  sudo ping mofsy.ddns.net
+ 1333  ssh pi@mofsy.ddns.net
+ 1334  ifconfig
+ 1335  tmux
+ 1336  sudo openvpn --config vpn9.ovpn
+ 1337  ssh rd@moyyf.ddns.net
+ 1338  ls
+ 1339  scp -r rd@moyyf.ddns.net:/home/rd/install/thunet .
+ 1340  cd thunet
+ 1341  vim config.yml
+ 1342  ld
+ 1343  ls
+ 1344  python2 main.py
+ 1345  cat README.md
+ 1346  sudo pip install netiface alog strictyaml mechanize bs4
+ 1347  sudo ping -c3 www.baidu.com
+ 1348  sudo pip install netifaces
+ 1349  cat README.md
+ 1350  sudo pip install alog
+ 1351  sudo ping -c3 www.baidu.com
+ 1352  sudo openvpn --config vpn9.ovpn
+ 1353  sudo ping -c3 www.baidu.com
+ 1354  sudo pip install alog
+ 1355  sudo pip install strictyaml
+ 1356  cat README.md
+ 1357  sudo pip install mechanize
+ 1358  sudo pip install bs4
+ 1359  python --version
+ 1360  python main.py
+ 1361  sudo pip install netifaces
+ 1362  agi python-dev
+ 1363  sudo pip install netifaces
+ 1364  sudo ping -c3 www.baidu.com
+ 1365  sudo openvpn --config vpn9.ovpn
+ 1366  sudo ping -c3 www.baidu.com
+ 1367  sudo pip install netifaces
+ 1368  cat README.md
+ 1369  sudo pip install mechanize
+ 1370  python main.py
+ 1371  sudo pip install strictyaml
+ 1372  python main.py
+ 1373  exit
+ 1374  ifconfig
+ 1375  sudo ping -c3 www.baidu.com
+ 1376  exit
+ 1377  ls
+ 1378  cd thunet
+ 1379  ls
+ 1380  python main.py
+ 1381  ssh pi@mofsy.ddns.net
+ 1382  cat .ssh/known_hosts
+ 1383  cd .ssh
+ 1384  rm known_hosts
+ 1385  exit
+ 1386  cd ~
+ 1387  ls
+ 1388  reboot
+ 1389  tmux
+ 1390  cd thunet
+ 1391  ls
+ 1392  python main.py
+ 1393  ls
+ 1394  sudo /usr/local/bin/noip2
+ 1395  pwd
+ 1396  ls
+ 1397  cd .ssh
+ 1398  ls
+ 1399  sudo service ssh status
+ 1400  ip addr
+ 1401  exit
+ 1402  ls
+ 1403  exit
+ 1404  ls
+ 1405  htop
+ 1406  tmux
+ 1407  ls /etc/systemd/system
+ 1408  sudo scp rd@moyyf.ddns.net:/etc/systemd/system/thunet.service /etc/systemd/system
+ 1409  sudo vim /etc/systemd/system/thunet.service
+ 1410  sudo systemctl enable thunet.service
+ 1411  sudo systemctl start thunet.service
+ 1412  ps -A | grep python
+ 1413  exit
+ 1414  sudo scp rd@moyyf.ddns.net:/etc/systemd/system/ddns.service /etc/systemd/system
+ 1415  sudo vim /etc/systemd/system/ddns.service
+ 1416  sudo systemctl enable ddns.service
+ 1417  sudo systemctl start ddns.service
+ 1418  sudo killall noip2
+ 1419  sudo systemctl start ddns.service
+ 1420  ps -A | grep noip
+ 1421  reboot
+ 1422  sudo ping -c3 www.baidu.com
+ 1423  ps -
+ 1424  ps -A | grep python
+ 1425  htop
+ 1426  cd thunet
+ 1427  ls
+ 1428  python2 main.py
+ 1429  sudo systemctl start thunet.service
+ 1430  sudo vim /etc/systemd/system/thunet.service
+ 1431  /usr/bin/python2
+ 1432  sudo vim /etc/systemd/system/thunet.service
+ 1433  sudo systemctl start thunet.service
+ 1434  sudo systemctl daemon-reload
+ 1435  sudo systemctl start thunet.service
+ 1436  ps -A | grep python
+ 1437  exit
+ 1438  tmux
+ 1439  ifconfig
+ 1440  ps -A | grep python
+ 1441  ps -A | grep noip
+ 1442  ps -A | grep python
+ 1443  ping -c3 www.baidu.com
+ 1444  fuck
+ 1445  sudo ping -c3 www.baidu.com
+ 1446  sudo vim /etc/systemd/system/thunet.service
+ 1447  sudo service thunet start
+ 1448  ps -A | grep python
+ 1449  ping baidu.com
+ 1450  fuck
+ 1451  ping www.baidu.com
+ 1452  sudo ping www.baidu.com
+ 1453  reboot
+ 1454  ps -A | grep python
+ 1455  ps -A | grep noip
+ 1456  ifconfig
+ 1457  sudo ping www.baidu.com
+ 1458  ip addr
+ 1459  ls
+ 1460  sudo vim /etc/network/interfaces
+ 1461  sudo systemctl network restart
+ 1462  sudo systemctl restart NetworkManager.service
+ 1463  cd /etc/systemd
+ 1464  ls
+ 1465  cd system
+ 1466  ls
+ 1467  cd ..
+ 1468  cd network
+ 1469  ls
+ 1470  cd ..
+ 1471  cd user
+ 1472  ls
+ 1473  cd ..
+ 1474  exit
+ 1475  sudo ifdown wlan0
+ 1476  exit
+ 1477  reboot
+ 1478  sudo reboot
+ 1479  reboot
+ 1480  ifconfig
+ 1481  ps -A | grep noip
+ 1482  ps -A | grep python
+ 1483  sudo ping www.baidu.com
+ 1484  sudo /usr/local/bin/noip2
+ 1485  pwd
+ 1486  whoami
+ 1487  sudo ping www.baidu.com
+ 1488  ls
+ 1489  ps -A | grep python
+ 1490  sudo service thunet start
+ 1491  sudo ping www.baidu.com
+ 1492  ps -A | grep python
+ 1493  sudo ping www.baidu.com
+ 1494  sudo service dnsamsq status
+ 1495  sudo service dnsmasq status
+ 1496  sudo vim /etc/dnsmasq.conf
+ 1497  sudo service dnsmasq restart
+ 1498  sudo service dnsmasq status
+ 1499  ping www.baidu.com
+ 1500  ifocnfig
+ 1501  if addr
+ 1502  ip addr
+ 1503  reboot
+ 1504  ps -A | grep python
+ 1505  ps -A | grep noip
+ 1506  tmux
+ 1507  ks
+ 1508  ip addr
+ 1509  sudo ifdown eth0
+ 1510  exit
+ 1511  ip addr
+ 1512  sudo service thunet restart
+ 1513  ip addr
+ 1514  reboot
+ 1515  ps -A | grep python
+ 1516  ps -A | grep noip
+ 1517  sudo service thunet restart
+ 1518  ps -A | grep python
+ 1519  sudo service thunet start
+ 1520  ps -A | grep python
+ 1521  ip addr
+ 1522  exit
+ 1523  sudo ifdown eth0
+ 1524  sudo network restart
+ 1525  sudo service networking restart
+ 1526  systemctl daemon-reload
+ 1527  fuck
+ 1528  sudo systemctl daemon-reload
+ 1529  ip addr
+ 1530  sudo vim /etc/systemd/system/thunet.service
+ 1531  ls
+ 1532  systemctl disable ddns.service
+ 1533  fuck
+ 1534  sudo systemctl enable ddns.service
+ 1535  reboot
+ 1536  ip addr
+ 1537  ls
+ 1538  ps -A | grep python
+ 1539  sudo systemctl start thunet.service 
+ 1540  sudo systemctl enable thunet.service 
+ 1541  ps -A | grep python
+ 1542  reboot
+ 1543  ps -A | grep noip
+ 1544  mv /etc/systemd/system/ddns.service ./
+ 1545  fuck
+ 1546  sudo mv /etc/systemd/system/ddns.service ./
+ 1547  ls
+ 1548  sudo systemctl stop ddns.service s
+ 1549  sudo systemctl stop ddns.service
+ 1550  systemctl daemon-reload
+ 1551  fuck
+ 1552  sudo systemctl daemon-reload
+ 1553  sudo systemctl stop ddns.service
+ 1554  sudo systemctl disable ddns.service
+ 1555  reboot
+ 1556  ps -A | grep noip
+ 1557  ps -A | grep python
+ 1558  sudo systemctl stop ddns.service
+ 1559  sudo systemctl stop thunet.service
+ 1560  sudo systemctl start thunet.service
+ 1561  ps -A | grep python
+ 1562  cd /etc/systemd/system/
+ 1563  ls
+ 1564  vim thunet.service
+ 1565  tmux
+ 1566  cd /home/pi/thunet
+ 1567  ls
+ 1568  /usr/bin/python2 main.py
+ 1569  ls
+ 1570  cd ..
+ 1571  ls
+ 1572  cd network
+ 1573  ls
+ 1574  cd ..
+ 1575  cd user
+ 1576  ls
+ 1577  cd ..
+ 1578  sudo service network-manager restart
+ 1579  sudo ifdown eth0
+ 1580  ifconfig
+ 1581  sudo ifup eth0
+ 1582  ls
+ 1583  python2 main.py
+ 1584  sudo ifdown eth0
+ 1585  ifconfig
+ 1586  python2 main.py
+ 1587  reboot
+ 1588  ip addr
+ 1589  sudo ping -c3 www.baidu.com
+ 1590  ps -A | grep python
+ 1591  cd thunet
+ 1592  ls
+ 1593  python main.py
+ 1594  exit
+ 1595  clear
+ 1596  ls
+ 1597  ps -A | grep python
+ 1598  ip addr
+ 1599  ps -A | grep python
+ 1600  cd thunet
+ 1601  ls
+ 1602  python main.py
+ 1603  startx
+ 1604  ifconfig
+ 1605  sudo ifdown eth0
+ 1606  sudo ifup eth0
+ 1607  ps -A | grep noip
+ 1608  sudo vim /etc/network/interfaces
+ 1609  sudo service network-manager restart
+ 1610  reboot
+ 1611  ip addr
+ 1612  ps -A | grep noip
+ 1613  cd thunet
+ 1614  python main.py
+ 1615  tmux
+ 1616  python main.py
+ 1617  sudo ping -c3 www.baidu.com
+ 1618  exit
+ 1619  ls
+ 1620  cd ..
+ 1621  ls
+ 1622  sudo vim /etc/network/interfaces
+ 1623  reboot
+ 1624  ip addr
+ 1625  sudo ping -c3 www.baidu.com
+ 1626  ls
+ 1627  sudo vim /etc/network/interfaces
+ 1628  reboot
+ 1629  ip addr
+ 1630  sudo iwlist wlan0 scan
+ 1631  sudo iwlist wlan0 scan | grep 666
+ 1632  sudo iwlist wlan0 scan | grep 233
+ 1633  cat /etc/wpa_supplicant/wpa_supplicant.conf
+ 1634  fuck
+ 1635  sudo cat /etc/wpa_supplicant/wpa_supplicant.conf
+ 1636  sudo vim /etc/network/interfaces
+ 1637  ip addr
+ 1638  sudo vim /etc/network/interfaces
+ 1639  reboot
+ 1640  ip addr
+ 1641  startx
+ 1642  sudo iwlist scan
+ 1643  sudo ifconfig eth0 down
+ 1644  ifconfig
+ 1645  sudo vim /etc/network/interfaces
+ 1646  reboot
+ 1647  ifconfig
+ 1648  sudo vim /etc/network/interfaces
+ 1649  sudo ifconfig down eth0
+ 1650  sudo ifconfig eth0 down
+ 1651  ls
+ 1652  ifconfig
+ 1653  reboot
+ 1654  ifconfig
+ 1655  ps -A | grep noip
+ 1656  ps -A | grep python
+ 1657  ping www.baidu.com
+ 1658  sudo ping -c3 www.google.com
+ 1659  sudo ping -c3 www.baidu.com
+ 1660  tmux
+ 1661  ls
+ 1662  htop
+ 1663  ls
+ 1664  exit
+ 1665  reboot
+ 1666  ps -A | grep noip
+ 1667  ps -A | grep python
+ 1668  sudo /usr/local/bin/noip2 -C
+ 1669  cd /etc/systemd/system
+ 1670  ls
+ 1671  vim ddns.service
+ 1672  ls
+ 1673  tmux
+ 1674  ls
+ 1675  cat ddns.service
+ 1676  ls
+ 1677  mv ddns.service /etc/systemd/system/
+ 1678  fuck
+ 1679  ls
+ 1680  sudo vim ddns.service
+ 1681  sudo systemctl enable ddns.service
+ 1682  sudo systemctl start ddns.service
+ 1683  ps -A | grep noip
+ 1684  ping -c3 www.baidu.com
+ 1685  fuck
+ 1686  sudo mv ddns.service /etc/systemd/system/
+ 1687  exit
+ 1688  sudo ping -c3 www.baidu.com
+ 1689  reboot
+ 1690  ps -A | grep noip
+ 1691  ps -A | grep python
+ 1692  tmux
+ 1693  htop
+ 1694  clear
+ 1695  ls
+ 1696  exit
+ 1697  ssh rv@moyyf.ddns.net
+ 1698  tmux
+ 1699  ls
+ 1700  exit
+ 1701  ssh -X pi@mofsy.ddns.net
+ 1702  tmux a
+ 1703  tmux ls
+ 1704  tmux a
+ 1705  exit
+ 1706  tmux
+ 1707  exit
+ 1708  pwd
+ 1709  exit
+ 1710  tmux
+ 1711  exit
+ 1712  ps -A | grep python
+ 1713  ps -A | grep noip
+ 1714  ifconfig
+ 1715  reboot
+ 1716  ps -A | grep noip
+ 1717  ps -A | grep python
+ 1718  sudo /usr/local/bin/noip2 -C
+ 1719  sudo end 899
+ 1720  sudo kill 899
+ 1721  sudo /usr/local/bin/noip2 -C
+ 1722  sudo ping -c3 www.baidu.com
+ 1723  ifconfig
+ 1724  exit
+ 1725  eixt
+ 1726  exit
+ 1727  tmux
+ 1728  cd thunet
+ 1729  ls
+ 1730  python main.py
+ 1731  ls
+ 1732  ifconfig
+ 1733  sudo ping -c3 www.baidu.com
+ 1734  ls
+ 1735  exit
+ 1736  ls
+ 1737  ifconfig
+ 1738  sudo vim ddns.service
+ 1739  sudo vim /etc/network/interfaces
+ 1740  reboot
+ 1741  sudo ping -c3 www.baidu.com
+ 1742  ifconfig
+ 1743  sudo vim /etc/network/interfaces
+ 1744  reboot
+ 1745  sudo ping -c3 www.baidu.com
+ 1746  ifconfig
+ 1747  sudo vim /etc/network/interfaces
+ 1748  sudo ifconfig eth0 down
+ 1749  ifconfig
+ 1750  sudo ifup wlan0
+ 1751  ifconfig
+ 1752  sudo ifdown wlan0
+ 1753  sudo ifup wlan0
+ 1754  ls
+ 1755  ifconfig
+ 1756  sudo vim /etc/network/interfaces
+ 1757  cat /etc/wpa_supplicant/wpa_supplicant.conf
+ 1758  fuck
+ 1759  sudo cat /etc/wpa_supplicant/wpa_supplicant.conf
+ 1760  vim /etc/wpa_supplicant/wpa_supplicant.conf
+ 1761  sudo vim /etc/wpa_supplicant/wpa_supplicant.conf
+ 1762  reboot
+ 1763  sudo ping -c3 www.baidu.com
+ 1764  cd thunet
+ 1765  vim
+ 1766  sudo vim /etc/network/interfaces
+ 1767  reboot
+ 1768  sudo ping -c3 www.baidu.com
+ 1769  ps -A | grep python
+ 1770  ps -A | grep noip
+ 1771  tmux
+ 1772  exit
+ 1773  tmux a
+ 1774  tmux 
+ 1775  exit
+ 1776  tmux
+ 1777  exit
+ 1778  ifconfig
+ 1779  ip addr
+ 1780  ping -c3 www.baidu.com
+ 1781  sudo ping -c3 www.baidu.com
+ 1782  ps -A | grep noip
+ 1783  ps -A | grep python
+ 1784  ip addr
+ 1785  exit
+ 1786  ls
+ 1787  sudo systemctl ddns.service restart
+ 1788  cd /etc/systemd/system/
+ 1789  ls
+ 1790  vim ddns.service 
+ 1791  ls
+ 1792  /usr/local/bin/noip2
+ 1793  /usr/local/bin/noip2 -c
+ 1794  /usr/local/bin/noip2 -C
+ 1795  sudo /usr/local/bin/noip2 -C
+ 1796  kill 874
+ 1797  sudo kill 874
+ 1798  sudo /usr/local/bin/noip2 -C
+ 1799  exit
+ 1800  sudo /usr/local/bin/noip2 -C
+ 1801  sudo /usr/local/bin/noip2
+ 1802  exitr
+ 1803  exit
+ 1804  tmux
+ 1805  exit
+ 1806  sudo crontab -e
+ 1807  tmux
+ 1808  tmux ls
+ 1809  exit
+ 1810  ls
+ 1811  exit
+ 1812  tmux
+ 1813  exit
+ 1814  htop
+ 1815  sudo ping -c3 www.baidu.com
+ 1816  tmux
+ 1817  htop
+ 1818  mofsy
+ 1819  exit
+ 1820  sudo ping -c3 www.baidu.com
+ 1821  ifconfig
+ 1822  reboot
+ 1823  sudo ping -c3 www.baidu.com
+ 1824  ls
+ 1825  ifconfig
+ 1826  sudo vim /etc/wpa_supplicant/wpa_supplicant.conf
+ 1827  ls
+ 1828  sudo ifdown wlan0
+ 1829  sudo ifup wlan0
+ 1830  ifconfig
+ 1831  sudo vim /etc/network/interfaces
+ 1832  ls
+ 1833  ifconfig
+ 1834  ps -A | grep python
+ 1835  ps -A | grep noip
+ 1836  ls
+ 1837  ifconfig
+ 1838  poweroff
+ 1839  ps -A | grep noip
+ 1840  ps -A | grep python
+ 1841  sudo ping -c3 www.baidu.com
+ 1842  tmux
+ 1843  htop
+ 1844  exit
+ 1845  ls
+ 1846  cd python_games
+ 1847  ls
+ 1848  ./launcher.sh
+ 1849  lls
+ 1850  tmux
+ 1851  exit
+ 1852  tmux
+ 1853  htop
+ 1854  exit
+ 1855  tmux
+ 1856  exit
+ 1857  lear
+ 1858  clear
+ 1859  ls
+ 1860  cd .dotfiles
+ 1861  gst
+ 1862  ggpull
+ 1863  exit
+ 1864  ls
+ 1865  vim
+ 1866  ggpull
+ 1867  tmux
+ 1868  pwd
+ 1869  exit
+ 1870  tmux
+ 1871  pwd
+ 1872  tmux a
+ 1873  htop
+ 1874  pwd
+ 1875  exit
+ 1876  htop
+ 1877  ls
+ 1878  pwd
+ 1879  htop
+ 1880  tmux
+ 1881  htop
+ 1882  exit
+ 1883  cd .dotfiles
+ 1884  ggpull
+ 1885  pwd
+ 1886  sudo ping -c3 www.baidu.com
+ 1887  ps -A | grep python
+ 1888  ls
+ 1889  cd ..
+ 1890  ;s
+ 1891  cd thunet
+ 1892  ls
+ 1893  python main.py
+ 1894  tmux
+ 1895  python main.py
+ 1896  htop
+ 1897  ls
+ 1898  sudo ping -c3 www.baidu.com
+ 1899  ls
+ 1900  cd ..
+ 1901  ls
+ 1902  cd .dotfiles
+ 1903  ls
+ 1904  ggpull
+ 1905  sudo ping -c3 www.baidu.com
+ 1906  ggpull
+ 1907  pwd
+ 1908  ggpull
+ 1909  pwd
+ 1910  exit
+ 1911  sudo ping -c3 www.baidu.com
+ 1912  ps -A | grep python
+ 1913  ps -A | grep noip
+ 1914  sudo ping -c3 www.baidu.com
+ 1915  sudo systemctl ddns.service restart
+ 1916  sudo systemctl restart thunet.service 
+ 1917  sudo ping -c3 www.baidu.com
+ 1918  ip addr
+ 1919  reboot
+ 1920  sudo ping -c3 www.baidu.com
+ 1921  ps -A | grep noip
+ 1922  ps -A | grep python
+ 1923  ping -c3 www.baidu.com
+ 1924  sudo ping -c3 www.baidu.com
+ 1925  ssh status
+ 1926  ssh
+ 1927  ssh-server
+ 1928  sudo ping -c3 www.baidu.com
+ 1929  ip addr
+ 1930  ifconfig
+ 1931  sudo ping -c3 www.baidu.com
+ 1932  sudo ifdown wlan0
+ 1933  ifconfig
+ 1934  sudo ifup wlan0
+ 1935  ifconfig
+ 1936  ping -c3 www.baidu.com
+ 1937  sudo ping -c3 www.baidu.com
+ 1938  ps -A | grep noip
+ 1939  ps -A | grep python
+ 1940  thunet
+ 1941  ls
+ 1942  tmux
+ 1943  python main.py
+ 1944  sudo ping -c3 www.baidu.com
+ 1945  exit
+ 1946  ps -A | grep python
+ 1947  sudo service thunet start
+ 1948  ps -A | grep python
+ 1949  sudo ping -c3 www.baidu.com
+ 1950  clera
+ 1951  clear
+ 1952  exit
+ 1953  tmux
+ 1954  mofsy
+ 1955  cd .dotfiles
+ 1956  gst
+ 1957  ggpull
+ 1958  ls
+ 1959  exit
+ 1960  ls
+ 1961  ps -A | grep python
+ 1962  ps -A | grep noip
+ 1963  sudo ping -c3 www.baidu.com
+ 1964  tmux
+ 1965  cd .dotfiles
+ 1966  gst
+ 1967  ggpull
+ 1968* sudo ping -c3 www.baidu.com
+ 1969  ls
+ 1970  gst
