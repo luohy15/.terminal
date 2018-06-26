@@ -119,11 +119,12 @@ alias cl="clear"
 alias tgz='tar -zxvf'
 alias tbz='tar -jxvf'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-source /etc/profile.d/autojump.zsh
 export DISABLE_AUTO_TITLE='true'
 a=`uname -n | tr -d '\n'`
-if [ $a = "mf839.local" ]
-then
+if [ $a = "s5-371" ]; then
+    source /etc/profile.d/autojump.zsh
+fi
+if [ $a = "mf839.local" ]; then
     alias vim="/usr/local/Cellar/macvim/8.0-138/MacVim.app/Contents/bin/vim"
     export JAVA_HOME=`/usr/libexec/java_home -v 1.6`
     export PATH="/usr/local/sbin:$PATH"
@@ -131,6 +132,5 @@ then
     export JAVA_OPTS=-Xmx1024M
     export PATH=/usr/local/texlive/2018/bin/x86_64-darwin:$PATH
 fi
-if [ $a = "localhost" ]
-then
+if [ $a = "localhost" ]; then
 fi

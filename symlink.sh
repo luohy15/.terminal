@@ -2,7 +2,7 @@
 for f in tmux.conf zshrc vimrc tmuxp
 do
     echo $f
-    if [[ ! -L ~/.$f ]]; then
+    if [ ! -L ~/.$f ]; then
         rm ~/.$f
     else
         unlink ~/.$f # rather than rm $f
@@ -16,7 +16,7 @@ do
     for subdir in `ls $dir`
     do
         echo $dir/$subdir
-        if [[ ! -L ~/$dir/$subdir ]]; then
+        if [ ! -L ~/$dir/$subdir ]; then
             rm ~/$dir/$subdir
         else
             unlink ~/$dir/$subdir
