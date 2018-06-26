@@ -1,0 +1,83 @@
+session_name: osx
+windows:
+- focus: 'true'
+  layout: 60b2,181x45,0,0,13
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv/.terminal
+  window_name: zsh
+- layout: 60b3,181x45,0,0,14
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv
+  window_name: zsh
+- layout: 60b4,181x45,0,0,15
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv
+  window_name: zsh
+- layout: 60b5,181x45,0,0,16
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv
+  window_name: zsh
+- layout: 60b6,181x45,0,0,17
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv
+  window_name: zsh
+- layout: 60b7,181x45,0,0,18
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv
+  window_name: zsh
+- layout: 60b8,181x45,0,0,19
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv
+  window_name: zsh
+- layout: e0af,181x45,0,0,20
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv
+  window_name: zsh
+- layout: e0b0,181x45,0,0,21
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv
+  window_name: zsh
+- layout: e0b1,181x45,0,0,22
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv
+  window_name: zsh

@@ -86,7 +86,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export RPROMPT=$'%* '
 # apt aliases
 alias agi="sudo apt-get install"
 alias agu="sudo apt-get update"
@@ -121,8 +120,10 @@ alias tbz='tar -jxvf'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export DISABLE_AUTO_TITLE='true'
 a=`uname -n | tr -d '\n'`
+export RPROMPT=$'%*'
 if [ $a = "s5-371" ]; then
     source /etc/profile.d/autojump.zsh
+    export RPROMPT=$'%* '
 fi
 if [ $a = "mf839.local" ]; then
     alias vim="/usr/local/Cellar/macvim/8.0-138/MacVim.app/Contents/bin/vim"
