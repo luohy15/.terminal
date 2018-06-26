@@ -1,5 +1,5 @@
 ## files: tmux.conf zshrc vimrc
-for f in tmux.conf zshrc vimrc tmuxp config/powerline
+for f in tmux.conf zshrc vimrc tmuxp
 do
     echo $f
     if [[ ! -L ~/.$f ]]; then
@@ -11,7 +11,7 @@ do
 done
 
 ## subdirs
-for dir in .vim
+for dir in .vim .config
 do
     for subdir in `ls $dir`
     do
