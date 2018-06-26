@@ -323,3 +323,4 @@ filetype plugin on
 let g:vimtex_compiler_latexmk = {'callback' : 0}
 let delimitMate_expand_cr=1
 let g:airline_solarized_bg='dark'
+let g:ctrlp_show_hidden = 1

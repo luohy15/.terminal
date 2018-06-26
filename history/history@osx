@@ -1,0 +1,94 @@
+    1  ls
+    2  la
+    3  rm -rf .dotfiles
+    4  gcl git@github.com:luohy15/.terminal.git
+    5  cd .terminal
+    6  sh symlink.sh
+    7  ~
+    8  tmuxp load coding
+    9  tmuxp load basic
+   10  ls
+   11  cd .terminal
+   12  vim
+   13  tmux kill-session -t basic
+   14  tmuxp load basic
+   15  exit
+   16  tmux a
+   17  ls
+   18  cd .terminal
+   19  vim
+   20  fzf
+   21  ls
+   22  la
+   23  cd ~
+   24  ls
+   25  cd .terminal
+   26  ls
+   27  gst
+   28  gd zshrc
+   29  cd ~
+   30  tmuxp freeze basic
+   31  tmux a
+   32  tmux freeze osx
+   33  tmuxp freeze osx
+   34  ls
+   35  cd .terminal
+   36  gst
+   37  bs fzf
+   38  vim zshrc
+   39  $(brew --prefix)/opt/fzf/install
+   40  gst
+   41  gd
+   42  exit
+   43  tmux a
+   44  gst
+   45  gd
+   46  ga .
+   47  gcam "time icon and tmux in osx"
+   48  git config --global --edit
+   49  gcam "time icon and tmux in osx"
+   50  glgg
+   51  ls
+   52  tmux kill-session
+   53  tmuxp load osx
+   54  gst
+   55  git config --global --edit
+   56  glgg
+   57  git commit --amend
+   58  glgg
+   59  ggpush
+   60  glgg
+   61  gst
+   62  glgg
+   63  git reset 0051
+   64  glgg
+   65  git reset 005d
+   66  glgg
+   67  gst
+   68  gd
+   69  ga .
+   70  gcam "time icon and tmux in osx"
+   71  glgg
+   72  ggpush -f
+   73  glgg
+   74  ls
+   75  vim
+   76  gst
+   77  glgg
+   78  tmux kill-session && tmuxp load osx
+   79* ls
+   80* ..
+   81* ls
+   82* cd programming_basic
+   83  ls
+   84  la
+   85* cd .vim
+   86* ls
+   87* cd ~
+   88  vim
+   89  vim vimrc
+   90  vim
+   91  ls
+   92  glgg
+   93  cd history
+   94  ls

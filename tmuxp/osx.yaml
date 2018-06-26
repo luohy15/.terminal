@@ -15,7 +15,7 @@ windows:
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /Users/rv
+  start_directory: /Users/rv/src/project/programming_basic
   window_name: zsh
 - layout: 60b4,181x45,0,0,15
   options:
