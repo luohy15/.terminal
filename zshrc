@@ -127,10 +127,7 @@ if [ $a = "s5-371" ]; then
 fi
 if [ $a = "mf839.local" ]; then
     alias vim="/usr/local/Cellar/macvim/8.0-138/MacVim.app/Contents/bin/vim"
-    export JAVA_HOME=`/usr/libexec/java_home -v 1.6`
     export PATH="/usr/local/sbin:$PATH"
-    export HERITRIX_HOME="$HOME/Downloads/heritrix-3.1.1"
-    export JAVA_OPTS=-Xmx1024M
     export PATH=/usr/local/texlive/2018/bin/x86_64-darwin:$PATH
 fi
 if [ $a = "localhost" ]; then
