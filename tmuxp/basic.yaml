@@ -33,7 +33,7 @@ windows:
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /home/rv
+  start_directory: /home/rv/.dotfiles
   window_name: zsh
 - layout: 6751,174x48,0,0,12
   options: {}
