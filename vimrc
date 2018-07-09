@@ -74,7 +74,7 @@ Plug 'lervag/vimtex'
 
 " eye candy
 let s:uname = system("uname -n | tr -d '\n'")
-if (s:uname == "s5-371")
+if (s:uname == "s5-371" || s:uname == "vmware")
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     Plug 'ryanoasis/vim-devicons'

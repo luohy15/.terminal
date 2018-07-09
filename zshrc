@@ -130,7 +130,7 @@ if [ $a = "mf839.local" ]; then
     export PATH="/usr/local/sbin:$PATH"
     export PATH=/usr/local/texlive/2018/bin/x86_64-darwin:$PATH
 fi
-if [ $a = "ubuntu" ] || [$a = "vmware" ]; then
+if [ $a = "vmware" ]; then
     export http_proxy="http://web-proxy.tencent.com:8080"
     export https_proxy="http://web-proxy.tencent.com:8080"
 fi
