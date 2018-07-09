@@ -119,8 +119,8 @@ alias tgz='tar -zxvf'
 alias tbz='tar -jxvf'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export DISABLE_AUTO_TITLE='true'
-a=`uname -n | tr -d '\n'`
 export RPROMPT=$'%*'
+a=`uname -n | tr -d '\n'`
 if [ $a = "s5-371" ]; then
     source /etc/profile.d/autojump.zsh
     export RPROMPT=$'%* '
@@ -130,5 +130,8 @@ if [ $a = "mf839.local" ]; then
     export PATH="/usr/local/sbin:$PATH"
     export PATH=/usr/local/texlive/2018/bin/x86_64-darwin:$PATH
 fi
-if [ $a = "localhost" ]; then
+if [ $a = "ubuntu" ] || [$a = "vmware" ]; then
+    export http_proxy="http://web-proxy.tencent.com:8080"
+    export https_proxy="http://web-proxy.tencent.com:8080"
 fi
+
