@@ -125,12 +125,12 @@ if [ $a = "s5-371" ] || [ $a = "vmware" ]; then
     source /etc/profile.d/autojump.zsh
     export RPROMPT=$'%* '
 fi
-if [ $a = "mf839.local" ]; then
+if [ $a = "mf839.local" ] || [ $a = "HUAYILUO-MB0" ]; then
     alias vim="/usr/local/Cellar/macvim/8.0-138/MacVim.app/Contents/bin/vim"
     export PATH="/usr/local/sbin:$PATH"
     export PATH=/usr/local/texlive/2018/bin/x86_64-darwin:$PATH
 fi
-if [ $a = "vmware" ]; then
+if [ $a = "vmware" ] || [ $a = "HUAYILUO-MB0" ]; then
     export http_proxy="http://web-proxy.tencent.com:8080"
     export https_proxy="http://web-proxy.tencent.com:8080"
     export GOPATH="$HOME/go"

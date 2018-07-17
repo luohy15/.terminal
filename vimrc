@@ -32,7 +32,7 @@ Plug 'kien/ctrlp.vim'
 " Plug 'junegunn/fzf'
 Plug 'mileszs/ack.vim'
 " Plug 'dyng/ctrlsf.vim'
- 
+
 " go
 Plug 'fatih/vim-go'
 
@@ -76,10 +76,10 @@ Plug 'lervag/vimtex'
 " Plug 'vim-scripts/YankRing.vim'
 
 " eye candy
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 let s:uname = system("uname -n | tr -d '\n'")
 if (s:uname == "s5-371" || s:uname == "vmware")
-    Plug 'vim-airline/vim-airline'
-    Plug 'vim-airline/vim-airline-themes'
     Plug 'ryanoasis/vim-devicons'
 endif
 " Plug 'kien/rainbow_parentheses.vim'
