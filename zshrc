@@ -121,7 +121,7 @@ alias tbz='tar -jxvf'
 export DISABLE_AUTO_TITLE='true'
 export RPROMPT=$'%*'
 a=`uname -n | tr -d '\n'`
-if [ $a = "s5-371" ]; then
+if [ $a = "s5-371" ] || [ $a = "vmware" ]; then
     source /etc/profile.d/autojump.zsh
     export RPROMPT=$'%* '
 fi
@@ -133,5 +133,7 @@ fi
 if [ $a = "vmware" ]; then
     export http_proxy="http://web-proxy.tencent.com:8080"
     export https_proxy="http://web-proxy.tencent.com:8080"
+    export GOPATH="$HOME/go"
+    export PATH="$GOPATH/bin:$PATH"
 fi
 

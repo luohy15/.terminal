@@ -32,6 +32,9 @@ Plug 'kien/ctrlp.vim'
 " Plug 'junegunn/fzf'
 Plug 'mileszs/ack.vim'
 " Plug 'dyng/ctrlsf.vim'
+ 
+" go
+Plug 'fatih/vim-go'
 
 " cpp
 Plug 'vim-scripts/OmniCppComplete'
@@ -327,3 +330,4 @@ let g:vimtex_compiler_latexmk = {'callback' : 0}
 let delimitMate_expand_cr=1
 let g:airline_solarized_bg='dark'
 let g:ctrlp_show_hidden = 1
+let g:go_doc_keywordprg_enabled = 0
