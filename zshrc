@@ -92,6 +92,7 @@ alias agu="sudo apt-get update"
 alias agdu="sudo apt-get upgrade"
 alias acs="apt-cache search"
 alias sdi="sudo dpkg -i"
+
 # brew aliases
 alias bs="brew search"
 alias bu="brew update"
@@ -102,6 +103,7 @@ alias br="brew remove"
 alias bl="brew list"
 alias bci="brew cask install"
 alias bcs="brew cask search"
+
 # pacman aliases
 alias pac='sudo pacman -S'   # install
 alias pacu='sudo pacman -Syu'    # update, add 'a' to the list of letters to update AUR packages if you use yaourt
@@ -112,28 +114,30 @@ alias paclo='sudo pacman -Qdt'    # list orphans
 alias pacro='sudo paclo && sudo pacman -Rns $(pacman -Qtdq)' # remove orphans
 alias pacc='sudo pacman -Scc'    # clean cache
 alias paclf='sudo pacman -Ql'   # list files
+
+# other aliases
 alias tmux="tmux -2"
 alias rm="rm -i"
 alias cl="clear"
 alias tgz='tar -zxvf'
 alias tbz='tar -jxvf'
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# export&source
 export DISABLE_AUTO_TITLE='true'
 export RPROMPT=$'%*'
+export GOPATH="$HOME/go"
+export GOBIN="$GOPATH/bin"
+export PATH="$GOBIN:$PATH"
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# system specific
 a=`uname -n | tr -d '\n'`
 if [ $a = "s5-371" ] || [ $a = "vmware" ]; then
     source /etc/profile.d/autojump.zsh
     export RPROMPT=$'%* '
 fi
-if [ $a = "mf839.local" ] || [ $a = "HUAYILUO-MB0" ]; then
+if [ $a = "HUAYILUO-MB0" ]; then
     alias vim="/usr/local/Cellar/macvim/8.0-138/MacVim.app/Contents/bin/vim"
-    export PATH="/usr/local/sbin:$PATH"
-    export PATH=/usr/local/texlive/2018/bin/x86_64-darwin:$PATH
-fi
-if [ $a = "vmware" ] || [ $a = "HUAYILUO-MB0" ]; then
-    export http_proxy="http://web-proxy.tencent.com:8080"
-    export https_proxy="http://web-proxy.tencent.com:8080"
-    export GOPATH="$HOME/go"
-    export PATH="$GOPATH/bin:$PATH"
+    [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 fi
 

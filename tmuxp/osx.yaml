@@ -1,31 +1,24 @@
 session_name: osx
 windows:
 - focus: 'true'
-  layout: 60b2,181x45,0,0,13
+  layout: bd5e,272x63,0,0,1
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
   start_directory: /Users/rv/.terminal
-  window_name: zsh
-- layout: 60b3,181x45,0,0,14
+  window_name: terminal
+- layout: ef28,272x63,0,0{135x63,0,0,2,136x63,136,0,3}
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /Users/rv/src/project/programming_basic
-  window_name: zsh
-- layout: 60b4,181x45,0,0,15
-  options:
-    automatic-rename: 'off'
-  panes:
-  - focus: 'true'
-    shell_command: zsh
-  start_directory: /Users/rv
-  window_name: zsh
-- layout: 60b5,181x45,0,0,16
+  - zsh
+  start_directory: /Users/rv/src/project/programming_basic/leetcode
+  window_name: leetcode
+- layout: bd61,272x63,0,0,4
   options:
     automatic-rename: 'off'
   panes:
@@ -33,7 +26,7 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv
   window_name: zsh
-- layout: 60b6,181x45,0,0,17
+- layout: bd62,272x63,0,0,5
   options:
     automatic-rename: 'off'
   panes:
@@ -41,7 +34,7 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv
   window_name: zsh
-- layout: 60b7,181x45,0,0,18
+- layout: bd63,272x63,0,0,6
   options:
     automatic-rename: 'off'
   panes:
@@ -49,7 +42,7 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv
   window_name: zsh
-- layout: 60b8,181x45,0,0,19
+- layout: bd64,272x63,0,0,7
   options:
     automatic-rename: 'off'
   panes:
@@ -57,7 +50,7 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv
   window_name: zsh
-- layout: e0af,181x45,0,0,20
+- layout: bd65,272x63,0,0,8
   options:
     automatic-rename: 'off'
   panes:
@@ -65,7 +58,7 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv
   window_name: zsh
-- layout: e0b0,181x45,0,0,21
+- layout: bd66,272x63,0,0,9
   options:
     automatic-rename: 'off'
   panes:
@@ -73,7 +66,15 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv
   window_name: zsh
-- layout: e0b1,181x45,0,0,22
+- layout: 5edf,272x63,0,0,10
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv/go/src/learn-go
+  window_name: learn-go
+- layout: 5ee0,272x63,0,0,11
   options:
     automatic-rename: 'off'
   panes:

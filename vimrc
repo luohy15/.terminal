@@ -37,7 +37,7 @@ Plug 'mileszs/ack.vim'
 Plug 'fatih/vim-go'
 
 " cpp
-Plug 'vim-scripts/OmniCppComplete'
+" Plug 'vim-scripts/OmniCppComplete'
 " Plug 'xuhdev/singlecompile'
 " Plug 'drmikehenry/vim-headerguard'
 " Plug 'sirver/ultisnips'
@@ -49,6 +49,7 @@ Plug 'vim-scripts/OmniCppComplete'
 " Plug 'brookhong/cscope.vim'
 
 " other language
+" Plug 'klen/python-mode'
 " Plug 'vim-scripts/pythoncomplete'
 " Plug 'mattn/emmet-vim'
 " Plug 'tmhedberg/simpylfold'
@@ -65,7 +66,7 @@ Plug 'vim-scripts/OmniCppComplete'
 " Plug 'CodeFalling/fcitx-vim-osx'
 " Plug 'humiaozuzu/fcitx-status'
 " Plug 'vimwiki/vimwiki'
-Plug 'lervag/vimtex'
+" Plug 'lervag/vimtex'
 " Plug 'suan/vim-instant-markdown'
 " Plug 'vim-scripts/VimIM'
 " Plug 'rykka/riv.vim'
@@ -140,6 +141,9 @@ set nowritebackup
 " set foldmethod=syntax
 set mouse=nicr
 set clipboard=unnamedplus
+if (s:uname == "HUAYILUO-MB0")
+    set clipboard=unnamed
+endif
 " set nofoldenable
 " set nrformats=
 " set undofile
