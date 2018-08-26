@@ -1,0 +1,283 @@
+    1  ls
+    2  vim
+    3  apt install tmux
+    4  tmux
+    5  exit
+    6  ls
+    7  tmux
+    8  chsh -s $(which zsh)
+    9  tmux
+   10  echo $shell
+   11  echo $SHELL
+   12  exit
+   13  tmux
+   14  tmux ls
+   15  tmux a
+   16  ls
+   17  cd .dotfiles
+   18  ./symlink.sh
+   19  tmux
+   20  ~
+   21  tmux
+   22  ls
+   23  vim
+   24  cd .dotfiles
+   25  vim
+   26  ..
+   27  vim
+   28  ..
+   29  ls
+   30  vi
+   31  agi ctags
+   32  vi
+   33  ls
+   34  ~
+   35  git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+   36  ~/.fzf/install
+   37  cd .dotfiles
+   38  vim
+   39  ls
+   40  ..
+   41  ls
+   42  ./symlink.sh
+   43  vim
+   44  ls
+   45  ..
+   46  ls
+   47  vi
+   48  ls
+   49  gst
+   50  ./symlink.sh
+   51  la
+   52  cd .vim
+   53  la
+   54  cd co
+   55  cd colors
+   56  ls
+   57  gst
+   58  ..
+   59  ls
+   60  cd config
+   61  ls
+   62  ..
+   63  vim
+   64  gst
+   65  gco vimrc
+   66  vim
+   67  ls
+   68  ..
+   69  la
+   70  cd .tmux
+   71  ls
+   72  cd plugins
+   73  ls
+   74  cd tpm
+   75  ls
+   76  exit
+   77  tmux a
+   78  ls
+   79  ~
+   80  cl
+   81  htop
+   82  screenfetch
+   83  agi screenfetch
+   84  screenfetch
+   85  uptime
+   86  exit
+   87  ls
+   88  tmux a
+   89  ls
+   90  tmux a
+   91  ls
+   92  gst
+   93  ls
+   94  gst
+   95  gd
+   96  awk
+   97  ls
+   98  tmux a
+   99  ls
+  100  man gcc
+  101  ls
+  102  cdsr
+  103  cd src
+  104  ls
+  105  cd playground
+  106  ls
+  107  vim tmp.c
+  108  gcc tmp.c -E -o tmp.i
+  109  ls
+  110  vim tmp.i
+  111  ..
+  112  cd project
+  113  ls
+  114  cd ucore_os_lab
+  115  ls
+  116  ggpull
+  117  cd labcodes/lab6
+  118  ls
+  119  make grade
+  120  ls
+  121  ..
+  122  ls
+  123  cd lab1
+  124  ls
+  125  make grade
+  126  agi qemu
+  127  agi tmuxp
+  128  pip install --user tmuxp
+  129  agi pip
+  130  agi python-pip
+  131  pip install --user tmuxp
+  132  tmuxp
+  133  pip install --upgrade pip
+  134  tmuxp
+  135  pip install --user tmuxp
+  136  tmuxp
+  137  source .zshrc
+  138  tmuxp
+  139  tmux a
+  140  htop
+  141  agi screenfetch
+  142  screenfetch
+  143  ls
+  144  htop
+  145  ls
+  146  vim
+  147  exit
+  148  screenfetch
+  149  htop
+  150  ls
+  151  cd .dotfiles
+  152  ls
+  153  gst
+  154  gd
+  155  gco .
+  156  ggpull
+  157  source zshrc
+  158  ls
+  159  ~
+  160  vim
+  161  cd .dotfiles
+  162  ./symlink.sh
+  163  vim
+  164  exit
+  165  tmux a
+  166  exit
+  167  ls
+  168  tmux a
+  169  ls
+  170  vim
+  171  cd .dotfiles
+  172  vim
+  173  ..
+  174  vim
+  175  ..
+  176  vi
+  177  gst
+  178  gd
+  179  glgg
+  180* exit
+  181* ls
+  182* tmux a
+  183* ls
+  184* cd src/le
+  185* cd src/project/
+  186* cd ..
+  187* cd playground
+  188* ls
+  189* cat tmp
+  190* ls
+  191* vim tmp.c
+  192* exit
+  193* ls
+  194* tmux a
+  195* ls
+  196* exit
+  197* ls
+  198* tmux a
+  199* ls
+  200  vim
+  201  ..
+  202  vi
+  203* ls
+  204* lscpu
+  205* echo /proc/cpuinfo 
+  206* cat /proc/cpuinfo 
+  207* cat /proc/cpuinfo | grep "^flag"
+  208* cat /proc/cpuinfo | grep "^flags"
+  209* cat /proc/cpuinfo | grep "^flags" | sort
+  210* for i in `cat /proc/cpuinfo | grep "^flags"`; do echo $i; done
+  211  vim
+  212  ..
+  213  vi
+  214* ..
+  215* vi
+  216* ls
+  217* cl
+  218* for i in `cat /proc/cpuinfo | grep "^flags"`; do echo $i; done
+  219* flag=`cat /proc/cpuinfo | grep "^flags"`; 
+  220* echo $flag
+  221* a=`fuck dzy`
+  222* a="fuck dzy"
+  223* ss="${flag} ${a}"
+  224* echo $ss
+  225* for i in `$ss do echo $i; done
+  226* for i in `$ss; do echo $i; done
+  227* for i in $ss; do echo $i; done
+  228* for i in `cat /proc/cpuinfo | grep "^flags"`; do echo $i; done
+  229* for i in $ss; do echo $i; done
+  230* for i in `echo $ss`; do echo $i; done
+  231* w=`echo $ss`
+  232* echo $w
+  233* echo $ss
+  234* echo [$w -eq $ss]
+  235* echo [$w == $ss]
+  236* echo [$w = $ss]
+  237* echo $w = $ss
+  238* echo `$w = $ss`
+  239* for i in $w; do echo $i; done
+  240  ls
+  241  vi
+  242* ls
+  243* pip install powerline-status
+  244* pip show powerline-status
+  245* ls
+  246* cd src/project
+  247* ls
+  248* gcl git@github.com:luohy15/leetcode.git
+  249  ls
+  250  gst
+  251  gd
+  252* gst
+  253* gd
+  254* ls
+  255* cd leetcode
+  256* ls
+  257* htop
+  258* ls
+  259* clear
+  260* echo $SHELL
+  261* a="fuck luo hua yi"
+  262* for i in $a; do echo $i; done
+  263* b="fuck\nluo\nhua\nyi"
+  264* for i in $b; do echo $i; done
+  265* bash
+  266* for i in $a; do echo $i ":"; done
+  267* #!/usr/bin/bash
+  268* #!/bin/sh
+  269* /bin/sh
+  270* cd /bin
+  271* ls
+  272* la
+  273* file sui
+  274* file su
+  275* file umount
+  276* ls -al umount
+  277* ./sh
+  278* ls
+  279* tmux a
+  280* exit
+  281* tmux a
+  282  ls
+  283  cd history
