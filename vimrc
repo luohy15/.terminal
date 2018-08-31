@@ -103,13 +103,14 @@ source ~/.vim/config/nerdtree.vim
 " source ~/.vim/config/cpp-hightlight.vim
 " source ~/.vim/config/snip.vim
 " source ~/.vim/config/markdown.vim
-source ~/.vim/config/vimwiki.vim
+" source ~/.vim/config/vimwiki.vim
 " source ~/.vim/config/goto.vim
 " source ~/.vim/config/powerline-detect.vim
 " source ~/.vim/config/rainbow.vim
 " source ~/.vim/config/zwc.vim
 " source ~/.vim/config/indent-guides.vim
 " source ~/.vim/config/replace.vim
+source ~/.vim/config/visual-star.vim
 call plug#end()
 
 " basic
@@ -119,7 +120,7 @@ call plug#end()
 " cmap w!! w !sudo tee > /dev/null %
 set wildmenu
 set wildmode=full
-" set history=200
+set history=2000
 set number
 set ruler
 " set laststatus=2
@@ -140,10 +141,15 @@ set nowritebackup
 " set secure
 " set foldmethod=syntax
 set mouse=nicr
+set ttymouse=xterm2
 set clipboard=unnamedplus
 if (s:uname == "HUAYILUO-MB0")
     set clipboard=unnamed
 endif
+
+" search
+set hls
+set incsearch
 " set nofoldenable
 " set nrformats=
 " set undofile
@@ -163,7 +169,7 @@ vmap <C-c> "+y
 " vimium like tabs
 nnoremap K :tabnext<CR>
 nnoremap J :tabprev<CR>
-nnoremap t :tabnew<CR>:CtrlP<CR>
+noremap <Leader>t :tabnew<CR>:CtrlP<CR>
 noremap <Leader>1 1gt
 noremap <Leader>2 2gt
 noremap <Leader>3 3gt
@@ -184,6 +190,12 @@ nnoremap <C-l> <C-w>l
 " nnoremap <C-f> <C-w>gf
 " nnoremap gp <C-^>
 
+" navigations
+nnoremap <silent> [b :bprevious<CR>
+nnoremap <silent> ]b :bnext<CR>
+nnoremap <silent> [B :bfirst<CR>
+nnoremap <silent> ]B :blast<CR>
+
 " split resize
 " nnoremap <Leader>j <C-w>10+
 " nnoremap <Leader>k <C-w>10-
@@ -195,7 +207,6 @@ set encoding=utf-8
 set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1
 
 " color scheme
-set hls
 set cursorline
 set nocursorline
 syntax enable
@@ -330,8 +341,7 @@ filetype plugin on
 " endfunction
 " au InsertLeave * call Fcitx2en()
 " au InsertEnter * call Fcitx2zh()
-let g:vimtex_compiler_latexmk = {'callback' : 0}
-let delimitMate_expand_cr=1
+" let g:vimtex_compiler_latexmk = {'callback' : 0}
 let g:airline_solarized_bg='dark'
 let g:ctrlp_show_hidden = 1
 let g:go_doc_keywordprg_enabled = 0
