@@ -5,5 +5,10 @@ pipeline {
                 sh 'echo "build success"' 
             }
         }
+        stage('Test') { 
+            steps {
+                sh 'echo "test success"' 
+            }
+        }
     }
 }
