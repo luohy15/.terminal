@@ -25,5 +25,6 @@
 " build tags of your own project with Ctrl-F12
 " map <C-F12> :!ctags -R --sort=yes --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 " expand
-let b:delimitMate_expand_inside_quotes = 1
 let delimitMate_expand_cr=1
+let b:delimitMate_expand_inside_quotes = 1
+" set omnifunc=syntaxcomplete#Complete

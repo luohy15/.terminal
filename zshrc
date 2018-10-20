@@ -60,9 +60,9 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LC_ALL=en_US.UTF-8
-# export LANG=en_US.UTF-8
-# export LANGUAGE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -137,7 +137,7 @@ if [ $a = "s5-371" ] || [ $a = "vmware" ]; then
     export RPROMPT=$'%* '
 fi
 if [ $a = "HUAYILUO-MB0" ]; then
-    alias vim="/usr/local/Cellar/macvim/8.0-138/MacVim.app/Contents/bin/vim"
+    # alias vim="/usr/local/Cellar/macvim/8.0-138/MacVim.app/Contents/bin/vim"
     [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 fi
 
