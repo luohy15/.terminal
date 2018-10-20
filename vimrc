@@ -176,10 +176,10 @@ nnoremap <silent> [B :bfirst<CR>
 nnoremap <silent> ]B :blast<CR>
 
 " split resize
-" nnoremap <Leader>j <C-w>10+
-" nnoremap <Leader>k <C-w>10-
-" nnoremap <Leader>h <C-w>10<
-" nnoremap <Leader>l <C-w>10>
+nnoremap <Leader>j <C-w>5+
+nnoremap <Leader>k <C-w>5-
+nnoremap <Leader>h <C-w>5<
+nnoremap <Leader>l <C-w>5>
 
 " encoding
 set encoding=utf-8

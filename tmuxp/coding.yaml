@@ -1,14 +1,14 @@
 session_name: coding
 windows:
-- focus: 'true'
-  layout: ce9e,208x48,0,0,1
+- layout: c8be,156x37,0,0,1
   options:
     automatic-rename: 'off'
   panes:
-  - pane
+  - focus: 'true'
+    shell_command: zsh
   start_directory: /home/rv/.terminal
   window_name: "\uF085"
-- layout: ce9f,208x48,0,0,2
+- layout: c8bf,156x37,0,0,2
   options:
     automatic-rename: 'off'
   panes:
@@ -16,35 +16,31 @@ windows:
     shell_command: zsh
   start_directory: /home/rv/src/project/programming_basic/leetcode
   window_name: "\uF121"
-- layout: d021,208x48,0,0{104x48,0,0,3,103x48,105,0[103x24,105,0,12,103x23,105,25,13]}
+- layout: c8c0,156x37,0,0,3
   options:
     automatic-rename: 'off'
   panes:
-  - zsh
   - focus: 'true'
-    shell_command: bee
-  - zsh
-  start_directory: /home/rv/go/src/AIOps/Server
+    shell_command: zsh
+  start_directory: /home/rv
   window_name: "\uF0FB"
-- layout: 9023,208x48,0,0{104x48,0,0,4,103x48,105,0[103x24,105,0,14,103x23,105,25,15]}
+- layout: c8c1,156x37,0,0,4
   options:
     automatic-rename: 'off'
   panes:
-  - zsh
-  - zsh
   - focus: 'true'
     shell_command: zsh
-  start_directory: /home/rv/go/src/AIOps/Server/script
+  start_directory: /home/rv
   window_name: "\uF1FB"
-- layout: cea2,208x48,0,0,5
+- layout: c8c2,156x37,0,0,5
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /home/rv/go/src/hellodocker
+  start_directory: /home/rv
   window_name: "\uF0D0"
-- layout: cea3,208x48,0,0,6
+- layout: c8c3,156x37,0,0,6
   options:
     automatic-rename: 'off'
   panes:
@@ -52,7 +48,7 @@ windows:
     shell_command: zsh
   start_directory: /home/rv
   window_name: "\uF192"
-- layout: cea4,208x48,0,0,7
+- layout: c8c4,156x37,0,0,7
   options:
     automatic-rename: 'off'
   panes:
@@ -60,7 +56,7 @@ windows:
     shell_command: zsh
   start_directory: /home/rv
   window_name: "\uF51E"
-- layout: cea5,208x48,0,0,8
+- layout: c8c5,156x37,0,0,8
   options:
     automatic-rename: 'off'
   panes:
@@ -68,15 +64,16 @@ windows:
     shell_command: zsh
   start_directory: /home/rv
   window_name: "\uF279"
-- layout: cea6,208x48,0,0,9
+- focus: 'true'
+  layout: c8c6,156x37,0,0,9
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /home/rv/.dotfiles
+  start_directory: /home/rv
   window_name: "\uF0AD"
-- layout: 677f,208x48,0,0,10
+- layout: 648f,156x37,0,0,10
   options:
     automatic-rename: 'off'
   panes:
