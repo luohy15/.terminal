@@ -12,7 +12,7 @@ call plug#begin('~/.vim/plugged')
 " basic
 " Plug 'ajh17/vimcompletesme'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'Valloric/YouCompleteMe'
+" Plug 'Valloric/YouCompleteMe'
 " Plug 'scrooloose/syntastic'
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
