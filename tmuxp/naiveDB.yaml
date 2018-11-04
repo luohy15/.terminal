@@ -1,0 +1,83 @@
+session_name: naiveDB
+windows:
+- focus: 'true'
+  layout: 5e19,158x43,0,0,39
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv/.terminal/tmuxp
+  window_name: terminal
+- layout: de10,158x43,0,0,40
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: Vim
+  start_directory: /Users/rv/src/project/database/naiveDB
+  window_name: coding
+- layout: de11,158x43,0,0,41
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: Vim
+  start_directory: /Users/rv/src/project/database/refer/redbase
+  window_name: redbase
+- layout: de12,158x43,0,0,42
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: Vim
+  start_directory: /Users/rv/src/project/database/refer/redbase.bak
+  window_name: redbase.bak
+- layout: de13,158x43,0,0,43
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: Vim
+  start_directory: /Users/rv/src/project/database/refer/cs346-redbase
+  window_name: cs346
+- layout: de14,158x43,0,0,44
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv/src/project/database/naiveDB
+  window_name: git
+- layout: de15,158x43,0,0,45
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv/src/project/database/naiveDB
+  window_name: make
+- layout: de16,158x43,0,0,46
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv
+  window_name: zsh
+- layout: de17,158x43,0,0,47
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv
+  window_name: zsh
+- layout: de18,158x43,0,0,48
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv
+  window_name: zsh
