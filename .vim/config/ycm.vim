@@ -16,7 +16,8 @@
     " \ 're!\\usepackage(\s*\[[^]]*\])?\s*\{[^}]*',
     " \ 're!\\documentclass(\s*\[[^]]*\])?\s*\{[^}]*',
     " \ ]
-" let g:ycm_autoclose_preview_window_after_completion=1
+let g:ycm_autoclose_preview_window_after_completion=1
 " let g:ycm_complete_in_comments=1
 " let g:ycm_confirm_extra_conf=0
 " nnoremap <leader>fi :YcmCompleter FixIt<CR>
+

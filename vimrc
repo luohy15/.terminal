@@ -12,12 +12,12 @@ call plug#begin('~/.vim/plugged')
 " basic
 " Plug 'ajh17/vimcompletesme'
 Plug 'christoomey/vim-tmux-navigator'
-" Plug 'Valloric/YouCompleteMe'
+Plug 'Valloric/YouCompleteMe'
 " Plug 'scrooloose/syntastic'
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 " Plug 'fholgado/minibufexpl.vim'
-" Plug 'majutsushi/tagbar'
+Plug 'majutsushi/tagbar'
 Plug 'scrooloose/nerdcommenter'
 " Plug 'skywind3000/asyncrun.vim'
 Plug 'raimondi/delimitmate'
@@ -32,7 +32,7 @@ Plug 'kien/ctrlp.vim'
 " Plug 'easymotion/vim-easymotion'
 " Plug 'rking/ag.vim'
 " Plug 'junegunn/fzf'
-" Plug 'mileszs/ack.vim'
+Plug 'mileszs/ack.vim'
 " Plug 'dyng/ctrlsf.vim'
 
 " go
@@ -100,7 +100,7 @@ source ~/.vim/config/solarized.vim
 source ~/.vim/config/ctrlp.vim
 source ~/.vim/config/translate.vim
 source ~/.vim/config/nerdtree.vim
-" source ~/.vim/config/tagbar.vim
+source ~/.vim/config/tagbar.vim
 " source ~/.vim/config/ycm.vim
 " source ~/.vim/config/goyo.vim
 " source ~/.vim/config/cpp-hightlight.vim

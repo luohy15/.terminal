@@ -1,0 +1,87 @@
+session_name: biz
+windows:
+- layout: 10d7,173x42,0,0{86x42,0,0,1,86x42,87,0,33}
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command:
+    - cd /Users/rv/.terminal
+    - zsh
+  - shell_command:
+    - cd /Users/rv/Downloads
+    - zsh
+  window_name: terminal
+- focus: 'true'
+  layout: b5bf,173x42,0,0,2
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv
+  window_name: coding
+- layout: b5c0,173x42,0,0,3
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv/src/project/biz
+  window_name: biz
+- layout: b5c1,173x42,0,0,4
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv/src/project/biz/anomaly-jenkins
+  window_name: jenkins
+- layout: b5c2,173x42,0,0,5
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv/src/project/biz/docker-library
+  window_name: docker
+- layout: b5c3,173x42,0,0,6
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv/src/project/biz/anomaly-restapi
+  window_name: restapi
+- layout: b5c4,173x42,0,0,7
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv/src/project/biz/anomaly-overseer
+  window_name: overseer
+- layout: b5c5,173x42,0,0,8
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv/src/project/biz/anomaly-web
+  window_name: web
+- layout: b5c6,173x42,0,0,9
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: vim
+  start_directory: /Users/rv/src/project/biz/anomaly-binary
+  window_name: binary
+- layout: 5b0f,173x42,0,0,10
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv/src/project/biz/anomaly-docker
+  window_name: docker

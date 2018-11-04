@@ -137,7 +137,6 @@ if [ $a = "s5-371" ] || [ $a = "vmware" ]; then
     export RPROMPT=$'%* '
 fi
 if [ $a = "HUAYILUO-MB0" ]; then
-    # alias vim="/usr/local/Cellar/macvim/8.0-138/MacVim.app/Contents/bin/vim"
     [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 fi
 
