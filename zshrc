@@ -93,6 +93,22 @@ alias agdu="sudo apt-get upgrade"
 alias acs="apt-cache search"
 alias sdi="sudo dpkg -i"
 
+# yum alias
+alias ycu='sudo yum check-update'
+alias yi='sudo yum install'
+alias yli='sudo yum localinstall --nogpgcheck'
+alias ypr='sudo yum provides'
+alias yprw='sudo yum provides $(which $1)'
+alias yr='sudo yum remove'
+alias ys='sudo yum search'
+alias yu='sudo yum update'
+alias yut='sudo yum --enablerepo=updates-testing update'
+alias yyi='sudo yum -y install'
+alias yyr='sudo yum -y remove'
+alias yys='sudo yum -C search'
+alias yyu='sudo yum -y update'
+alias yyyi='sudo yum -Cy install'
+
 # brew aliases
 alias bs="brew search"
 alias bu="brew update"
