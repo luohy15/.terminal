@@ -149,7 +149,19 @@ export PATH="$GOBIN:$PATH"
 # system specific
 kernelName=`uname -s | tr -d '\n'`
 if [[ $kernelName = "Linux" ]]; then
-    source /etc/profile.d/autojump.zsh
+    if [ -f /etc/os-release ]; then
+        . /etc/os-release
+        case $ID in
+            "ubuntu")
+                source /etc/profile.d/autojump.zsh
+                ;;
+            "centos")
+                source /usr/share/autojump/autojump.zsh
+                ;;
+            *)
+                ;;
+        esac
+    fi
 fi
 if [[ $kernelName = "Darwin" ]]; then
     alias ctags="`brew --prefix`/bin/ctags"
