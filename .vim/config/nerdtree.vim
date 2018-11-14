@@ -1,4 +1,4 @@
-let g:NERDTreeWinSize=40
+let g:NERDTreeWinSize=30
 " autocmd VimEnter * NERDTree
 " autocmd VimEnter * wincmd p
 map <Leader>f :NERDTreeToggle<CR>

@@ -1,7 +1,7 @@
 function! Translate()
     let expl=system('ydcv ' . expand("<cword>"))
     windo if expand("%")=="dict-tmp" |q!|endif
-botright 60vsp dict-tmp
+botright 40vsp dict-tmp
 setlocal buftype=nofile bufhidden=hide noswapfile
 1s/^/\=expl/
 execute "1"

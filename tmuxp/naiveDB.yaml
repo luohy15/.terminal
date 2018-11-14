@@ -1,47 +1,47 @@
 session_name: naiveDB
 windows:
 - focus: 'true'
-  layout: 5e19,158x43,0,0,39
+  layout: b5be,173x42,0,0,1
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: Python
+  start_directory: /Users/rv/.terminal
+  window_name: terminal
+- layout: b5bf,173x42,0,0,2
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /Users/rv/.terminal/tmuxp
-  window_name: terminal
-- layout: de10,158x43,0,0,40
-  options:
-    automatic-rename: 'off'
-  panes:
-  - focus: 'true'
-    shell_command: Vim
   start_directory: /Users/rv/src/project/database/naiveDB
   window_name: coding
-- layout: de11,158x43,0,0,41
+- layout: b5c0,173x42,0,0,3
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
-    shell_command: Vim
-  start_directory: /Users/rv/src/project/database/refer/redbase
-  window_name: redbase
-- layout: de12,158x43,0,0,42
+    shell_command: zsh
+  start_directory: /Users/rv/src/refer/database/redbase1
+  window_name: redbase1
+- layout: b5c1,173x42,0,0,4
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
-    shell_command: Vim
-  start_directory: /Users/rv/src/project/database/refer/redbase.bak
-  window_name: redbase.bak
-- layout: de13,158x43,0,0,43
+    shell_command: zsh
+  start_directory: /Users/rv/src/refer/database/redbase2
+  window_name: redbase2
+- layout: b5c2,173x42,0,0,5
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
-    shell_command: Vim
-  start_directory: /Users/rv/src/project/database/refer/cs346-redbase
+    shell_command: zsh
+  start_directory: /Users/rv/src/refer/database/cs346-redbase
   window_name: cs346
-- layout: de14,158x43,0,0,44
+- layout: b5c3,173x42,0,0,6
   options:
     automatic-rename: 'off'
   panes:
@@ -49,7 +49,7 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv/src/project/database/naiveDB
   window_name: git
-- layout: de15,158x43,0,0,45
+- layout: b5c4,173x42,0,0,7
   options:
     automatic-rename: 'off'
   panes:
@@ -57,7 +57,7 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv/src/project/database/naiveDB
   window_name: make
-- layout: de16,158x43,0,0,46
+- layout: b5c5,173x42,0,0,8
   options:
     automatic-rename: 'off'
   panes:
@@ -65,7 +65,7 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv
   window_name: zsh
-- layout: de17,158x43,0,0,47
+- layout: b5c6,173x42,0,0,9
   options:
     automatic-rename: 'off'
   panes:
@@ -73,7 +73,7 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv
   window_name: zsh
-- layout: de18,158x43,0,0,48
+- layout: 5b0f,173x42,0,0,10
   options:
     automatic-rename: 'off'
   panes:

@@ -131,12 +131,13 @@ export PATH="$GOBIN:$PATH"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # system specific
-a=`uname -n | tr -d '\n'`
-if [ $a = "s5-371" ] || [ $a = "vmware" ]; then
+kernelName=`uname -s | tr -d '\n'`
+if [[ $kernelName = "Linux" ]]; then
     source /etc/profile.d/autojump.zsh
-    export RPROMPT=$'%* '
 fi
-if [ $a = "HUAYILUO-MB0" ]; then
+if [[ $kernelName = "Darwin" ]]; then
+    alias ctags="`brew --prefix`/bin/ctags"
+    alias vim="`brew --prefix`/bin/mvim -v"
     [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 fi
 

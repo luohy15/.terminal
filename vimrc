@@ -1,10 +1,11 @@
+" echo ">^.^<"
 if empty(glob('~/.vim/autoload/plug.vim'))
     silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
                 \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
     autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 " Specify a directory for plugins
-let s:uname = system("uname -n | tr -d '\n'")
+let s:uname = system("uname -s | tr -d '\n'")
 source ~/.vim/config/basic.vim
 source ~/.vim/config/leader.vim
 call plug#begin('~/.vim/plugged')
@@ -28,11 +29,26 @@ Plug 'raimondi/delimitmate'
 " Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 
 " search
-Plug 'kien/ctrlp.vim'
+if executable('fzf')
+    Plug '/usr/local/opt/fzf'
+    Plug 'junegunn/fzf.vim'
+else
+    Plug 'kien/ctrlp.vim'
+endif
+if executable('rg')
+  let $FZF_DEFAULT_COMMAND = 'rg --files --no-messages "" .'
+endif
+let g:fzf_command_prefix = 'Fzf'
+if executable('fzf')
+  nnoremap <c-p> :FzfFiles<cr>
+  nnoremap <c-t> :FzfTags<cr>
+  nnoremap <leader>j :call fzf#vim#tags("'".expand('<cword>'))<cr>
+else
+  nnoremap <leader>v :CtrlP<Space><cr>
+endif
 " Plug 'easymotion/vim-easymotion'
 " Plug 'rking/ag.vim'
-" Plug 'junegunn/fzf'
-Plug 'mileszs/ack.vim'
+" Plug 'mileszs/ack.vim'
 " Plug 'dyng/ctrlsf.vim'
 
 " go
@@ -146,7 +162,7 @@ set nowritebackup
 set mouse=nicr
 set ttymouse=xterm2
 set clipboard=unnamedplus
-if (s:uname == "HUAYILUO-MB0")
+if (s:uname == "Darwin")
     set clipboard=unnamed
 endif
 set pastetoggle=<F5>
@@ -176,8 +192,8 @@ nnoremap <silent> [B :bfirst<CR>
 nnoremap <silent> ]B :blast<CR>
 
 " split resize
-nnoremap <Leader>j <C-w>5+
-nnoremap <Leader>k <C-w>5-
+" nnoremap <Leader>j <C-w>5+
+" nnoremap <Leader>k <C-w>5-
 nnoremap <Leader>h <C-w>5<
 nnoremap <Leader>l <C-w>5>
 

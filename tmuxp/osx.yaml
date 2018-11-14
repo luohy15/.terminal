@@ -1,7 +1,6 @@
 session_name: osx
 windows:
-- focus: 'true'
-  layout: bd5e,272x63,0,0,1
+- layout: e112,173x45,0,0,23
   options:
     automatic-rename: 'off'
   panes:
@@ -9,16 +8,64 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv/.terminal
   window_name: terminal
-- layout: ef28,272x63,0,0{135x63,0,0,2,136x63,136,0,3}
+- layout: e113,173x45,0,0,24
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
-  - zsh
   start_directory: /Users/rv/src/project/programming_basic/leetcode
   window_name: leetcode
-- layout: bd61,272x63,0,0,4
+- layout: e114,173x45,0,0,25
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: Vim
+  start_directory: /Users/rv/Downloads/spark-2.3.2-bin-hadoop2.7
+  window_name: spark-sample
+- layout: e118,173x45,0,0,48
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv/IdeaProjects/sparkdemo
+  window_name: spark-demo
+- focus: 'true'
+  layout: 8020,173x45,0,0{86x45,0,0,56,86x45,87,0,57}
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: Vim
+  - zsh
+  start_directory: /Users/rv/Downloads/scala
+  window_name: scala
+- layout: 611a,173x45,0,0,59
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv/src/refer/scala-impatient
+  window_name: zsh
+- layout: e118,173x45,0,0,29
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv/src/notes
+  window_name: note
+- layout: 6110,173x45,0,0,30
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv/Downloads
+  window_name: zsh
+- layout: 6111,173x45,0,0,31
   options:
     automatic-rename: 'off'
   panes:
@@ -26,55 +73,7 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv
   window_name: zsh
-- layout: bd62,272x63,0,0,5
-  options:
-    automatic-rename: 'off'
-  panes:
-  - focus: 'true'
-    shell_command: zsh
-  start_directory: /Users/rv
-  window_name: zsh
-- layout: bd63,272x63,0,0,6
-  options:
-    automatic-rename: 'off'
-  panes:
-  - focus: 'true'
-    shell_command: zsh
-  start_directory: /Users/rv
-  window_name: zsh
-- layout: bd64,272x63,0,0,7
-  options:
-    automatic-rename: 'off'
-  panes:
-  - focus: 'true'
-    shell_command: zsh
-  start_directory: /Users/rv
-  window_name: zsh
-- layout: bd65,272x63,0,0,8
-  options:
-    automatic-rename: 'off'
-  panes:
-  - focus: 'true'
-    shell_command: zsh
-  start_directory: /Users/rv
-  window_name: zsh
-- layout: bd66,272x63,0,0,9
-  options:
-    automatic-rename: 'off'
-  panes:
-  - focus: 'true'
-    shell_command: zsh
-  start_directory: /Users/rv
-  window_name: zsh
-- layout: 5edf,272x63,0,0,10
-  options:
-    automatic-rename: 'off'
-  panes:
-  - focus: 'true'
-    shell_command: zsh
-  start_directory: /Users/rv/go/src/learn-go
-  window_name: learn-go
-- layout: 5ee0,272x63,0,0,11
+- layout: 6112,173x45,0,0,32
   options:
     automatic-rename: 'off'
   panes:
