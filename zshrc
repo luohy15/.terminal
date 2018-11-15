@@ -157,6 +157,12 @@ if [[ $kernelName = "Linux" ]]; then
                 ;;
             "centos")
                 source /usr/share/autojump/autojump.zsh
+                export JAVA_HOME=/home/aiops/jdk1.8.0_191
+                export PATH=$JAVA_HOME/bin:$PATH
+                export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+                export ZOOKEEPER_HOME=/home/aiops/zookeeper-3.4.10
+                export HADOOP_HOME=/mnt/hdp/hadoop-2.7.6
+                export PATH=$ZOOKEEPER_HOME/bin:$PATH
                 ;;
             *)
                 ;;
