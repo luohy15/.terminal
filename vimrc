@@ -6,6 +6,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 " Specify a directory for plugins
 let s:uname = system("uname -s | tr -d '\n'")
+let s:distro = system("cat /etc/os-release | grep ^ID= | cut -d '=' -f2 | tr -d '\n\"'")
 source ~/.vim/config/basic.vim
 source ~/.vim/config/leader.vim
 call plug#begin('~/.vim/plugged')
@@ -13,7 +14,9 @@ call plug#begin('~/.vim/plugged')
 " basic
 " Plug 'ajh17/vimcompletesme'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'Valloric/YouCompleteMe'
+if v:version >= 801
+    Plug 'Valloric/YouCompleteMe'
+endif
 " Plug 'scrooloose/syntastic'
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
@@ -29,7 +32,7 @@ Plug 'raimondi/delimitmate'
 " Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 
 " search
-if executable('fzf')
+if (executable('fzf') && s:distro != "centos")
     Plug '/usr/local/opt/fzf'
     Plug 'junegunn/fzf.vim'
 else
@@ -39,7 +42,7 @@ if executable('rg')
   let $FZF_DEFAULT_COMMAND = 'rg --files --no-messages "" .'
 endif
 let g:fzf_command_prefix = 'Fzf'
-if executable('fzf')
+if (executable('fzf') && s:distro != "centos")
   nnoremap <c-p> :FzfFiles<cr>
   nnoremap <c-t> :FzfTags<cr>
   nnoremap <leader>j :call fzf#vim#tags("'".expand('<cword>'))<cr>
