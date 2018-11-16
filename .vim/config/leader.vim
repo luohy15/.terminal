@@ -20,7 +20,7 @@ nmap <Leader>Q :qa!<CR>
 nmap <Leader>yt :call Translate()<CR>
 nmap <Leader>yq :call CloseDict()<CR>
 nmap <Leader>g :TagbarToggle<CR>
-noremap <Leader>t :tabnew<CR>:CtrlP<CR>
+noremap <Leader>t :tabnew<CR>
 noremap <Leader>1 1gt
 noremap <Leader>2 2gt
 noremap <Leader>3 3gt
