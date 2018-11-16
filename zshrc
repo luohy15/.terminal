@@ -85,41 +85,6 @@ export LANGUAGE=en_US.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# apt aliases
-alias agi="sudo apt-get install"
-alias agu="sudo apt-get update"
-alias agdu="sudo apt-get upgrade"
-alias acs="apt-cache search"
-alias sdi="sudo dpkg -i"
-
-# yum alias
-alias ycu='sudo yum check-update'
-alias yi='sudo yum install'
-alias yli='sudo yum localinstall --nogpgcheck'
-alias ypr='sudo yum provides'
-alias yprw='sudo yum provides $(which $1)'
-alias yr='sudo yum remove'
-alias ys='sudo yum search'
-alias yu='sudo yum update'
-alias yut='sudo yum --enablerepo=updates-testing update'
-alias yyi='sudo yum -y install'
-alias yyr='sudo yum -y remove'
-alias yys='sudo yum -C search'
-alias yyu='sudo yum -y update'
-alias yyyi='sudo yum -Cy install'
-
-# brew aliases
-alias bs="brew search"
-alias bu="brew update"
-alias bi="brew install"
-alias bd="brew doctor"
-alias bri="brew info"
-alias br="brew remove"
-alias bl="brew list"
-alias bci="brew cask install"
-alias bcs="brew cask search"
-
 # pacman aliases
 alias pac='sudo pacman -S'   # install
 alias pacu='sudo pacman -Syu'    # update, add 'a' to the list of letters to update AUR packages if you use yaourt
@@ -153,9 +118,32 @@ if [[ $kernelName = "Linux" ]]; then
         . /etc/os-release
         case $ID in
             "ubuntu")
+                # apt aliases
+                alias agi="sudo apt-get install"
+                alias agu="sudo apt-get update"
+                alias agdu="sudo apt-get upgrade"
+                alias acs="apt-cache search"
+                alias sdi="sudo dpkg -i"
+
                 source /etc/profile.d/autojump.zsh
                 ;;
             "centos")
+                # yum alias
+                alias ycu='sudo yum check-update'
+                alias yi='sudo yum install'
+                alias yli='sudo yum localinstall --nogpgcheck'
+                alias ypr='sudo yum provides'
+                alias yprw='sudo yum provides $(which $1)'
+                alias yr='sudo yum remove'
+                alias ys='sudo yum search'
+                alias yu='sudo yum update'
+                alias yut='sudo yum --enablerepo=updates-testing update'
+                alias yyi='sudo yum -y install'
+                alias yyr='sudo yum -y remove'
+                alias yys='sudo yum -C search'
+                alias yyu='sudo yum -y update'
+                alias yyyi='sudo yum -Cy install'
+
                 source /usr/share/autojump/autojump.zsh
                 export JAVA_HOME=/home/aiops/jdk1.8.0_191
                 export PATH=$JAVA_HOME/bin:$PATH
@@ -170,8 +158,21 @@ if [[ $kernelName = "Linux" ]]; then
     fi
 fi
 if [[ $kernelName = "Darwin" ]]; then
+
+    # brew aliases
+    alias bs="brew search"
+    alias bu="brew update"
+    alias bi="brew install"
+    alias bd="brew doctor"
+    alias bri="brew info"
+    alias br="brew remove"
+    alias bl="brew list"
+    alias bci="brew cask install"
+    alias bcs="brew cask search"
+
     alias ctags="`brew --prefix`/bin/ctags"
     alias vim="`brew --prefix`/bin/mvim -v"
     [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
+
 fi
 
