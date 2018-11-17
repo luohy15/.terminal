@@ -1,0 +1,73 @@
+session_name: root
+windows:
+- focus: 'true'
+  layout: ce3d,174x48,0,0,0
+  options:
+    automatic-rename: 'off'
+  panes:
+  - pane
+  start_directory: /root/.terminal
+  window_name: zsh
+- layout: ce3e,174x48,0,0,1
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /root
+  window_name: zsh
+- layout: ce3f,174x48,0,0,2
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /root
+  window_name: zsh
+- layout: ce40,174x48,0,0,3
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /root
+  window_name: zsh
+- layout: ce41,174x48,0,0,4
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /root
+  window_name: zsh
+- layout: ce42,174x48,0,0,5
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /root
+  window_name: zsh
+- layout: ce43,174x48,0,0,6
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /root
+  window_name: zsh
+- layout: ce44,174x48,0,0,7
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /root
+  window_name: zsh
+- layout: ce45,174x48,0,0,8
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /root
+  window_name: zsh
+- layout: ce46,174x48,0,0,9
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /root
+  window_name: zsh

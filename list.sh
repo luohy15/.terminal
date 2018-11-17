@@ -1,0 +1,17 @@
+LIST=(
+"cmake"
+"zsh"
+"tmux"
+"vim"
+"git"
+"autojump"
+"autojump-zsh"
+"python-pip"
+"ctags"
+)
+PIP_LIST=(
+"powerline-status"
+"tmuxp"
+)
+NPM_LIST=(
+)

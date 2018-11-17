@@ -16,6 +16,17 @@ call plug#begin('~/.vim/plugged')
 Plug 'christoomey/vim-tmux-navigator'
 if v:version >= 801
     Plug 'Valloric/YouCompleteMe'
+    Plug '/usr/local/opt/fzf'
+    Plug 'junegunn/fzf.vim'
+    if executable('rg')
+        let $FZF_DEFAULT_COMMAND = 'rg --files --no-messages "" .'
+    endif
+    let g:fzf_command_prefix = 'Fzf'
+    nnoremap <c-p> :FzfFiles<cr>
+    nnoremap <c-t> :FzfTags<cr>
+    nnoremap <leader>j :call fzf#vim#tags("'".expand('<cword>'))<cr>
+else
+    Plug 'kien/ctrlp.vim'
 endif
 " Plug 'scrooloose/syntastic'
 Plug 'scrooloose/nerdtree'
@@ -32,23 +43,6 @@ Plug 'raimondi/delimitmate'
 " Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 
 " search
-if (executable('fzf') && s:distro != "centos")
-    Plug '/usr/local/opt/fzf'
-    Plug 'junegunn/fzf.vim'
-else
-    Plug 'kien/ctrlp.vim'
-endif
-if executable('rg')
-  let $FZF_DEFAULT_COMMAND = 'rg --files --no-messages "" .'
-endif
-let g:fzf_command_prefix = 'Fzf'
-if (executable('fzf') && s:distro != "centos")
-  nnoremap <c-p> :FzfFiles<cr>
-  nnoremap <c-t> :FzfTags<cr>
-  nnoremap <leader>j :call fzf#vim#tags("'".expand('<cword>'))<cr>
-else
-  nnoremap <leader>v :CtrlP<Space><cr>
-endif
 " Plug 'easymotion/vim-easymotion'
 " Plug 'rking/ag.vim'
 " Plug 'mileszs/ack.vim'

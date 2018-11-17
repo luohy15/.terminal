@@ -13,7 +13,7 @@ done
 ## subdirs
 for dir in .vim .config
 do
-    if [[ ! -d ~/$dir ]]
+    if [ ! -d ~/$dir ]
     then
         mkdir ~/$dir
     fi
