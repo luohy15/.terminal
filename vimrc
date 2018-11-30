@@ -44,12 +44,12 @@ Plug 'raimondi/delimitmate'
 
 " search
 " Plug 'easymotion/vim-easymotion'
-" Plug 'rking/ag.vim'
+Plug 'rking/ag.vim'
 " Plug 'mileszs/ack.vim'
 " Plug 'dyng/ctrlsf.vim'
 
 " go
-" Plug 'fatih/vim-go'
+Plug 'fatih/vim-go'
 
 " cpp
 " Plug 'vim-scripts/OmniCppComplete'
@@ -66,7 +66,7 @@ Plug 'raimondi/delimitmate'
 " other language
 " Plug 'klen/python-mode'
 " Plug 'vim-scripts/pythoncomplete'
-" Plug 'mattn/emmet-vim'
+Plug 'mattn/emmet-vim'
 " Plug 'tmhedberg/simpylfold'
 " Plug 'vim-scripts/indentpython.vim'
 " Plug 'nvie/vim-flake8'
@@ -76,6 +76,7 @@ Plug 'raimondi/delimitmate'
 " Plug 'xuyuanp/nerdtree-git-plugin'
 " Plug 'ervandew/eclim'
 " Plug 'shirk/vim-gas'
+Plug 'wakatime/vim-wakatime'
 
 " doc
 " Plug 'CodeFalling/fcitx-vim-osx'

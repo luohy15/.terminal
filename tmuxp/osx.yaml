@@ -1,6 +1,7 @@
 session_name: osx
 windows:
-- layout: e112,173x45,0,0,23
+- focus: 'true'
+  layout: 60e2,238x54,0,0,13
   options:
     automatic-rename: 'off'
   panes:
@@ -8,7 +9,7 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv/.terminal
   window_name: terminal
-- layout: e113,173x45,0,0,24
+- layout: 60e3,238x54,0,0,14
   options:
     automatic-rename: 'off'
   panes:
@@ -16,68 +17,67 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv/src/project/programming_basic/leetcode
   window_name: leetcode
-- layout: e114,173x45,0,0,25
-  options:
-    automatic-rename: 'off'
-  panes:
-  - focus: 'true'
-    shell_command: Vim
-  start_directory: /Users/rv/Downloads/spark-2.3.2-bin-hadoop2.7
-  window_name: spark-sample
-- layout: e118,173x45,0,0,48
+- layout: 60e4,238x54,0,0,15
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /Users/rv/IdeaProjects/sparkdemo
-  window_name: spark-demo
-- focus: 'true'
-  layout: 8020,173x45,0,0{86x45,0,0,56,86x45,87,0,57}
+  start_directory: /Users/rv
+  window_name: zsh
+- layout: 60e5,238x54,0,0,16
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
-    shell_command: Vim
-  - zsh
-  start_directory: /Users/rv/Downloads/scala
-  window_name: scala
-- layout: 611a,173x45,0,0,59
+    shell_command: zsh
+  start_directory: /Users/rv
+  window_name: zsh
+- layout: 60e6,238x54,0,0,17
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv
+  window_name: zsh
+- layout: 60e8,238x54,0,0,19
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv
+  window_name: zsh
+- layout: e0e7,238x54,0,0,28
   options: {}
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /Users/rv/src/refer/scala-impatient
-  window_name: zsh
-- layout: e118,173x45,0,0,29
-  options:
-    automatic-rename: 'off'
-  panes:
-  - focus: 'true'
-    shell_command: zsh
-  start_directory: /Users/rv/src/notes
-  window_name: note
-- layout: 6110,173x45,0,0,30
-  options:
-    automatic-rename: 'off'
-  panes:
-  - focus: 'true'
-    shell_command: zsh
-  start_directory: /Users/rv/Downloads
-  window_name: zsh
-- layout: 6111,173x45,0,0,31
-  options:
-    automatic-rename: 'off'
-  panes:
-  - focus: 'true'
-    shell_command: zsh
   start_directory: /Users/rv
   window_name: zsh
-- layout: 6112,173x45,0,0,32
+- layout: e0e0,238x54,0,0,21
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /Users/rv
-  window_name: zsh
+  start_directory: /Users/rv/src/project/myself/naive
+  window_name: naive
+- layout: e0e1,238x54,0,0,22
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Library/Ruby/Gems/2.3.0/gems/minima-2.5.0
+  window_name: minima
+- layout: 64f4,238x54,0,0{119x54,0,0,23,118x54,120,0,43}
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  - pane
+  start_directory: /Users/rv/src/project/myself/luohy15.github.io
+  window_name: jekyll
