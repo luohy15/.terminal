@@ -18,6 +18,14 @@ if v:version >= 801
     Plug 'Valloric/YouCompleteMe'
     Plug '/usr/local/opt/fzf'
     Plug 'junegunn/fzf.vim'
+    Plug 'scrooloose/nerdtree'
+    Plug 'jistr/vim-nerdtree-tabs'
+    Plug 'raimondi/delimitmate'
+    Plug 'majutsushi/tagbar'
+    Plug 'junegunn/vim-easy-align'
+    Plug 'mattn/emmet-vim'
+    Plug 'fatih/vim-go'
+    Plug 'wakatime/vim-wakatime'
     if executable('rg')
         let $FZF_DEFAULT_COMMAND = 'rg --files --no-messages "" .'
     endif
@@ -29,13 +37,9 @@ else
     Plug 'kien/ctrlp.vim'
 endif
 " Plug 'scrooloose/syntastic'
-Plug 'scrooloose/nerdtree'
-Plug 'jistr/vim-nerdtree-tabs'
 " Plug 'fholgado/minibufexpl.vim'
-Plug 'majutsushi/tagbar'
 Plug 'scrooloose/nerdcommenter'
 " Plug 'skywind3000/asyncrun.vim'
-Plug 'raimondi/delimitmate'
 " Plug 'jiangmiao/auto-pairs'
 " Plug 'alpertuna/vim-header'
 " Plug 'terryma/vim-multiple-cursors'
@@ -49,7 +53,6 @@ Plug 'rking/ag.vim'
 " Plug 'dyng/ctrlsf.vim'
 
 " go
-Plug 'fatih/vim-go'
 
 " cpp
 " Plug 'vim-scripts/OmniCppComplete'
@@ -66,7 +69,6 @@ Plug 'fatih/vim-go'
 " other language
 " Plug 'klen/python-mode'
 " Plug 'vim-scripts/pythoncomplete'
-Plug 'mattn/emmet-vim'
 " Plug 'tmhedberg/simpylfold'
 " Plug 'vim-scripts/indentpython.vim'
 " Plug 'nvie/vim-flake8'
@@ -76,7 +78,6 @@ Plug 'mattn/emmet-vim'
 " Plug 'xuyuanp/nerdtree-git-plugin'
 " Plug 'ervandew/eclim'
 " Plug 'shirk/vim-gas'
-Plug 'wakatime/vim-wakatime'
 
 " doc
 " Plug 'CodeFalling/fcitx-vim-osx'
@@ -198,6 +199,9 @@ nnoremap <Leader>l <C-w>5>
 " encoding
 set encoding=utf-8
 set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1
+
+xmap ga <Plug>(EasyAlign)
+nmap ga <Plug>(EasyAlign)
 
 " snipmate
 " imap <C-j> <ESC>a<Plug>snipMateNextOrTrigger
