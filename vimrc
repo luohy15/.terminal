@@ -160,9 +160,10 @@ set nowritebackup
 " set foldmethod=syntax
 set mouse=nicr
 set ttymouse=xterm2
-set clipboard=unnamedplus
-if (s:uname == "Darwin")
+if v:version <= 740 || s:uname == "Darwin"
     set clipboard=unnamed
+else
+    set clipboard=unnamedplus
 endif
 set pastetoggle=<F5>
 

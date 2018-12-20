@@ -99,7 +99,7 @@ alias paclf='sudo pacman -Ql'   # list files
 # other aliases
 alias tmux="tmux -2"
 alias cp="cp -i"
-alias mv="cp -i"
+alias mv="mv -i"
 alias rm="rm -i"
 alias cl="clear"
 alias tgz='tar -zxvf'
