@@ -281,3 +281,2973 @@
   281* tmux a
   282  ls
   283  cd history
+    1  exit
+    2  do-release-upgrade
+    3  ls
+    4  exit
+    5  ls
+    6  rm _vimrc
+    7  ls
+    8  rm .zshrc
+    9  mv .zshrc.pre-oh-my-zsh .zshrc
+   10  ll
+   11  exit
+   12  ls
+   13  cd .terminal
+   14  vim setup.sh
+   15  bash setup.sh
+   16  tmux
+   17  ls
+   18  vim
+   19  ls
+   20  which autojump
+   21  autojump
+   22  where autojump
+   23  whereis autojump
+   24  cd /usr/share/autojump
+   25  ls
+   26  cd ~/.terminal
+   27  vim
+   28  gst
+   29  gd
+   30  vim
+   31  vim zshrc
+   32  exit
+   33  ls
+   34  j a
+   35  tmux a
+   36  tmux
+   37  cd .terminal
+   38  ls
+   39  tmuxp freeze root
+   40  ls
+   41  gst
+   42  gd
+   43  ls
+   44  vim
+   45  vim setup.sh
+   46  vim --version
+   47  vim setup.sh
+   48  gst
+   49  gco vimrc
+   50  vim
+   51  ls
+   52  vim
+   53  ls
+   54  gst
+   55  gd
+   56  ls
+   57  cat a.cpp
+   58  mkdir -p src/playground
+   59  mv a.cpp src/playground
+   60  mv test.cpp src/playground
+   61  ls
+   62  rm a
+   63  rm test
+   64  ls
+   65  rm test1.img q
+   66  ls
+   67  cat 2txt
+   68  rm 2txt
+   69  ls
+   70  cd src/playground
+   71  ls
+   72  cd ..
+   73  ls
+   74  mkdir project
+   75  mkdir refer
+   76  ld
+   77  ls
+   78  cd refer
+   79  ls
+   80  gcl https://github.com/yifeih/redbase.git
+   81  ls
+   82  mv redbase redbase1
+   83  gcl https://github.com/junkumar/redbase.git
+   84  mv redbase redbase2
+   85  ls
+   86  gcl https://github.com/adityabhandari1992/cs346-redbase.git
+   87  ls
+   88  cd ../project
+   89  ls
+   90  gcl git@github.com:sth1997/naiveDB.git
+   91  cd src/refer/redbase1
+   92  ls
+   93  cd src/refer/redbase2
+   94  ls
+   95  cd src/refer/cs346-redbase
+   96  ls
+   97  cd naiveDB
+   98  ls
+   99  cd src
+  100  ls
+  101  make
+  102  cd ..
+  103  ls
+  104  mkdir build
+  105  cd src
+  106  make
+  107  cd ..
+  108  mkdir lib
+  109  ls
+  110  cd src
+  111  make
+  112  make clean
+  113  make testers
+  114  ls
+  115  gcb luohy
+  116  ggpull
+  117  ls
+  118  make
+  119  make testers
+  120  vim
+  121  make testers
+  122  glgg
+  123  ls
+  124  cd ..
+  125  ls
+  126  cd lib
+  127  ls
+  128  cd ..
+  129  ls
+  130  cd build
+  131  ls
+  132  cd ..
+  133  make clean
+  134  make
+  135  make testers
+  136  vim  setup.sh
+  137  bash setup.sh
+  138  ls
+  139  s
+  140  j nai
+  141  cd src
+  142  make
+  143  make testers
+  144  j nai
+  145  make clean
+  146  make
+  147  ls
+  148  cd ..
+  149  ls
+  150  cd src
+  151  make clean
+  152  ls
+  153  cd ..
+  154  ls
+  155  cd src
+  156  ls
+  157  make
+  158  make clean
+  159  make
+  160  ls
+  161  make testers
+  162  ls
+  163  make testers
+  164  ls
+  165  gst
+  166  gd
+  167  make clean
+  168  make
+  169  make testers
+  170  ./rm_test 1
+  171  ./rm_test 2
+  172  vim
+  173  gst
+  174  gco rm_test.cc
+  175  gst
+  176  make testers
+  177  vim
+  178  make testers
+  179  ls
+  180  ./rm_test 1
+  181  ./rm_test 2
+  182  ls
+  183  gst
+  184  gd
+  185  man g++
+  186  ls
+  187  gst
+  188  gd
+  189  glgg
+  190  gst
+  191  gd
+  192  ls
+  193  vim setup.sh
+  194  bash setup.sh
+  195  ls
+  196  cat setup.sh
+  197  agi nodejs
+  198  \M-^V
+  199  npm install
+  200  agi npm
+  201  vim
+  202  ls
+  203  npm install
+  204  ls
+  205  cd ..
+  206  ls
+  207  vim package.json
+  208  gst
+  209  gd
+  210  npm install
+  211  commitizen init cz-conventional-changelog --save-dev --save-exact
+  212  npm install commitizen -g
+  213  ls
+  214  gst
+  215  gco vimrc
+  216  gst
+  217  vim
+  218  gst
+  219  vim
+  220  gd vimrc
+  221  commitizen init cz-conventional-changelog --save-dev --save-exact
+  222  ls
+  223  node
+  224  agi node
+  225  agi nodejs
+  226  curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
+  227  ping -c3 www.baidu.com
+  228  curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
+  229  agi nodejs -y
+  230  vim
+  231  df -h
+  232  agi nodejs -y
+  233  export NODE_MIRROR=https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/
+  234  agi nodejs -y
+  235  ls
+  236  gst
+  237  gd
+  238  vim
+  239  gst
+  240  gd
+  241  agi nodejs -y
+  242  uls
+  243  vim /etc/apt/sources.list
+  244  agu
+  245  agi nodejs -y
+  246  ls
+  247  cd /etc/apt/sources.list.d
+  248  ls
+  249  cat nodesource.list
+  250  ls
+  251  rm nodesource.list
+  252  cd `
+  253  ~
+  254  agi nodejs -y
+  255  agu
+  256  commitizen init cz-conventional-changelog --save-dev --save-exact
+  257  ls
+  258  agi npm
+  259  nodejs -v
+  260  vim
+  261  apt remove nodejs
+  262  npm -v
+  263  node -v
+  264  curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
+  265  agi nodejs -y
+  266  ping deb.nodeousrce.com
+  267  ping deb.nodesource.com
+  268  ls
+  269  vim
+  270  gst
+  271  gd
+  272  ls
+  273  gst
+  274  gcam "fix(make): adjust link order"
+  275  exit
+  276  tmux a
+  277  vim ~/.gitconfig
+  278  gst
+  279  gcam "fix(make): adjust link order"
+  280  glgg
+  281  gcm
+  282  glgg
+  283  gst
+  284  gd
+  285  gco -
+  286  gst
+  287  vim
+  288  ls
+  289  vim
+  290  vim --version | grep clip
+  291  agi -y vim-nox
+  292  vim --version | grep clip
+  293  agi -y vim-gtk
+  294  vim --version | grep clip
+  295  vim
+  296  ls
+  297  tmux a
+  298  gst
+  299  gd
+  300  bash setup.sh
+  301  gst
+  302  gd
+  303  gcam "setup"
+  304  gst
+  305  glgg
+  306  git reset 17e5
+  307  gst
+  308  ga .
+  309  gcam "setup"
+  310  ggpush
+  311  tmux a
+  312  ggpull
+  313  ls
+  314  exit
+  315  ls
+  316  ls -tr
+  317  ll -tr
+  318  ll
+  319  ls -t
+  320  ll -t
+  321  exit
+  322  hostnamectl
+  323  localectl
+  324  timedatectl
+  325  loginctl
+  326  loginctl list-sessions
+  327  loginctl show-user root
+  328  systemctl status
+  329  ls
+  330  tmux a
+  331  vim /etc/nginx/nginx.conf
+  332  exit
+  333  tmux a
+  334  ls
+  335  vim README.md
+  336  vim README
+  337  ls
+  338  gst
+  339  gd
+  340  vim
+  341  ls
+  342  pwd
+  343  tmux a
+  344  tmuxp freeze
+  345  tmuxp freeze naiveDB-root
+  346  ls
+  347  gst
+  348  cd .terminal
+  349  gst
+  350  gd
+  351  reboot
+  352  tmuxp load naiveDB-root
+  353  ls
+  354  gst
+  355  vim
+  356  ggpull
+  357  tmux -V
+  358  vim
+  359  tmux -V | grep 1\.
+  360  tmux -V | grep 1
+  361  tmux -V | grep 2\.
+  362  gst
+  363  gd
+  364  ip addr
+  365  gst
+  366  gco .
+  367  ggpull
+  368  ls
+  369  vim
+  370  ls
+  371  vim --version | grep clip
+  372  ls
+  373  tmux a
+  374  tmux ls
+  375  ls
+  376  cd beautiful
+  377  ls
+  378  vim --version |grep clip
+  379  tmux a
+  380  vim
+  381  ls
+  382  tmux a
+  383  tmux -V | grep ls2\.
+  384  ls
+  385  gcl https://github.com/imsun/gh-oauth-server.git
+  386  ls
+  387  systemctl status
+  388  systemctl status nginx
+  389  sudo systemctl status nginx
+  390  vim /etc/nginx/sites-enabled
+  391  systemctl restart nginx
+  392  ls
+  393  cd gh
+  394  cd gh-oauth-server
+  395  ls
+  396  curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
+  397  apt-get install -y nodejs
+  398  ls
+  399  npm install
+  400  npm start
+  401  ls
+  402  gcl git@github.com:luohy15/gitment.git
+  403  cd gitment
+  404  ls
+  405  vim
+  406  ls
+  407  gd
+  408  gcam "fix [object ProgressEvent]"
+  409  ggpush
+  410  ls
+  411  npm run build
+  412  npm install
+  413  npm audit
+  414  npm audit fix
+  415  npm run build
+  416  ls
+  417  vim /etc/nginx/sites-enabled
+  418  pwd
+  419  systemctl restart nginx
+  420  ls
+  421  cd gitment
+  422  ls
+  423  cd style
+  424  ls
+  425  gst
+  426  gd
+  427  vim
+  428  npm run build
+  429  ls
+  430  vim
+  431  npm run dev
+  432  npm run build
+  433  cd ..
+  434  ls
+  435  gst
+  436  gd
+  437  vim
+  438  gd
+  439  vim
+  440  npm run build
+  441  gst
+  442  gd
+  443  npm run build
+  444  gst
+  445  gd
+  446  ls
+  447  vim /etc/nginx/sites-enabled/default
+  448  vim
+  449  ls
+  450  certbox
+  451  certbot
+  452  certbot --nginx
+  453  certbot --nginx certonly
+  454  vim /etc/nginx/sites-enabled/default
+  455  certbot --nginx certonly
+  456  certbot renew --dry-run
+  457  cd ~
+  458  systemctl restart nginx
+  459  gst
+  460  gd
+  461  npm run build
+  462  systemctl restart nginx
+  463  ls
+  464  cd ..
+  465  ls
+  466  cd gh-oauth-server
+  467  ls
+  468  npm run dev
+  469  npm start
+  470  gst
+  471  gd
+  472  vim
+  473  ls
+  474  npm run build
+  475  systemctl restart nginx
+  476  npm run build
+  477  systemctl restart nginx
+  478  npm run build
+  479  systemctl restart nginx
+  480  ls
+  481  vim /etc/nginx/nginx.conf
+  482  certbot --nginx
+  483  npm run build
+  484  certbot --nginx
+  485  vim /etc/nginx/sites-enabled/default
+  486  ls
+  487  tmux a
+  488  glgg
+  489  gst
+  490  gd
+  491  glgg
+  492  grh 474a
+  493  glgg
+  494  gst
+  495  gd
+  496  gcam "fix [object ProgressEvent]"
+  497  ggpush -f
+  498  git remote -v
+  499  ggpush -f
+  500  cd ~/.ssh
+  501  ls
+  502  cat id_rsa
+  503  cat id_rsa.pub
+  504  ls
+  505  vim test.cpp
+  506  ls
+  507  tmux a
+  508  ls
+  509  cd ~
+  510  ls
+  511  g++ -o a test.cpp
+  512  vim
+  513  g++ -o a test.cpp --std=c++11
+  514  ./a
+  515  time ./a
+  516  g++ -o a test.cpp --std=c++11
+  517  time ./a
+  518  g++ -o a test.cpp --std=c++11 && time ../a
+  519  g++ -o a test.cpp --std=c++11 && time ./a
+  520  j le
+  521  cd ~/src/playground
+  522  ls
+  523  cd ..
+  524  ls
+  525  cd refer
+  526  ls
+  527  cd ..
+  528  ls
+  529  tmux a
+  530  tmux
+  531  curl -fsSL https://filebrowser.github.io/get.sh | bash
+  532  ls
+  533  mkdir file
+  534  mv linux-amd64-filebrowser.tar.gz file
+  535  ls
+  536  cd file
+  537  ls
+  538  tar xzf linux-amd64-filebrowser.tar.gz
+  539  ls
+  540  cd fi
+  541  ./filebrowser 
+  542  ldd -version
+  543  ldd --version
+  544  tmux a
+  545  ls
+  546  tmux a
+  547  ls
+  548  cd ~
+  549  ls
+  550  gcl https://github.com/mailgyc/doudizhu.git
+  551  mysql
+  552  agi mysql-server
+  553  mysql_secure_installation 
+  554  ls
+  555  mysql
+  556  mysql_secure_installation 
+  557  mysql
+  558  mysql -p zdwyljty1
+  559  mysql -p
+  560  ls
+  561  cd doudizhu
+  562  ls
+  563  vim
+  564  ls
+  565  mysql --user=root -p < schema.sql
+  566  pip3 install -r requirements.txt
+  567  agi python-pip
+  568  agi python3-pip
+  569  python3 app.py --password=zdwyljty1
+  570  pip3 install -r requirements.txt
+  571  python3 app.py --password=zdwyljty1
+  572  gst
+  573  gd
+  574  gco .
+  575  python3 app.py --password=zdwyljty1
+  576  vim
+  577  python3
+  578  python3 app.py --password=zdwyljty1
+  579  gst
+  580  gd
+  581  gco .
+  582  python3
+  583  agi
+  584  agu
+  585  agi python3.6
+  586  add-apt-repository ppa:jonathonf/python-3.6
+  587  agu
+  588  agi python3.6
+  589  python3.6 app.py --password=zdwyljty1
+  590  pip3 install -r requirements.txt
+  591  pip3 install -r requirements.txt --upgrade
+  592  python3.6 -m pip install -r requirements.txt
+  593  python3.6 app.py --password=zdwyljty1
+  594  ls
+  595  sudo vim /etc/networks
+  596  sudo vim /etc/network/interfaces
+  597  cd ~
+  598  ls
+  599  vim /etc/network/interfaces.d/
+  600  ip addr
+  601  ipconfig
+  602  ifconfig
+  603  ifcofnig
+  604  ifconfig
+  605  exit
+  606  tmux a
+  607  ls
+  608  gcb sth-dev
+  609  ggpull
+  610  gst
+  611  gd
+  612  glgg
+  613  grhh bfe064e
+  614  gcm
+  615  gst
+  616  ggpull
+  617  gco -
+  618  grbm
+  619  ggpull
+  620  gco luohy
+  621  grbm
+  622  grhh bfe064e
+  623  grbm
+  624  lgg
+  625  glgg
+  626  grhh 6688
+  627  gst
+  628  gcm
+  629  gst
+  630  gd
+  631  grbc
+  632  grb --continue
+  633  gst
+  634  alias | grep rebase
+  635  grbc
+  636  gst
+  637  glgg
+  638  ggpull
+  639  cd ..
+  640  ls
+  641  rm -rf naiveDB
+  642  gcl git@github.com:sth1997/naiveDB.git
+  643  ls
+  644  cd naiveDB
+  645  ls
+  646  cd ~
+  647  tmux a
+  648  exit
+  649  tmux a
+  650  ls
+  651  make
+  652  ls
+  653  cd ~
+  654  ls
+  655  cd src/project/naiveDB
+  656  ls
+  657  cd src
+  658  ls
+  659  make
+  660  cd ~
+  661  ls
+  662  cd src/project/naiveDB
+  663  ls
+  664  mkdir build
+  665  mkdir lib
+  666  make
+  667  ls
+  668  gcb sth
+  669  gcm
+  670  gcb sth-dev
+  671  ggpull
+  672  make
+  673  vim
+  674  make
+  675  ls
+  676  ./gtest
+  677  ls
+  678  make
+  679  ./gtest
+  680  ls
+  681  tmux a
+  682  ls
+  683  ls -l /bin/sh
+  684  dash
+  685  man dash
+  686  ls
+  687  ping huayiluo.xyz
+  688  ls
+  689  tmux a
+  690  vim
+  691  ls
+  692  vim /etc/profile
+  693  ls
+  694  vim /etc/profile
+  695  ls
+  696  echo $-
+  697  aptitute
+  698  aptitude
+  699  apt
+  700  apt show ls
+  701  apt show vim
+  702  apt
+  703  apt list vim
+  704  apt list vim -a
+  705  apg search vim
+  706  apt search vim
+  707  ls
+  708  vim -v-ersion
+  709  vim --version
+  710  cd .vim/co
+  711  cd .vim/config
+  712  ls
+  713  cd ~
+  714  reboot
+  715  tmux a
+  716  tmuxp load naiveDB-root
+  717* gst
+  718* gd
+  719* gcm
+  720* gst
+  721* gco .
+  722* ggpull
+  723* ~
+  724* j src
+  725* make && ./gtest
+  726* htop
+  727* agi htop
+  728* htop
+  729* ls
+  730* tmux a
+  731* cd ..
+  732* ls
+  733* make src/
+  734* cd src
+  735* ls
+  736* make
+  737* cd ..
+  738* ./src/gtest
+  739* g++ --version
+  740* gcc --version
+  741* ls
+  742* vim Dockerfile
+  743* ls
+  744* docker build -t .
+  745* docker build .
+  746* htop
+  747* docker ps
+  748* ls
+  749* docker ps
+  750* docker ps -a
+  751* docker exec -it 4eea34053d57 /bin/sh
+  752* docker exec -it fa349afea357 /bin/sh
+  753* docker start fa349afea357
+  754* docker ps
+  755* docke ps -a
+  756* docker ps -a
+  757* ls
+  758* vim Dockerfile
+  759* docker build . -t cxx
+  760* ls
+  761* gco luohy
+  762* ggpull
+  763* ls
+  764* docker build . -t cxx
+  765* gst
+  766* gd
+  767* glgg
+  768* make
+  769* cd src
+  770* make
+  771* make -j4
+  772* vim
+  773* make -j4
+  774* docker build . -t cxx
+  775* cd ..
+  776* docker build . -t cxx
+  777* docker ps
+  778* docker ps -a
+  779* docker rm fa349afea357 2a2b0871a75d c2600667d60e
+  780* docker images
+  781* docker rmi $(docker images -f dangling=true -q)
+  782* docker images
+  783* docker run cxx
+  784* docker ps
+  785* vim Dockerfile
+  786* docker rmi cxx
+  787* docker ps
+  788* docker ps -a
+  789* docker rm b0ec78106bd9
+  790* docker rmi cxx
+  791* docker ps
+  792* gst
+  793* gd
+  794* gco .
+  795* gst
+  796* cat Dockerfile
+  797* rm Dockerfile
+  798* ls
+  799* docker ps
+  800* jenkins
+  801* agi jenkins
+  802* wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+  803* sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+  804* agu
+  805* agi jenkins
+  806* systemctl status nginx
+  807* systemctl status jenkins
+  808* agi java
+  809* agi openjdg
+  810* agi openjdk
+  811* agi default-jdk
+  812* systemctl status jenkins
+  813* systemctl restart jenkins
+  814* systemctl status jenkins
+  815* cat /var/log/jenkins/jenkins.log
+  816* systemctl status jenkins
+  817* systemctl stop jenkins
+  818* systemctl start jenkins
+  819* systemctl status jenkins
+  820* systemctl stop jenkins
+  821* docker run \\n  --rm \\n  -u root \\n  -p 8080:8080 \\n  -v jenkins-data:/var/jenkins_home \\n  -v /var/run/docker.sock:/var/run/docker.sock \\n  -v "$HOME":/home \\n  jenkinsci/blueocean
+  822* ls
+  823* docker ps
+  824* systemctl status jenkins
+  825* systemctl stop jenkins
+  826* systemctl status jenkins
+  827* docker run -d \\n  --rm \\n  -u root \\n  -p 8080:8080 \\n  -v jenkins-data:/var/jenkins_home \\n  -v /var/run/docker.sock:/var/run/docker.sock \\n  -v "$HOME":/home \\n  jenkinsci/blueocean
+  828* docker ps
+  829* ls
+  830* gst
+  831* gd
+  832* cat Dockerfile
+  833* rm Dockerfile
+  834* ls
+  835* gcm
+  836* ggpull
+  837* ls
+  838* make -j4 && ./gte
+  839* cd src
+  840* make -j4 && ./gtest
+  841* ls
+  842* tmux ls
+  843* docker ps
+  844* ls
+  845* cd gh-oauth-server
+  846* ls
+  847* gst
+  848* gd
+  849* glgg
+  850* cd ..
+  851* ls
+  852* cd gitment
+  853* gst
+  854* glgg
+  855* gd
+  856* gst
+  857* cd ..
+  858* ls
+  859* cd src
+  860* ls
+  861* cd playground
+  862* gst
+  863* ls
+  864* cat a.cpp
+  865* cd ..
+  866* ls
+  867* cd project
+  868* ls
+  869* cd ..
+  870* ls
+  871* cd  refer
+  872* ls
+  873* ll
+  874* cd ..
+  875* ls
+  876* cat test.cpp
+  877* ls
+  878* rm test.cpp
+  879* ls
+  880* cd doudizhu
+  881* ls
+  882* gst
+  883* gd
+  884* cd .gd
+  885* cd ..
+  886* ls
+  887* cd file
+  888* ls
+  889* cd ..
+  890* ls
+  891* cd src/playground
+  892* ls
+  893* pwd
+  894* ip addr
+  895* pwd
+  896* ls
+  897* vim test.cpp
+  898* ls
+  899* vim a.cpp
+  900* vim test.cpp
+  901* ls
+  902* cd ..
+  903* ls
+  904* cd ..
+  905* ls
+  906* cd beautiful
+  907* ls
+  908* gst
+  909* gd
+  910* cd ..
+  911* ls
+  912* vim /etc/nginx/sites-available/default
+  913* ls
+  914* cd gitment
+  915* ls
+  916* history
+  917  ls
+  918  cd ..
+  919  ls
+  920  cd .terminal
+  921  ls
+  922  gst
+  923  gd
+  924  cd history
+  925  ls
+    1  ls
+    2  vim
+    3  apt install tmux
+    4  tmux
+    5  exit
+    6  ls
+    7  tmux
+    8  chsh -s $(which zsh)
+    9  tmux
+   10  echo $shell
+   11  echo $SHELL
+   12  exit
+   13  tmux
+   14  tmux ls
+   15  tmux a
+   16  ls
+   17  cd .dotfiles
+   18  ./symlink.sh
+   19  tmux
+   20  ~
+   21  tmux
+   22  ls
+   23  vim
+   24  cd .dotfiles
+   25  vim
+   26  ..
+   27  vim
+   28  ..
+   29  ls
+   30  vi
+   31  agi ctags
+   32  vi
+   33  ls
+   34  ~
+   35  git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+   36  ~/.fzf/install
+   37  cd .dotfiles
+   38  vim
+   39  ls
+   40  ..
+   41  ls
+   42  ./symlink.sh
+   43  vim
+   44  ls
+   45  ..
+   46  ls
+   47  vi
+   48  ls
+   49  gst
+   50  ./symlink.sh
+   51  la
+   52  cd .vim
+   53  la
+   54  cd co
+   55  cd colors
+   56  ls
+   57  gst
+   58  ..
+   59  ls
+   60  cd config
+   61  ls
+   62  ..
+   63  vim
+   64  gst
+   65  gco vimrc
+   66  vim
+   67  ls
+   68  ..
+   69  la
+   70  cd .tmux
+   71  ls
+   72  cd plugins
+   73  ls
+   74  cd tpm
+   75  ls
+   76  exit
+   77  tmux a
+   78  ls
+   79  ~
+   80  cl
+   81  htop
+   82  screenfetch
+   83  agi screenfetch
+   84  screenfetch
+   85  uptime
+   86  exit
+   87  ls
+   88  tmux a
+   89  ls
+   90  tmux a
+   91  ls
+   92  gst
+   93  ls
+   94  gst
+   95  gd
+   96  awk
+   97  ls
+   98  tmux a
+   99  ls
+  100  man gcc
+  101  ls
+  102  cdsr
+  103  cd src
+  104  ls
+  105  cd playground
+  106  ls
+  107  vim tmp.c
+  108  gcc tmp.c -E -o tmp.i
+  109  ls
+  110  vim tmp.i
+  111  ..
+  112  cd project
+  113  ls
+  114  cd ucore_os_lab
+  115  ls
+  116  ggpull
+  117  cd labcodes/lab6
+  118  ls
+  119  make grade
+  120  ls
+  121  ..
+  122  ls
+  123  cd lab1
+  124  ls
+  125  make grade
+  126  agi qemu
+  127  agi tmuxp
+  128  pip install --user tmuxp
+  129  agi pip
+  130  agi python-pip
+  131  pip install --user tmuxp
+  132  tmuxp
+  133  pip install --upgrade pip
+  134  tmuxp
+  135  pip install --user tmuxp
+  136  tmuxp
+  137  source .zshrc
+  138  tmuxp
+  139  tmux a
+  140  htop
+  141  agi screenfetch
+  142  screenfetch
+  143  ls
+  144  htop
+  145  ls
+  146  vim
+  147  exit
+  148  screenfetch
+  149  htop
+  150  ls
+  151  cd .dotfiles
+  152  ls
+  153  gst
+  154  gd
+  155  gco .
+  156  ggpull
+  157  source zshrc
+  158  ls
+  159  ~
+  160  vim
+  161  cd .dotfiles
+  162  ./symlink.sh
+  163  vim
+  164  exit
+  165  tmux a
+  166  exit
+  167  ls
+  168  tmux a
+  169  ls
+  170  vim
+  171  cd .dotfiles
+  172  vim
+  173  ..
+  174  vim
+  175  ..
+  176  vi
+  177  gst
+  178  gd
+  179  glgg
+  180  exit
+  181  ls
+  182  tmux a
+  183  ls
+  184  cd src/le
+  185  cd src/project/
+  186  cd ..
+  187  cd playground
+  188  ls
+  189  cat tmp
+  190  ls
+  191  vim tmp.c
+  192  exit
+  193  ls
+  194  tmux a
+  195  ls
+  196  exit
+  197  ls
+  198  tmux a
+  199  ls
+  200  vim
+  201  ..
+  202  vi
+  203  ls
+  204  lscpu
+  205  echo /proc/cpuinfo 
+  206  cat /proc/cpuinfo 
+  207  cat /proc/cpuinfo | grep "^flag"
+  208  cat /proc/cpuinfo | grep "^flags"
+  209  cat /proc/cpuinfo | grep "^flags" | sort
+  210  for i in `cat /proc/cpuinfo | grep "^flags"`; do echo $i; done
+  211  vim
+  212  ..
+  213  vi
+  214  ls
+  215  cl
+  216  for i in `cat /proc/cpuinfo | grep "^flags"`; do echo $i; done
+  217  flag=`cat /proc/cpuinfo | grep "^flags"`; 
+  218  echo $flag
+  219  a=`fuck dzy`
+  220  a="fuck dzy"
+  221  ss="${flag} ${a}"
+  222  echo $ss
+  223  for i in `$ss do echo $i; done
+  224  for i in `$ss; do echo $i; done
+  225  for i in $ss; do echo $i; done
+  226  for i in `cat /proc/cpuinfo | grep "^flags"`; do echo $i; done
+  227  for i in $ss; do echo $i; done
+  228  for i in `echo $ss`; do echo $i; done
+  229  w=`echo $ss`
+  230  echo $w
+  231  echo $ss
+  232  echo [$w -eq $ss]
+  233  echo [$w == $ss]
+  234  echo [$w = $ss]
+  235  echo $w = $ss
+  236  echo `$w = $ss`
+  237  for i in $w; do echo $i; done
+  238  ls
+  239  vi
+  240  ls
+  241  pip install powerline-status
+  242  pip show powerline-status
+  243  ls
+  244  cd src/project
+  245  ls
+  246  gcl git@github.com:luohy15/leetcode.git
+  247  ls
+  248  gst
+  249  gd
+  250  ls
+  251  cd leetcode
+  252  ls
+  253  htop
+  254  ls
+  255  clear
+  256  echo $SHELL
+  257  a="fuck luo hua yi"
+  258  for i in $a; do echo $i; done
+  259  b="fuck\nluo\nhua\nyi"
+  260  for i in $b; do echo $i; done
+  261  bash
+  262  for i in $a; do echo $i ":"; done
+  263  #!/usr/bin/bash
+  264  #!/bin/sh
+  265  /bin/sh
+  266  cd /bin
+  267  ls
+  268  la
+  269  file sui
+  270  file su
+  271  file umount
+  272  ls -al umount
+  273  ./sh
+  274  ls
+  275  tmux a
+  276  exit
+  277  tmux a
+  278  ls
+  279  cd history
+  280  history >> history@vps
+  281  vim history@vps
+  282  uptime
+  283  exit
+  284  ls
+  285  tmux a
+  286  uptime
+  287  gst
+  288  glgg
+  289  gd tmu
+  290  cd ..
+  291  gd tmux.conf
+  292  gco tmux.conf
+  293  ggpull
+  294  ls
+  295  history
+  296  tmux
+  297  tmux a
+  298  vi
+  299  vim
+  300  ls
+  301  tmux a
+  302  ls
+  303  gst
+  304  exit
+  305  ls
+  306  tmux a
+  307  gst
+  308  gd
+  309  ggpull
+  310  ls
+  311  exit
+  312  ls
+  313  exit
+  314  ls
+  315  exit
+  316  ls
+  317  cd .dotfiles/
+  318  gst
+  319  gd
+  320  glgg
+  321  ggpull
+  322  ls
+  323  gst
+  324  cd history
+  325  ls
+  326  cd ~
+  327  ls
+  328  gcl git@github.com:luohy15/.terminal.git
+  329  cd .dotfiles
+  330  ls
+  331  mv history/history@vps ~/.terminal/history/
+  332  ls
+  333  gst
+  334  gd
+  335  cd ..
+  336  ls
+  337  cd .terminal
+  338  ls
+  339  gd
+  340  gst
+  341  sh symlink.sh
+  342  ls
+  343  tmux a
+  344  ls
+  345  ..
+  346  tmuxp load basic
+  347  sudo pip install tmuxp
+  348  tmuxp
+  349  exit
+  350  tmuxp
+  351  sudo -H pip uninstall tmuxp
+  352  sudo -H pip install tmuxp
+  353  tmuxp
+  354  sudo -H pip uninstall tmuxp
+  355  pip install tmuxp
+  356  tmuxp
+  357  tmuxp load basic
+  358  ls
+  359  cd .terminal/tmuxp
+  360  ls
+  361  vim
+  362  ls
+  363  ..
+  364  ~
+  365  tmuxp load basic
+  366  tmux a
+  367  ls
+  368  tmux
+  369  ls
+  370  cd .terminal/m
+  371  cd .terminal/
+  372  vim
+  373  cd .dotfiles
+  374  ls
+  375  cd ..
+  376  ls
+  377  s
+  378  ls
+  379  poweroff
+  380  ls
+  381  ping6 bt.byr.cn
+  382  ping www.baidu.com
+  383  ping6 ipv6.google.com
+  384  ip addr
+  385  ping bt.byr.cn
+  386  ping learn.tsinghua.edu.cn
+  387  ls
+  388  s
+  389  cd /etc/systemd/system/
+  390  ls
+  391  la
+  392  cd ..
+  393  ls
+  394  cd network
+  395  ls
+  396  cd ..
+  397  cd user
+  398  ls
+  399  cd ..
+  400  ls
+  401  cd ~
+  402  ls
+  403  lsmod | grep bbr
+  404  uname -a
+  405  ip -6 addr add 2400:6180:0:d1::563:e001/64 dev eth0
+  406  ip addr
+  407  ip -6 route add default via 2400:6180:0:d1::563:e001 dev eth0
+  408  ping6 ipv6.google.com
+  409  ip addr
+  410  sudo vim /etc/network/interfaces
+  411  reboot
+  412  ping6 ipv6.google.com
+  413  ls
+  414  ip addr
+  415  /etc/init.d/shadowsocks-libev status
+  416  sudo vim /etc/shadowsocks-libev/config.json
+  417  wget -N --no-check-certificate https://softs.fun/Bash/bbr.sh && chmod +x bbr.sh && bash bbr.sh
+  418  bash /root/bbr.sh stasus
+  419  bash /root/bbr.sh status
+  420  ls
+  421  ./bbr.sh stop
+  422  ls
+  423  tmux a
+  424  ls
+  425  exit
+  426  ls
+  427  docker login
+  428  apt install docker
+  429  service docker start
+  430  service dockerd start
+  431  docker
+  432  curl -fsSL get.docker.com -o get-docker.sh
+  433  ls
+  434  sh get-docker.sh
+  435  ls
+  436  docker
+  437  docker info
+  438  docker login
+  439  docker run -p 4000:80 luohy15/get-started:part2
+  440  exit
+  441  tmux a
+  442  cd .dotfiles
+  443  ggpull
+  444  cd ..
+  445  ls
+  446  cd .terminal
+  447  ls
+  448  ggpull
+  449  gd
+  450  gst
+  451  ls
+  452  cd ..
+  453  ls
+  454  docker run -d -p 4000:80 luohy15/get-started:part2
+  455  docker container ls
+  456  ls
+  457  tmux a
+  458  tmuxp load basic
+  459  ls
+  460  pwd
+  461  tmux
+  462  ls
+  463  vim
+  464  ls
+  465  cd .terminal
+  466  ls
+  467  vim
+  468  pip install powerline-status
+  469  vim
+  470  uname -a
+  471  uanme -n
+  472  uname -n
+  473  vim
+  474  pip install powerline-status
+  475  vim
+  476  ls
+  477  vim
+  478  source /usr/local/lib/python2.7/dist-packages/powerline/bindings/tmux/powerline.conf
+  479  cd /usr/local/lib/python2.7/dist-packages/powerline/bindings/tmux
+  480  ls
+  481  vim powerline.conf
+  482  powerline-config tmux setup
+  483  cd ~
+  484  ls
+  485  pip uninstall powerline-staus
+  486  pip uninstall powerline-status
+  487  pip3 install powerline-status
+  488  python3
+  489  pip3
+  490  apt install python-pip
+  491  apt install python-pip3
+  492  apt install python3-pip
+  493  source ~/.dotfiles/profile
+  494  cat pro
+  495  cat prof
+  496  cat ~/.dotfiles/profile
+  497  agu
+  498  apt remove python3-pip
+  499  locale
+  500  vim .dotfiles/profile
+  501  ls
+  502  source ~/.dotfiles/profile
+  503  apt install python3-pip
+  504  locale
+  505  pip3
+  506  pip3 install powerline-status
+  507  pip install --upgrade pip
+  508  pip show powerline-status
+  509  pip3 show powerline-status
+  510  pip3 install --upgrade pip
+  511  pip3 install --upgrade pip3
+  512  powerline-config tmux setup
+  513  exit
+  514  tmux
+  515  cd .terminal
+  516  vim
+  517  pip install powerline-status
+  518  pip uninstall powerline-status
+  519  pip install powerline-status
+  520  pip show powerline-status
+  521  vim
+  522  pip show powerline-status
+  523  vim
+  524  pip uninstall powerline-status
+  525  pip3 uninstall powerline-status
+  526  pip install powerline-status
+  527  pip show powerline-status
+  528  pip3 uninstall powerline-status
+  529  pip
+  530  sudo -H pip uninstall powerline-status
+  531  sudo -H pip3 uninstall powerline-status
+  532  sudo -H pip install powerline-status
+  533  ls
+  534  sudo -H pip3 uninstall powerline-status
+  535  sudo -H pip install powerline-status
+  536  sudo -H pip3 uninstall powerline-status
+  537  powerline
+  538  reoobt
+  539  reboot
+  540  ls
+  541  agu
+  542  tmux a
+  543  docker container ls
+  544  docker run -d -p 4000:80 luohy15/get-started:part2
+  545  docker container ls
+  546  ls
+  547  docker images
+  548  vim docker-compose.yml
+  549  docker swarm init
+  550  docker swarm init --advertise 192.168.99.100
+  551  docker swarm init --advertise-addr 192.168.99.100
+  552  docker swarm init --advertise-addr 10.15.0.5
+  553  docker stack deploy -c docker-compose.yml getstartedlab
+  554  docker service ls
+  555  docker service ps getstartedlab_web
+  556  docker images
+  557  vim docker-compose.yml
+  558  docker stack deploy -c docker-compose.yml getstartedlab
+  559  docker service ps getstartedlab_web
+  560  docker service ls
+  561  docker-machine create --driver virtualbox myvm1
+  562  agi docker-machine
+  563  agi docker machine
+  564  base=https://github.com/docker/machine/releases/download/v0.14.0 &&\n  curl -L $base/docker-machine-$(uname -s)-$(uname -m) >/tmp/docker-machine &&\n  sudo install /tmp/docker-machine /usr/local/bin/docker-machine
+  565  ls
+  566  docker-machine
+  567  ls
+  568  docker container ls
+  569  ls
+  570  docker container ls
+  571  docker ps
+  572  ls
+  573  agu
+  574  ls
+  575  cd ~
+  576  s
+  577  cd src
+  578  ls
+  579  cd project
+  580  ls
+  581  cd ~
+  582  ls
+  583  cd src/project
+  584  ls
+  585  gcl git@github.com:luohy15/as-demo.git
+  586  ls
+  587  mv as-demo as_demo
+  588  cd as_demo
+  589  ls
+  590  cd bomb
+  591  ls
+  592  ./makecookie 2015011304
+  593  ls
+  594  ./makecookie
+  595  ls
+  596  ~
+  597  ls
+  598  cd src/project/as_demo
+  599  ls
+  600  cdbo
+  601  cd bomb
+  602  ls
+  603  ./makecookie 2015011304
+  604  la
+  605  ls
+  606  sudo apt-get install libc6:i386 libgcc1:i386 gcc-4.6- base:i386 libstdc++5:i386 libstdc++6:i386
+  607  sudo apt-get install libc6:i386 libgcc1:i386 gcc-4.6-base:i386 libstdc++5:i386 libstdc++6:i386
+  608  ls
+  609  ./bufbomb
+  610  exit
+  611  cd src/project/as_demo
+  612  ls
+  613  cd bomb
+  614  ls
+  615  ./makecookie 2015011304
+  616  ls
+  617  ll
+  618  cat 0.txt
+  619  cat README.md
+  620  ls
+  621  cd src/project/as_demo
+  622  ls
+  623  cd bomb
+  624  ls
+  625  ./makecookie
+  626  bash
+  627  la
+  628  ./makecookie
+  629  ./makecookie 2015011304
+  630  cat makecookie
+  631  ls
+  632  cd src
+  633  ls
+  634  cd project
+  635  ls
+  636  cd leetcode
+  637  ls
+  638  lls
+  639  ls
+  640  gst
+  641  ggpull
+  642  ls
+  643  cd `
+  644  cd ~
+  645  ls
+  646  tmux a
+  647  cd .terminal
+  648  ls
+  649  gst
+  650  gd
+  651  ls
+  652  gd tmux.conf
+  653  ggpull
+  654  ls
+  655  gst
+  656  gd tmux.conf
+  657  ls
+  658  gst
+  659  gd
+  660  ls
+  661  cat history/history@
+  662  cat history/history@v
+  663  cat history/history@vps 
+  664  ls
+  665  pwd
+  666  cd .terminal
+  667  ggpull
+  668  gst
+  669  rm history/history@vps
+  670  ggpull
+  671  gsta
+  672  gco .
+  673  ggpull
+  674  ls
+  675  tmuxp load basic
+  676  ls
+  677  tmuxp
+  678  ls
+  679  ~
+  680  tmux
+  681  ls
+  682  cd .terminal
+  683  ls
+  684  vim
+  685  ls
+  686  pip show powerline-status
+  687  pip install powerline-status
+  688  pip install --upgrade pip
+  689  pip show powerline-status
+  690  pip uninstall powerline-status
+  691  pip2 install powerline-status
+  692  pip2 show powerline-status
+  693  pip install --upgrade pip2
+  694  pip install --upgrade pip
+  695  pip2 install --upgrade pip
+  696  pip show powerline-status
+  697  vim
+  698  uname -n
+  699  ~
+  700  gst
+  701  gco .
+  702  gst
+  703  powerline-config tmux setup
+  704  pip2 uninstall powerline-status
+  705  pip install powerline-status
+  706  pip show powerline-status
+  707  pip2 uninstall powerline-status
+  708  pipp3 install powerline-status
+  709  pip3 install powerline-status
+  710  pip show powerline-status
+  711  pip3  showpowerline-status
+  712  pip3  show powerline-status
+  713  vim
+  714  ls
+  715  vim
+  716  uname -n
+  717  tmux kill-session
+  718  tmux
+  719  ls
+  720  vim .tmux.conf
+  721  uname -n | grep -E 'ubuntu-s-1vcpu-1gb-sgp1-01'
+  722  uname -n | grep -E 'k350c|localhost|ubuntu|rv-S16'
+  723  powerline-config tmux setup
+  724  python
+  725  python3
+  726  agu
+  727  agi python3.6
+  728  sudo add-apt-repository ppa:jonathonf/python-3.6
+  729  agu
+  730  agi python3.6
+  731  sudo update-alternatives --config python3
+  732  sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.5 1
+  733  sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 2
+  734  sudo update-alternatives --config python3
+  735  python3
+  736  pip uninstall powerline-status
+  737  pip2 uninstall powerline-status
+  738  pip3 uninstall powerline-status
+  739  pip3 install powerline-status
+  740  agu
+  741  pip install --upgrade pip
+  742  pip2 install --upgrade pip
+  743  pip3 install --upgrade pip
+  744  agi python-apt
+  745  pip3 install --upgrade pip
+  746  agi python3-apt --reinstall
+  747  pip3 install --upgrade pip
+  748  python
+  749  exit
+  750  python3
+  751  pip3 install --upgrade pip
+  752  epython3 -m pip --version
+  753  python3 -m pip --version
+  754  pip3 --version
+  755  pip3 install --user --upgrade pip
+  756  sudo easy_install3 pip
+  757  pip3 install --user --upgrade pip
+  758  sudo easy_install3 pip
+  759  pip3
+  760  pip3 install powerline-status
+  761  sudo apt remove python-pip
+  762  pip
+  763  pip2
+  764  pip3
+  765  pip3 install powerline-status
+  766  pip2 install powerline-status
+  767  pip2 show powerline-status
+  768  pip show powerline-status
+  769  curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+  770  python get-pip.py --force-reinstall
+  771  pip3
+  772  pip show powerline-status
+  773  pip3 uninstall powerline-status
+  774  pip uninstall powerline-status
+  775  pip install powerline-status
+  776  pip show powerline-status
+  777  pip uninstall powerline-status
+  778  pip3 install powerline-status
+  779  which pip3
+  780  which pip
+  781  which pip2
+  782  python3 get-pip.py --force-reinstall
+  783  pip3 install powerline-status
+  784  pip show powerline-status
+  785  tmux a
+  786  ls
+  787  vim
+  788  pip show powerline-status
+  789  vim
+  790  pip show powerline-status
+  791  powerline-config tmux setup
+  792  ls
+  793  rm get-pip.py
+  794  ls
+  795  cd .terminal
+  796  gst
+  797  gco .
+  798  ggpull
+  799  gd
+  800  git show
+  801  tmux a
+  802  tmux
+  803  ls
+  804  ~
+  805  tmux
+  806  ls
+  807  vim
+  808  cd .terminal
+  809  ls
+  810  vim
+  811  ls
+  812  cd src/project
+  813  ls
+  814  cd as_demo
+  815  ls
+  816  cd bomb
+  817  ls
+  818  ./makecookie
+  819  ls
+  820  ./bufbomb
+  821  ./hex2raw
+  822  ls
+  823  cat 0.txt| ./hex2raw
+  824  ./makecookie
+  825  agi libc6:i386
+  826  agi libc6
+  827  agi libc6:i386
+  828  agi libgcc1:i386
+  829  agi gcc-4.6-base:i386
+  830  agi libstdc++5:i386
+  831  agi libstdc++6:i386
+  832  ls
+  833  sudo vim /etc/apt/sources.list
+  834  ls
+  835  agi libc6:i386
+  836  screenfetch
+  837  agi libc6-i386
+  838  agi libgcc1-i386
+  839  agi libgcc-i386
+  840  agi gcc-4.6-base-i386
+  841  agi libstdc++5-i386
+  842  agi libstdc++6-i386
+  843  ls
+  844  ./makecookie
+  845  ./makecookie 2015011304
+  846  ls
+  847  cat 0.txt| ./hex2raw| ./bufbomb -u 2015011304
+  848  vim
+  849  cat 0.txt| ./hex2raw| ./bufbomb -u 2015011304
+  850  ls
+  851  cat 04txt| ./hex2raw -n | ./bufbomb -n -u 2015011304
+  852  cat 1.txt| ./hex2raw| ./bufbomb -u 2015011304
+  853  cat 2.txt| ./hex2raw| ./bufbomb -u 2015011304
+  854  cat 3.txt| ./hex2raw| ./bufbomb -u 2015011304
+  855  cat 34.txt| ./hex2raw| ./bufbomb -n -u 2015011304
+  856  cat 34.txt| ./hex2raw -n | ./bufbomb -n -u 2015011304
+  857  cat 3.txt| ./hex2raw -n | ./bufbomb -n -u 2015011304
+  858  cat 34txt| ./hex2raw -n | ./bufbomb -n -u 2015011304
+  859  cat 4.txt| ./hex2raw -n | ./bufbomb -n -u 2015011304
+  860  cat exploit.txt| ./hex2raw| ./bufbomb -u bovik
+  861  ls
+  862  cat 0.txt| ./hex2raw > 0.tmp
+  863  sudo update-alternatives --config python3
+  864  python
+  865  python3
+  866  pip3
+  867  pip3 install powerline-status
+  868  powerline-config tmux setup
+  869  pip install --user git+git://github.com/powerline/powerline
+  870  pip show powerline-status
+  871  powerline-config tmux setup
+  872  sudo powerline-config tmux setup
+  873  sudo -H pip3 uninstall powerline-status
+  874  sudo powerline-config tmux setup
+  875  sudo -H pip  uninstall powerline-status
+  876  sudo powerline-config tmux setup
+  877  sudo -H pip install powerline-status
+  878  pip show powerline-status
+  879  powerline-config tmux setup
+  880  agi powerline
+  881  powerline-config tmux setup
+  882  agi powerline-fonts
+  883  agi powerline-font
+  884  ls
+  885  git clone https://github.com/powerline/fonts.git && cd fonts && sh ./install.sh
+  886  powerline-config tmux setup
+  887  sudo pip install powerline-status
+  888  sudo apt-get install python-pip or wget https://bootstrap.pypa.io/get-pip.py && sudo python get-pip.py
+  889  python
+  890  sudo pip uninstall powerline-status
+  891  sudo pip2 install powerline-status
+  892  pip show powerline-status
+  893  powerline-config tmux setup
+  894  sudo pip uninstall powerline-status
+  895  sudo pip2 install powerline-status
+  896  pip show powerline-status
+  897  pip2 show powerline-status
+  898  powerline-config tmux setup
+  899  ls
+  900  cd ~
+  901  ls
+  902  powerline-config tmux setup
+  903  ls
+  904  powerline-config tmux setup
+  905  tmux a
+  906  tmux
+  907  powerline-config tmux setup
+  908  pip2 show powerline-status
+  909  pip show powerline-status
+  910  pip  uninstall powerline-status
+  911  pip2  uninstall powerline-status
+  912  pip  uninstall powerline-status
+  913  pip show powerline-status
+  914  pip2 show powerline-status
+  915  pip 3show powerline-status
+  916  pip3 show powerline-status
+  917  apt remove python3-pip
+  918  apt remove python3.6
+  919  ls
+  920  sudo apt-get install python-pi
+  921  sudo apt-get install python-pip
+  922  sudo pip install powerline-status
+  923  sudo pip show powerline-status
+  924  ls
+  925  powerline-config tmux setup
+  926  sudo pip uninstall powerline-status
+  927  sudo pip2 install powerline-status
+  928  powerline-config tmux setup
+  929  sudo pip2 uninstall powerline-status
+  930  powerline-config tmux setup
+  931  pip install --user powerline-status
+  932  powerline-config tmux setup
+  933  pip show --user powerline-staus
+  934  pip show --user powerline-status
+  935  pip show powerline-status
+  936  powerline-config tmux setup
+  937  pip uninstall --user powerline-status
+  938  pip uninstall powerline-status
+  939  pip install -powerline-status
+  940  pip install powerline-status
+  941  pip show powerline-status
+  942  powerline-config tmux setup
+  943  cd .terminal
+  944  vim
+  945  pip uninstall powerline-status
+  946  pip2 install powerline-status
+  947  agu
+  948  apt remove powerline
+  949  pip show powerline-status
+  950  pip2 show powerline-status
+  951  pip
+  952  pip --version
+  953  pip2 --version
+  954  pip3 --version
+  955  python
+  956  python3
+  957  python --version
+  958  ls
+  959  cd ~
+  960  ls
+  961  wget https://bootstrap.pypa.io/get-pip.py
+  962  ls
+  963  python3 get-pip.py
+  964  python2 get-pip.py
+  965  pip
+  966  pip --version
+  967  pip install powerline-status
+  968  powerline-config tmux setup
+  969  ls
+  970  pip3 install powerline-status
+  971  pip3 show powerline-status
+  972  pip2 show powerline-status
+  973  powerline-config tmux setup
+  974  pip
+  975  pip --version
+  976  pip3 --version
+  977  pip2 --version
+  978  python
+  979  python3
+  980  pip3 uninstall powerline-status
+  981  pip2 uninstall powerline-status
+  982  powerline-config tmux setup
+  983  pip2 install powerline-status
+  984  powerline-config tmux setup
+  985  cd .terminal
+  986  ls
+  987  vim
+  988  exit
+  989  ls
+  990  tmux a
+  991  ls
+  992  tmux
+  993  ls
+  994  vim
+  995  ls
+  996  exit
+  997  tmux a
+  998  ls
+  999  cd src/project/as_demo
+ 1000  ls
+ 1001  vim
+ 1002  gst
+ 1003  gd
+ 1004  cd .terminal
+ 1005  gst
+ 1006  gd
+ 1007  ggpull
+ 1008  gco .
+ 1009  ggpull
+ 1010  exit
+ 1011  ls
+ 1012  tmux a
+ 1013  ls
+ 1014  cd bomb
+ 1015  ls
+ 1016  vim
+ 1017  ls
+ 1018  cat 0.txt| ./hex2raw > 0.tmp
+ 1019  cat 0.txt| ./hex2raw| ./bufbomb -u 2015011304
+ 1020  ls
+ 1021  vim
+ 1022  gst
+ 1023  ggpull
+ 1024  exit
+ 1025  ls
+ 1026  tmux a
+ 1027  ls
+ 1028  vim
+ 1029  cd ..
+ 1030  ls
+ 1031  vim
+ 1032  ls
+ 1033  cd homework2
+ 1034  ls
+ 1035  ./toupper
+ 1036  ls
+ 1037  curl -sSL https://get.daocloud.io/daomonit/install.sh | sh -s ff3eae709b88297e1d4bf382d12336c6874e54ee 
+ 1038  ls
+ 1039  cat /etc/hostname
+ 1040  cat /etc/hosts
+ 1041  ls
+ 1042  htop
+ 1043  docker ps
+ 1044  ls
+ 1045  cat docker-compose.yml
+ 1046  docker ls
+ 1047  doker imags
+ 1048  docker images
+ 1049  ls
+ 1050  docker run \\n  --rm \\n  -u root \\n  -p 8080:8080 \\n  -v jenkins-data:/var/jenkins_home \\n  -v /var/run/docker.sock:/var/run/docker.sock \\n  -v "$HOME":/home \\n  jenkinsci/blueocean
+ 1051  tmux a
+ 1052  ls
+ 1053  exit
+ 1054  ls
+ 1055  tmux a
+ 1056  tmux
+ 1057  ls
+ 1058  cd .terminal
+ 1059  ls
+ 1060  vim
+ 1061  uname -n
+ 1062  pip status powerline-status
+ 1063  pip show powerline-status
+ 1064  gst
+ 1065  gd
+ 1066  gco .
+ 1067  gst
+ 1068  gd
+ 1069  ls
+ 1070  exit
+ 1071  ls
+ 1072  docker ps
+ 1073  tmux a
+ 1074  tmux
+ 1075  docker run \\n  --rm \\n  -u root \\n  -p 8080:8080 \\n  -v jenkins-data:/var/jenkins_home \\n  -v /var/run/docker.sock:/var/run/docker.sock \\n  -v "$HOME":/home \\n  jenkinsci/blueocean
+ 1076  tmux a
+ 1077  htop
+ 1078  ls
+ 1079  agi nginx
+ 1080  ls
+ 1081  vim /etc/nginx/nginx.conf
+ 1082  ls
+ 1083  cd /etc/nginx/conf.d
+ 1084  ls
+ 1085  cd ..
+ 1086  ls
+ 1087  vim nginx.conf
+ 1088  cd sites-enabled
+ 1089  ls
+ 1090  vim default
+ 1091  ls
+ 1092  tmux
+ 1093  cd ~
+ 1094  ls
+ 1095  mkdir aiops
+ 1096  ls
+ 1097  cd aiops
+ 1098  ls
+ 1099  mkdir anomaly
+ 1100  ls
+ 1101  vim default
+ 1102  pwd
+ 1103  ls
+ 1104  cd ..
+ 1105  sl
+ 1106  vim nginx.conf
+ 1107  nginx reload
+ 1108  systemctl restart nginx
+ 1109  ls
+ 1110  vim nginx.conf
+ 1111  ls
+ 1112  cd sites-enabled
+ 1113  vim default
+ 1114  systemctl restart nginx
+ 1115  oh-my-zsh update
+ 1116  upgrade
+ 1117  exit
+ 1118  upgrade_oh_my_zsh
+ 1119  ls
+ 1120  cd .ssh
+ 1121  ls
+ 1122  cat id_rsa
+ 1123  cat id_rsa.pub
+ 1124  ls
+ 1125  cat authorized_keys
+ 1126  diff id_rsa.pub authorized_keys
+ 1127  ls
+ 1128  diff id_rsa.pub id_rsa
+ 1129  exit
+ 1130  ls
+ 1131  ss -tunl
+ 1132  ls
+ 1133  vim /etc/ssh/sshd_config
+ 1134  systemctl status sshd
+ 1135  systemctl restart sshd
+ 1136  systemctl status sshd
+ 1137  ls
+ 1138  cd .ssh
+ 1139  ls
+ 1140  vim authorized_keys
+ 1141  echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC9OjyOypnyDL8SCs7I+YGoPemyzYdCLJQzUzIheIa6dNpNtyfO6d/V04OnrDeGo/R3+lEhGlNXG/Uf82SmbsuPvyJpDSTEqpU6+2IQwSFYherELtr16r9TJAnrLUW94q1BThHwAktZzGEUjD/dUxuUlTHQ1+J2S5YkCgepT/SxuxC/8AN1ikpjvKV8TjpyvNVNXqIE+SntTBVMIdCSgIjBa4nbFY/AUhZ1NgCHr6ReKhFh8wyRY0zNmQuwMTBlkBCMO6vcYm3O1TFZEddgXub9wh7GZDhWdsy++7UgvbFMDEcWGdPMKvpfv0jK9BS7DJHq2sUodYxLEB0qFMRncCItqWWlSJ5dWQH2tq/nMCRfz4qXEGZ/9rv3d/pMXBa2O8DQs2i11lPrU4QNNEpqG+pX24qDSdgONuDMVYYOOIJ8RbhxT82TCJt7v3LA7sP73RC1B5w8VNdwbpu9XC2oNFi5fpsvXbjd+dZsyZJWvwz5xcfPwengVqh6md//EM6MThDCaZvWnRB1/0W1qab7Y8YSlu91IUIelFJCAVWrEP/jdZNLuhFiHETdzYWtxUSQus92Y2CoPTWMp+k71dCILdSTfPdLz96zzjKtdPGVIhaSIMQHDVt1SPtsDyLcQB7GH5Dl/o1U4I5T22bjlwIberJaAH2A7Th9tX0mfzvev2OoGw== aiops@ciprod" >> authorized_keys
+ 1142  ls
+ 1143  cat authorized_keys
+ 1144  ip addr
+ 1145  ls
+ 1146  exit
+ 1147  ss -tunl
+ 1148  ls
+ 1149  cd ..
+ 1150  ls
+ 1151  tmux a
+ 1152  ls
+ 1153  docker ps
+ 1154  ls
+ 1155  tmux a
+ 1156  docker run \\n  --rm \\n  -u root \\n  -p 8080:8080 \\n  -v jenkins-data:/var/jenkins_home \\n  -v /var/run/docker.sock:/var/run/docker.sock \\n  -v "$HOME":/home \\n  jenkinsci/blueocean
+ 1157  exit
+ 1158  ls
+ 1159  mkdir test
+ 1160  ls
+ 1161  cd test
+ 1162  ls
+ 1163  mkdir POC
+ 1164  ls
+ 1165  cd POC
+ 1166  ls
+ 1167  touch test
+ 1168  ls
+ 1169  cd ..
+ 1170  ls
+ 1171  cd ..
+ 1172  ls
+ 1173  vim package-local.sh
+ 1174  ls
+ 1175  tmux
+ 1176  ls
+ 1177  vim package-local.sh
+ 1178  ls
+ 1179  pwd
+ 1180  ls
+ 1181  sh package-local.sh
+ 1182  ls
+ 1183  mkdir script
+ 1184  mv package-local.sh script
+ 1185  ls
+ 1186  cd script
+ 1187  ls
+ 1188  cd script
+ 1189  ls
+ 1190  vim common.sh
+ 1191  ls
+ 1192  cd ..
+ 1193  ls
+ 1194  sh script/package-local.sh
+ 1195  ls
+ 1196  ls script
+ 1197  ls
+ 1198  sh script/package-local.sh
+ 1199  ls
+ 1200  rm package-local.sh
+ 1201  ls
+ 1202  ip addr
+ 1203  pwd
+ 1204  ls
+ 1205  sh script/package-local.sh
+ 1206  cd ..
+ 1207  ls
+ 1208  exit
+ 1209  ls
+ 1210  cd test
+ 1211  ls
+ 1212  cd ..
+ 1213  rm -rf test
+ 1214  ls
+ 1215  cd script
+ 1216  ls
+ 1217  vim package-local.sh
+ 1218  cd ..
+ 1219  ls
+ 1220  exit
+ 1221  ls
+ 1222  cd .ssh
+ 1223  ls
+ 1224  cat id_rsa.pub
+ 1225  ls
+ 1226  diff authorized_keys id_rsa.pub
+ 1227  cat id_rsa.pub
+ 1228  ls
+ 1229  exit
+ 1230  ls
+ 1231  cd .terminal
+ 1232  ls
+ 1233  vim zshrc
+ 1234  exit
+ 1235  ls
+ 1236  cd script\nls
+ 1237  cat package-local.sh
+ 1238  cd ..
+ 1239  ls
+ 1240  sh script/package-local.sh
+ 1241  ls
+ 1242  cd /mnt/di
+ 1243  cd /mnt
+ 1244  ls
+ 1245  cd ..
+ 1246  ls
+ 1247  cd ~
+ 1248  ls
+ 1249  vim script/package-local.sh
+ 1250  rm -rf script
+ 1251  ls
+ 1252  cd src/playground
+ 1253  ls
+ 1254  exit
+ 1255  ls
+ 1256  docker run -d -p 443:5000 --name registry \\n  -v `pwd`:/etc/docker/registry/ \\n  -v registry:/var/lib/registry \\n  -e REGISTRY_HTTP_ADDR=0.0.0.0:5000 \\n  -e REGISTRY_HTTP_HOST=https://docker.example.com \\n  -e REGISTRY_HTTP_TLS_LETSENCRYPT_CACHEFILE=/etc/docker/registry/letsencrypt.json \\n  -e REGISTRY_HTTP_TLS_LETSENCRYPT_EMAIL=admin@example.com \\n  -e REGISTRY_PROXY_REMOTEURL=https://registry-1.docker.io \\n  registry:2
+ 1257  docker ps
+ 1258  docker images
+ 1259  docker run -d -p 443:5000 --name registry \\n  -v `pwd`:/etc/docker/registry/ \\n  -v registry:/var/lib/registry \\n  -e REGISTRY_HTTP_ADDR=0.0.0.0:5000 \\n  -e REGISTRY_HTTP_HOST=https://docker.example.com \\n  -e REGISTRY_HTTP_TLS_LETSENCRYPT_CACHEFILE=/etc/docker/registry/letsencrypt.json \\n  -e REGISTRY_HTTP_TLS_LETSENCRYPT_EMAIL=admin@example.com \\n  -e REGISTRY_PROXY_REMOTEURL=https://registry-1.docker.io \\n  registry:2
+ 1260  docker ps
+ 1261  cd /etc/docker/
+ 1262  ls
+ 1263  ~
+ 1264  docker ps
+ 1265  ls
+ 1266  exit
+ 1267  ls
+ 1268  docker ps
+ 1269  ls
+ 1270  exit
+ 1271  ls
+ 1272  vi /etc/nginx/sites-enabled/default
+ 1273  ls
+ 1274  cd /etc/nginx
+ 1275  ls
+ 1276  vim nginx.conf
+ 1277  ls
+ 1278  vim sites-enabled/default
+ 1279  service nginx restart
+ 1280  ls
+ 1281  docker ps
+ 1282  ls
+ 1283  docker run -d --name=gitea -p 10022:22 -p 10080:3000 -v /var/lib/gitea:/data gitea/gitea:latest
+ 1284  docker ps
+ 1285  mkdir -p /var/lib/gitea
+ 1286  ls
+ 1287  docker ps
+ 1288  vim /etc/nginx/nginx.conf
+ 1289  ls
+ 1290  docker ps
+ 1291  docker container stop cb40
+ 1292  docker ps
+ 1293  docker run -d --name=gitea -p 10022:22 -p 80:3000 -v /var/lib/gitea:/data gitea/gitea:latest
+ 1294  docker images
+ 1295  docker ps
+ 1296  docker ps -a
+ 1297  docker container rm cb40
+ 1298  docker run -d --name=gitea -p 10022:22 -p 80:3000 -v /var/lib/gitea:/data gitea/gitea:latest
+ 1299  docker run -d --name=gitea -p 10022:22 -p 10080:3000 -v /var/lib/gitea:/data gitea/gitea:latest
+ 1300  docker container rm d0f4
+ 1301  docker run -d --name=gitea -p 10022:22 -p 10080:3000 -v /var/lib/gitea:/data gitea/gitea:latest
+ 1302  cd /var/lib/git
+ 1303  ls
+ 1304  cd ..
+ 1305  cd gitea
+ 1306  ls
+ 1307  ls -F
+ 1308  ls
+ 1309  cd ..
+ 1310  ~
+ 1311  ls
+ 1312  vim /etc/nginx/nginx.conf
+ 1313  vim /etc/nginx/sites-enabled/default
+ 1314  service nginx restart
+ 1315  ls
+ 1316  apt-get update
+ 1317  apt-get install software-properties-common
+ 1318  add-apt-repository ppa:certbot/certbot
+ 1319  apt-get update
+ 1320  apt-get install python-certbot-nginx 
+ 1321  certbot --nginx
+ 1322  ls
+ 1323  vim /etc/nginx/sites-enabled/default
+ 1324  service nginx restart
+ 1325  ls
+ 1326  vim /etc/nginx/sites-enabled/default
+ 1327  service nginx restart
+ 1328  vim /etc/nginx/sites-enabled/default
+ 1329  nginx -s reload
+ 1330  vim /etc/nginx/sites-enabled/default
+ 1331  nginx -s reload
+ 1332  ls
+ 1333  service nginx status
+ 1334  service nginx restart
+ 1335  service nginx status
+ 1336  service nginx stop
+ 1337  service nginx start
+ 1338  ls
+ 1339  vim /etc/nginx/sites-available
+ 1340  service nginx status
+ 1341  netstat -plunt | grep nginx
+ 1342  systemctl status firewalld
+ 1343  reboot
+ 1344  docker ps
+ 1345  service nginx status
+ 1346  vim /etc/nginx/sites-enabled
+ 1347  service nginx restart
+ 1348  service nginx status
+ 1349  vim /etc/nginx/sites-enabled
+ 1350  service nginx status
+ 1351  vim /etc/nginx/sites-enabled
+ 1352  service nginx restart
+ 1353  service nginx status
+ 1354  ls
+ 1355  vim /etc/nginx/sites-enabled
+ 1356  vim /etc/nginx/sites-available/default
+ 1357  mkdir /etc/systemd/system/nginx.service.d
+ 1358  systemctl daemon-reload
+ 1359  systemctl restart nginx
+ 1360  systemctl status nginx
+ 1361  printf "[Service]\nExecStartPost=/bin/sleep 0.1\n" > /etc/systemd/system/nginx.service.d/override.conf
+ 1362  systemctl daemon-reload
+ 1363  systemctl restart nginx
+ 1364  systemctl status nginx
+ 1365  ls
+ 1366  vim /etc/nginx/sites-available/default
+ 1367  nginx -s reload
+ 1368  docker ps
+ 1369  ls
+ 1370  vim /etc/nginx/sites-available/default
+ 1371  nginx -s reload
+ 1372  vim /etc/nginx/sites-available/default
+ 1373  docker ps
+ 1374  docker run \\n  --rm \\n  -u root \\n  -p 8080:8080 \\n  -v jenkins-data:/var/jenkins_home \\n  -v /var/run/docker.sock:/var/run/docker.sock \\n  -v "$HOME":/home \\n  jenkinsci/blueocean
+ 1375  docker run  -d\\n  --rm \\n  -u root \\n  -p 8080:8080 \\n  -v jenkins-data:/var/jenkins_home \\n  -v /var/run/docker.sock:/var/run/docker.sock \\n  -v "$HOME":/home \\n  jenkinsci/blueocean
+ 1376  docker run -d --name=gitea -p 10022:22 -p 10080:3000 -v /var/lib/gitea:/data gitea/gitea:latest
+ 1377  docker ps -a
+ 1378  docker ps
+ 1379  docker run -d bbfd
+ 1380  docker run bbfd
+ 1381  docker run -d --name=gitea -p 10022:22 -p 10080:3000 -v /var/lib/gitea:/data gitea/gitea:latest
+ 1382  docker run rm bbfd
+ 1383  docker container rm bbfd
+ 1384  docker run -d --name=gitea -p 10022:22 -p 10080:3000 -v /var/lib/gitea:/data gitea/gitea:latest
+ 1385  vim /etc/nginx/sites-available/default
+ 1386  nginx -s reload
+ 1387  vim /etc/nginx/sites-available/default
+ 1388  nginx -s reload
+ 1389  vim /etc/nginx/sites-available/default
+ 1390  nginx -s reload
+ 1391  vim /etc/nginx/sites-available/default
+ 1392  nginx -s reload
+ 1393  tmux a
+ 1394  tmux
+ 1395  ls
+ 1396  vim /etc/nginx/sites-available/default
+ 1397  nginx -s reload
+ 1398  systemctl restart nginx
+ 1399  nginx -s reload
+ 1400  ls
+ 1401  docker ps
+ 1402  cd /var/lib/gitea
+ 1403  ls
+ 1404  cd git
+ 1405  ls
+ 1406  cd ..
+ 1407  ls
+ 1408  cd git
+ 1409  ls
+ 1410  cd ..
+ 1411  ls
+ 1412  cd git
+ 1413  ls
+ 1414  cd ..
+ 1415  ls
+ 1416  cd gitea
+ 1417  ls
+ 1418  cd conf
+ 1419  ls
+ 1420  vim app.ini
+ 1421  ls
+ 1422  cd ~
+ 1423  ls
+ 1424  nginx -s reload
+ 1425  docker ps
+ 1426  docker restart f4c0
+ 1427  vim /etc/nginx/sites-available/default
+ 1428  nginx -s reload
+ 1429  docker ps
+ 1430  nginx -s reload
+ 1431  ls
+ 1432  cd /home
+ 1433  ls
+ 1434  cd ..
+ 1435  ls
+ 1436  cd var
+ 1437  ls
+ 1438  cd ~
+ 1439  ls
+ 1440  docker run  -d\\n  --rm \\n  -u root \\n  -p 8080:8080 \\n  -v jenkins-data:/var/jenkins_home \\n  -v /var/run/docker.sock:/var/run/docker.sock \\n  -v "$HOME":/home \\n  jenkinsci/blueocean
+ 1441  docker container rm a01a
+ 1442  docker ps
+ 1443  docker ps -a
+ 1444  docker container rm b5da
+ 1445  docker container stop b5da
+ 1446  docker container rm b5da
+ 1447  docke rps -a
+ 1448  docker ps -a
+ 1449  docker run  -d\\n  --rm \\n  -u root \\n  -p 8080:8080 \\n  -v jenkins-data:/var/jenkins_home \\n  -v /var/run/docker.sock:/var/run/docker.sock \\n  -v "$HOME":/home \\n  -e JENKINS_OPTS="--prefix=/jenkins" \jenkinsci/blueocean
+ 1450  docker ps
+ 1451  ls
+ 1452  curl -iL -e http://luohy.me/jenkins/manage \\n   http://luohy.me/jenkins/administrativeMonitor/hudson.diagnosis.ReverseProxySetupMonitor/test
+ 1453  curl -iL -e https://luohy.me/jenkins/manage \\n   https://luohy.me/jenkins/administrativeMonitor/hudson.diagnosis.ReverseProxySetupMonitor/test
+ 1454  :q
+ 1455  exit
+ 1456  nginx -s reload
+ 1457  curl -iL -e https://luohy.me/jenkins/manage \\n   https://luohy.me/jenkins/administrativeMonitor/hudson.diagnosis.ReverseProxySetupMonitor/test
+ 1458  ls
+ 1459  gs
+ 1460  nginx -s reload
+ 1461  docker ps -a
+ 1462  docker run 15ff
+ 1463  docker container start 15ff
+ 1464  curl -L "https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+ 1465  chmod +x /usr/local/bin/docker-compose
+ 1466  docker-compose --version
+ 1467  mkdir my_wordpress
+ 1468  cd my_wordpress
+ 1469  vim docker-compose.yml
+ 1470  docker-compose up -d
+ 1471  htop
+ 1472  docker ps
+ 1473  vim docker-compose.yml
+ 1474  vim /etc/nginx/sites-available/default
+ 1475  ls
+ 1476  tmux a
+ 1477  nginx -s reload
+ 1478  docker ps
+ 1479  docker run  -d\\n  --rm \\n  -u root \\n  -p 8080:8080 \\n  -v jenkins-data:/var/jenkins_home \\n  -v /var/run/docker.sock:/var/run/docker.sock \\n  -v "$HOME":/home \\n  -e JENKINS_OPTS="--prefix=/jenkins" \jenkinsci/blueocean
+ 1480  docker ps
+ 1481  nginx -s reload
+ 1482  docker ps
+ 1483  curl localhost:8000
+ 1484  curl http://127.0.0.1:8000
+ 1485  docker compose down
+ 1486  docker-compose down
+ 1487  curl http://127.0.0.1:8000
+ 1488  docker-compose up -d
+ 1489  docker-machine ip MACHINE_VM
+ 1490  docker-machine ls
+ 1491  nginx -s reload
+ 1492  htop
+ 1493  tmux a
+ 1494  exit
+ 1495  ls
+ 1496  docker-compose down --volumes
+ 1497  docker ps -a
+ 1498  ls
+ 1499  docker-compose up -d
+ 1500  nginx -s reload
+ 1501  docker-compose down --volumes
+ 1502  docker-compose up -d
+ 1503  vim /etc/nginx/sites-available/default
+ 1504  nginx -s reload
+ 1505  docker-compose down --volumes
+ 1506  ls
+ 1507  vim docker-compose.yml
+ 1508  docker ps
+ 1509  ~
+ 1510  apt-get install ruby ruby-dev build-essential
+ 1511  echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc\necho 'export GEM_HOME=$HOME/gems' >> ~/.bashrc\necho 'export PATH=$HOME/gems/bin:$PATH' >> ~/.bashrc\nsource ~/.bashrc
+ 1512  exit
+ 1513  ls
+ 1514  vim .bashrc
+ 1515  source ~/.bashrc
+ 1516  exit
+ 1517  ls
+ 1518  echo '# Install Ruby Gems to ~/gems' >> ~/.zshrc
+ 1519  echo 'export GEM_HOME=$HOME/gems' >> ~/.zshrc
+ 1520  echo 'export PATH=$HOME/gems/bin:$PATH' >> ~/.zshrc
+ 1521  source ~/.zshrc
+ 1522  gem install jekyll bundler
+ 1523  jekyll new myblog
+ 1524  cd myblog
+ 1525  bundle exec jekyll serve
+ 1526  ls
+ 1527  vim
+ 1528  bundle exec jekyll serve --port 8000
+ 1529  ls
+ 1530  nginx -s reload
+ 1531  ls
+ 1532  bundle exec jekyll serve --port 8000
+ 1533  vim
+ 1534  bundle exec jekyll serve --port 8000
+ 1535  docker ps
+ 1536  tmux a
+ 1537  docker ps
+ 1538  htop
+ 1539  docker run  -d\\n  --rm \\n  -u root \\n  -p 8080:8080 \\n  -v jenkins-data:/var/jenkins_home \\n  -v /var/run/docker.sock:/var/run/docker.sock \\n  -v "$HOME":/home \\n  -e JENKINS_OPTS="--prefix=/jenkins" \jenkinsci/blueocean
+ 1540  tmux a
+ 1541  docker ps
+ 1542  docker pull mysql/mysql-server
+ 1543  docker run --name=mysql1 -d mysql/mysql-server
+ 1544  docker logs mysql1
+ 1545  docker logs mysql1 2>&1 | grep GENERATED
+ 1546  hto
+ 1547  htop
+ 1548  docker ps
+ 1549  docker stop jenkinsci/blueocean
+ 1550  docker stop 894b
+ 1551  docker ps
+ 1552  htop
+ 1553  docker run --name=mysql1 -d mysql/mysql-server
+ 1554  docker logs mysql1 2>&1 | grep GENERATED
+ 1555  docker logs mysql1
+ 1556  docker container rm  23c1
+ 1557  docker run --name=mysql1 -d mysql/mysql-server
+ 1558  docker logs mysql1 2>&1 | grep GENERATED
+ 1559  docker logs mysql1
+ 1560  docker ps -a
+ 1561  docker ps
+ 1562  docker-machine ls
+ 1563  docker service ls
+ 1564  docker stack rm getstartedlab
+ 1565  docker swarm leave --force
+ 1566  docker ps
+ 1567  docker ps -a
+ 1568  docker run --d 731b
+ 1569  docker run -d 731b
+ 1570  docker run --name=mysql1 -d mysql/mysql-server
+ 1571  docker container rm  731b
+ 1572  docker run --name=mysql1 -d mysql/mysql-server
+ 1573  docker logs mysql1
+ 1574  docker exec -it mysql1 mysql -uroot -p
+ 1575  docker --version
+ 1576  docker ps
+ 1577  docker ps -a
+ 1578  docker container rm  ade4
+ 1579  docker images
+ 1580  docker rm mysql/mysql-server
+ 1581  docker image rm mysql/mysql-server
+ 1582  docker images
+ 1583  htop
+ 1584  docker ps
+ 1585  apt update
+ 1586  apt install mysql-server
+ 1587  mysql_secure_installation
+ 1588  mysql
+ 1589  sudo mysql
+ 1590  mysql_secure_installation
+ 1591  mysql
+ 1592  mysql -u root
+ 1593  mysqladmin -u root password mysql1
+ 1594  sudo grep 'temporary password' /var/log/mysqld.log
+ 1595  cat /var/log/mysql/error.log| grep "password"
+ 1596  cd /var/log/mysql
+ 1597  ls
+ 1598  cd ..
+ 1599  ls
+ 1600  vim /var/log/mysql/error.log
+ 1601  cat /var/run/mysqld/mysqld.pid
+ 1602  ~
+ 1603  mysql -u root -p
+ 1604  mysql
+ 1605  mysql -u root
+ 1606  mysql -u root -p
+ 1607  ls
+ 1608  cat docker-compose.yml
+ 1609  cd aiops
+ 1610  ls
+ 1611  cd ..
+ 1612  ls
+ 1613  cd my
+ 1614  ls
+ 1615  cd my_wordpress
+ 1616  ls
+ 1617  cd ~
+ 1618  ls
+ 1619  vim docker-compose.yml
+ 1620  docker-compose up -d
+ 1621  docker ps
+ 1622  docker stack deploy
+ 1623  vim docker-compose.yml
+ 1624  ls
+ 1625  docker ps
+ 1626  docker run -d -p 5000:5000 --restart=always --name registry registry:2
+ 1627  docker ps -a
+ 1628  docker start 15ff
+ 1629  docker container start 15ff
+ 1630  docker container start registry:2
+ 1631  docker start registry:2
+ 1632  docker start registry
+ 1633  docker container stop registry
+ 1634  docker ps -a
+ 1635  docker container rm -v registry
+ 1636  docker ps -a
+ 1637  docker run -d \\n  --restart=always \\n  --name registry \\n  -v `pwd`/certs:/certs \\n  -e REGISTRY_HTTP_ADDR=0.0.0.0:443 \\n  -p 443:443 \\n  registry:2
+ 1638  curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -
+ 1639  ls
+ 1640  docker ps
+ 1641  tmux a
+ 1642  ls
+ 1643  docker ps
+ 1644  vim /etc/nginx/sites-enabled/default
+ 1645  ls
+ 1646  docker run -d -p 5000:5000 --restart=always --name registry registry:2
+ 1647  docker ps -a
+ 1648  docker container start 57b8
+ 1649  docker container start registry
+ 1650  docker container rm 57b8
+ 1651  ls
+ 1652  cd /etc/letsencrypt/luohy.me
+ 1653  ls
+ 1654  cd /etc/letsencrypt
+ 1655  ls
+ 1656  cd live
+ 1657  ls
+ 1658  cd luohy.me
+ 1659  ls
+ 1660  mkdir ~/certs
+ 1661  cp fullchain.pem ~/certs/domain.cert
+ 1662  cp privkey.pem ~/certs/domain.key
+ 1663  cd ~
+ 1664  ls
+ 1665  docker run -d -p 5000:5000 --restart=always --name registry \\n    -v /data/registry:/var/lib/registry \\n    -v ~/certs/:/certs \\n    -e REGISTRY_HTTP_TLS_CERTIFICATE=/certs/domain.cert \\n    -e REGISTRY_HTTP_TLS_KEY=/certs/domain.key \\n    -e REGISTRY_STORAGE_DELETE_ENABLED=true \\n    registry:2
+ 1666  nginx -s reload
+ 1667  vim /etc/nginx/sites-enabled/default
+ 1668  nginx -s reload
+ 1669  ls
+ 1670  vim /etc/nginx/sites-enabled/default
+ 1671  ls
+ 1672  tmux a
+ 1673  apt-get install mosh
+ 1674  exit
+ 1675  tmux a
+ 1676  vim /etc/nginx/sites-enabled/default
+ 1677  nginx -s reload
+ 1678  certbot --nginx
+ 1679  exit
+ 1680  tmux a
+ 1681  ls
+ 1682  tmux a
+ 1683  vim /etc/nginx/sites-enabled/default
+ 1684  ls
+ 1685  tmux a
+ 1686  certbot --nginx
+ 1687  ls
+ 1688  vim /etc/nginx/sites-enabled/default
+ 1689  nginx -s reload
+ 1690  ls
+ 1691  docker ps
+ 1692  nginx -s reload
+ 1693  ls
+ 1694  cd /var/lib/gitea
+ 1695  ls
+ 1696  cd gitea
+ 1697  ls
+ 1698  cd conf
+ 1699  ls
+ 1700  sudo vim app.ini
+ 1701  docker ps
+ 1702  docker stop f4c0 && docker rm f4c0
+ 1703  dockre ps -a
+ 1704  docker ps -a
+ 1705  docker run -d --name=gitea -p 10022:22 -p 10080:3000 -v /var/lib/gitea:/data gitea/gitea:latest
+ 1706  docker ps
+ 1707  docker run  -d\\n  --rm \\n  -u root \\n  -p 8080:8080 \\n  -v jenkins-data:/var/jenkins_home \\n  -v /var/run/docker.sock:/var/run/docker.sock \\n  -v "$HOME":/home \\n  jenkinsci/blueocean
+ 1708  docker ps
+ 1709  nginx -s reload
+ 1710  docker ps
+ 1711  docker run  -d\\n  --rm \\n  -u root \\n  -p 8080:8080 \\n  -v jenkins-data:/var/jenkins_home \\n  -v /var/run/docker.sock:/var/run/docker.sock \\n  -v "$HOME":/home \\n  jenkinsci/blueocean
+ 1712  docker ps
+ 1713  free -m
+ 1714  docker ps -aq
+ 1715  docker stop $(docker ps -aq)
+ 1716  docker ps -aq
+ 1717  docker rm $(docker ps -aq)
+ 1718  docker ps
+ 1719  docker rmi
+ 1720  docker images
+ 1721  ls
+ 1722  tmux a
+ 1723  docker ps
+ 1724  exit
+ 1725  docker ps
+ 1726  mysql
+ 1727  mysql -u root -p
+ 1728  mysql --version
+ 1729  systemctl stop mysql
+ 1730  mysqld_safe --skip-grant-tables &
+ 1731  mysql -u root
+ 1732  kill 19851
+ 1733  mysqld_safe --skip-grant-tables
+ 1734  cat /var/log/mysql/error.log
+ 1735  ls
+ 1736  systemctl start mysql
+ 1737  systemctl status mysql
+ 1738  mysql
+ 1739  mysql -u mysql
+ 1740  mysql -u root
+ 1741  mysql -u root -p
+ 1742  systemctl stop mysql
+ 1743  apt remove mysql
+ 1744  apt remove mariadb
+ 1745  mysqladmin -u root password zdwyljty1
+ 1746  systemctl start mysql
+ 1747  mysqladmin -u root password zdwyljty1
+ 1748  mysqladmin -u root
+ 1749  mysql_secure_connection
+ 1750  systemctl stop mysql
+ 1751  tmux
+ 1752  mysqld_safe —skip-grant-tables —skip-networking
+ 1753  ls
+ 1754  vim /var/log/mysql/error.log
+ 1755  sudo mysqld_safe —skip-grant-tables —skip-networking
+ 1756  docker ps
+ 1757  systemctl status mysql
+ 1758  systemctl start mysql
+ 1759  systemctl status mysql
+ 1760  cat /var/log/mysql/error.log| grep "password"
+ 1761  sudo grep 'temporary password' /var/log/mysqld.log
+ 1762  mysql_secure_installation
+ 1763  mysqladmin -u root password mysql1
+ 1764  mysql_secure_installation
+ 1765  mysql -u root -pp
+ 1766  mysql -u root -p
+ 1767  mysql_secure_installation
+ 1768  mysql -u root -p
+ 1769  exit
+ 1770  ls
+ 1771  tmux a
+ 1772  ls
+ 1773  pwd
+ 1774  vim
+ 1775  bundle exec jekyll serve --port 8000
+ 1776  vim
+ 1777  vm
+ 1778  vim
+ 1779  ls
+ 1780  bundle exec jekyll serve --port 8000
+ 1781  bundle exec jekyll serve --port 8000 --incremental
+ 1782  ls
+ 1783  cd _posts
+ 1784  ls
+ 1785  mv 2018-10-29-add-oil.md 2018-10-29-add-oil.markdown
+ 1786  bundle exec jekyll serve --port 8000
+ 1787  vim
+ 1788  bundle exec jekyll serve --port 8000
+ 1789  ip addr
+ 1790  bundle exec jekyll serve --port 8000
+ 1791  ls
+ 1792  tmux a
+ 1793  exit
+ 1794  curl -sSL https://agent.digitalocean.com/install.sh | sh
+ 1795  ls
+ 1796  tmux a
+ 1797  ls
+ 1798  exit
+ 1799  ls
+ 1800  zsh-upgrade
+ 1801  oh-my-zsh-upgrade
+ 1802  ls
+ 1803  upgrade_oh_my_zsh
+ 1804  ls
+ 1805  cd anomaly
+ 1806  ls
+ 1807  cd ..
+ 1808  rmdir anomaly
+ 1809  cd ..
+ 1810  rmdir aiops
+ 1811  ls
+ 1812  tmux ls
+ 1813  tmux a
+ 1814  ls
+ 1815  systemctl status nginx
+ 1816  systemctl stop nginx
+ 1817  ls
+ 1818  cd ~
+ 1819  ls
+ 1820  tmux a
+ 1821  ls
+ 1822  cd mybq
+ 1823  cd myblog
+ 1824  ls
+ 1825  cd _posts
+ 1826  ls
+ 1827  cat 2018-10-29-add-oil.markdown
+ 1828  ls
+ 1829  cd .
+ 1830  cd ..
+ 1831  ls
+ 1832  cd ..
+ 1833  ls
+ 1834  rm -rf myblog
+ 1835  ls
+ 1836  cd fonts
+ 1837  ls
+ 1838  cd ..
+ 1839  ls
+ 1840  cd src
+ 1841  ls
+ 1842  cd playground
+ 1843  ls
+ 1844  cd ..
+ 1845  ls
+ 1846  cd certs
+ 1847  ls
+ 1848  cd ..
+ 1849  ls
+ 1850  ll
+ 1851  exit
+ 1852  ls
+ 1853  tmux a
+ 1854  systemctl status mysql
+ 1855  systemctl stop mysql
+ 1856  tmux a
+ 1857  tmux ls
+ 1858  tmux a
+ 1859  tmux
+ 1860  ls
+ 1861  docker ps
+ 1862  ls
+ 1863  docker imags
+ 1864  docker images
+ 1865  docker run  -d\\n  --rm \\n  -u root \\n  -p 8080:8080 \\n  -v jenkins-data:/var/jenkins_home \\n  -v /var/run/docker.sock:/var/run/docker.sock \\n  -v "$HOME":/home \\n  jenkinsci/blueocean
+ 1866  docker ps -a
+ 1867  systemctl status jenkins
+ 1868  vim /etc/nginx/sites-enabled/default
+ 1869  systemctl status nginx
+ 1870  systemctl status stop
+ 1871  systemctl status nginx
+ 1872  systemctl start nginx
+ 1873  systemctl status nginx
+ 1874  vim /etc/nginx/sites-enabled/default
+ 1875  docker ps
+ 1876  vim /etc/nginx/sites-enabled/default
+ 1877  tmux a
+ 1878  systemctl status nginx
+ 1879  systemctl stop nginx
+ 1880  systemctl status nginx
+ 1881  docker ps
+ 1882  ls
+ 1883  tmux a
+ 1884  sl
+ 1885  ls
+ 1886  ps aux | grep docker
+ 1887  ps aux | grep shadow
+ 1888  systemctl status ss
+ 1889  systemctl status ss-server
+ 1890  reboot
+ 1891  ls
+ 1892  ./bbr.sh help
+ 1893  ./bbr.sh status
+ 1894  ./bbr.sh start
+ 1895  ./shadowsocks-all.sh help
+ 1896  ps aux | grep shadow
+ 1897  docker ps
+ 1898  dockre ps -a
+ 1899  docker ps -a
+ 1900  docker imagee
+ 1901  docker images
+ 1902  ls
+ 1903  systemctl status mysql
+ 1904  systemctl status mysqld
+ 1905  systemctl disable mysql
+ 1906  systemctl stop mysql
+ 1907  ls
+ 1908  docker ps
+ 1909  docker run  -d\\n  --rm \\n  -u root \\n  -p 8080:8080 \\n  -v jenkins-data:/var/jenkins_home \\n  -v /var/run/docker.sock:/var/run/docker.sock \\n  -v "$HOME":/home \\n  jenkinsci/blueocean
+ 1910  docker ps
+ 1911  docker logs 95fa02d5f2c9
+ 1912  ls
+ 1913  docker ps
+ 1914  docker stop 95fa02d5f2c9
+ 1915  docker rm 95fa02d5f2c9
+ 1916  docker ps -a
+ 1917  docker run  -d\\n  --rm \\n  -u root \\n  -p 8080:8080 \\n  -v jenkins-data:/var/jenkins_home \\n  -v /var/run/docker.sock:/var/run/docker.sock \\n  -v "$HOME":/home \\n  jenkinsci/blueocean
+ 1918  docker ps
+ 1919  docker stop 3923e8085a05
+ 1920  ls
+ 1921  systemctl status jenkins
+ 1922  systemctl start jenkins
+ 1923  jenkins
+ 1924  ls
+ 1925  docker run  -d\\n  --rm \\n  -u root \\n  -p 8080:8080 \\n  -v `pwd`jenkins-data:/var/jenkins_home \\n  -v /var/run/docker.sock:/var/run/docker.sock \\n  -v "$HOME":/home \\n  jenkinsci/blueocean
+ 1926  pwd
+ 1927  cd r
+ 1928  ls
+ 1929  docker ps
+ 1930  docker logs 17ce41f4e314
+ 1931  docker ps
+ 1932  ls
+ 1933  docker stop 17ce41f4e314
+ 1934  docker run  -d\\n  --rm \\n  -u root \\n  -p 8080:8080 \\n  -v `pwd`/jenkins-data:/var/jenkins_home \\n  -v /var/run/docker.sock:/var/run/docker.sock \\n  -v "$HOME":/home \\n  jenkinsci/blueocean
+ 1935  ls
+ 1936  cd jenkins-data
+ 1937  ls
+ 1938  cd ..
+ 1939  ls
+ 1940  cd gems
+ 1941  ls
+ 1942  cd ~
+ 1943  ls
+ 1944  ps -a
+ 1945  docker ps -a
+ 1946  docker logs 5fb34317db7f
+ 1947  htop
+ 1948  tmux a
+ 1949  tmux
+ 1950  ls
+ 1951  htop
+ 1952  docker ps -a
+ 1953  docker stop 5fb34317db7f
+ 1954  ls
+ 1955  tmux a
+ 1956  ls
+ 1957  docker run  -d\\n  --rm \\n  -u root \\n  -p 8080:8080 \\n  -v `pwd`/jenkins-data:/var/jenkins_home \\n  -v /var/run/docker.sock:/var/run/docker.sock \\n  -v "$HOME":/home \\n  jenkinsci/blueocean
+ 1958  docker ps -a
+ 1959  docker stop 233dfa2b39ab
+ 1960  docker run  -d\\n  --rm \\n  -u root \\n  -p 8080:8080 \\n  -v `pwd`/jenkins-data:/var/jenkins_home \\n  -v /var/run/docker.sock:/var/run/docker.sock \\n  -v "$HOME":/home \\n  jenkinsci/blueocean
+ 1961  ls
+ 1962  docke rps
+ 1963  docker ps -a
+ 1964  docker stop 752e330a1244
+ 1965  docker run  -d\\n  --rm \\n  -u root \\n  -p 8080:8080 \-p 50000:50000 \\n  -v `pwd`/jenkins-data:/var/jenkins_home \\n  -v /var/run/docker.sock:/var/run/docker.sock \\n  -v "$HOME":/home \\n  jenkinsci/blueocean
+ 1966  docker ps- a
+ 1967  docker p
+ 1968  docker ps
+ 1969  docker stop a5ee56992947
+ 1970  docker run  -d\\n  --rm \\n  -u root \\n  -p 8080:8080 \\n  -v `pwd`/jenkins-data:/var/jenkins_home \\n  -v /var/run/docker.sock:/var/run/docker.sock \\n  -v "$HOME":/home \\n  jenkinsci/blueocean
+ 1971  ls
+ 1972  docker ps -a
+ 1973  docker stop b42026ddc271
+ 1974  docker images
+ 1975  docker rmi jenkinsci/blueocean
+ 1976  ls
+ 1977  find . -cmin -1
+ 1978  find . -cmin -4
+ 1979  find . -cmin -5
+ 1980  find . -cmin -10
+ 1981  rm -rf jenkins-data
+ 1982  ls
+ 1983  tmux a
+ 1984  ls
+ 1985  vim shadowsocks-all.
+ 1986  vim shadowsocks-all.sh
+ 1987  ls
+ 1988  systemctl status mysqld
+ 1989  systemctl start mysqld
+ 1990  mysql -u root -p
+ 1991  mysqld
+ 1992  systemctl status mysqld
+ 1993  systemctl start mysqld
+ 1994  systemctl start mysql
+ 1995  systemctl status mysqld
+ 1996  systemctl status mysql
+ 1997  mysql -u root -p
+ 1998  tmux a
+ 1999  cat .ssh/authorized_keys
+ 2000  ls
+ 2001  docker ps
+ 2002  docker iamges
+ 2003  docker images
+ 2004  ls
+ 2005  cd fonts
+ 2006  ls
+ 2007  cd ..
+ 2008  ls
+ 2009  cd gems
+ 2010  ls
+ 2011  cd ..
+ 2012  ls
+ 2013  cd src
+ 2014  ls
+ 2015  cd playground
+ 2016  ls
+ 2017  cat tmp.
+ 2018  cat tmp.c
+ 2019  cat tmp.i
+ 2020  ls
+ 2021  cd ..
+ 2022  ls
+ 2023  cd project
+ 2024  ls
+ 2025  cd as_demo
+ 2026  ls
+ 2027  gst
+ 2028  gd
+ 2029  cd ..
+ 2030  ls
+ 2031  cd ucore_os_lab
+ 2032  ls
+ 2033  cd ..
+ 2034  ls
+ 2035  cd ..
+ 2036  cd ~
+ 2037  ls
+ 2038  cd .terminal
+ 2039  ls
+ 2040  gst
+ 2041  gd
+ 2042  gco .
+ 2043  gst
+ 2044  ggpull
+ 2045  history
