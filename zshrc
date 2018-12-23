@@ -115,7 +115,6 @@ export PATH="$GOBIN:$PATH"
 
 # system specific
 if [ -f /etc/os-release ]; then
-    source /usr/share/autojump/autojump.zsh
     . /etc/os-release
     case $ID in
         "ubuntu")
