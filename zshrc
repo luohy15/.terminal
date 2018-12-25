@@ -168,7 +168,7 @@ else
 
     alias ctags="`brew --prefix`/bin/ctags"
     [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
-
+    . $HOME/.vim/plugged/powerline/powerline/bindings/zsh/powerline.zsh
 fi
 
 cd() {

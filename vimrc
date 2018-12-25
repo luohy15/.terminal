@@ -94,7 +94,7 @@ Plug 'scrooloose/nerdcommenter'
 " Plug 'yuttie/comfortable-motion.vim'
 " Plug 'edkolev/tmuxline.vim'
 " Plug 'itchyny/lightline.vim'
-" Plug 'powerline/powerline'
+Plug 'powerline/powerline'
 " Plug 'nathanaelkane/vim-indent-guides'
 
 " detect
@@ -123,6 +123,6 @@ source ~/.vim/config/clip.vim
 source ~/.vim/config/align.vim
 source ~/.vim/config/status.vim
 " source ~/.vim/config/lightline.vim
-" source ~/.vim/config/powerline.vim
+source ~/.vim/config/powerline.vim
 
 call plug#end()
