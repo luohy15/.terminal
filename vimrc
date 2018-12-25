@@ -5,7 +5,6 @@ if empty(glob('~/.vim/autoload/plug.vim'))
     autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 " Specify a directory for plugins
-let s:distro = system("cat /etc/os-release | grep ^ID= | cut -d '=' -f2 | tr -d '\n\"'")
 source ~/.vim/config/basic.vim
 source ~/.vim/config/leader.vim
 call plug#begin('~/.vim/plugged')
@@ -62,11 +61,9 @@ Plug 'rking/ag.vim'
 " Plug 'brookhong/cscope.vim'
 
 " other language
-" Plug 'klen/python-mode'
 " Plug 'vim-scripts/pythoncomplete'
 " Plug 'tmhedberg/simpylfold'
 " Plug 'vim-scripts/indentpython.vim'
-" Plug 'nvie/vim-flake8'
 " Plug 'tpope/vim-fugitive'
 " Plug 'tpope/vim-surround'
 " Plug 'pangloss/vim-javascript'
@@ -91,18 +88,16 @@ Plug 'rking/ag.vim'
 " eye candy
 " Plug 'vim-airline/vim-airline'
 " Plug 'vim-airline/vim-airline-themes'
-" if (s:uname == "s5-371" || s:uname == "vmware")
-    " Plug 'ryanoasis/vim-devicons'
-" endif
+" Plug 'ryanoasis/vim-devicons'
 " Plug 'yuttie/comfortable-motion.vim'
 " Plug 'edkolev/tmuxline.vim'
 " Plug 'powerline/powerline'
 " Plug 'altercation/vim-colors-solarized'
 " Plug 'octol/vim-cpp-enhanced-highlight'
 " Plug 'nathanaelkane/vim-indent-guides'
-call plug#end()
 
 " detect
+source ~/.vim/config/python.vim
 source ~/.vim/config/complete.vim
 source ~/.vim/config/solarized.vim
 source ~/.vim/config/ctrlp.vim
@@ -125,3 +120,4 @@ source ~/.vim/config/rainbow.vim
 source ~/.vim/config/visual-star.vim
 source ~/.vim/config/clip.vim
 source ~/.vim/config/align.vim
+call plug#end()

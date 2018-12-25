@@ -6,3 +6,4 @@ let g:tagbar_sort=0
 "let g:tagbar_vertical=10
 "let g:tagbar_left=1
 "set statusline+=%{tagbar#currenttag('[%s]\ ','')}
+nmap <Leader>b :TagbarToggle<CR>
