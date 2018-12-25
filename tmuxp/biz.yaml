@@ -1,15 +1,14 @@
 session_name: biz
 windows:
-- focus: 'true'
-  layout: 5851,151x41,0,0,12
+- layout: c1be,173x45,0,0,1
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
-    shell_command: zsh
+    shell_command: Vim
   start_directory: /Users/rv/.terminal
   window_name: terminal
-- layout: 5852,151x41,0,0,13
+- layout: c1bf,173x45,0,0,2
   options:
     automatic-rename: 'off'
   panes:
@@ -17,7 +16,7 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv/src/project/biz
   window_name: biz
-- layout: 5853,151x41,0,0,14
+- layout: c1c0,173x45,0,0,3
   options:
     automatic-rename: 'off'
   panes:
@@ -25,7 +24,7 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv/src/project/biz/docker-library
   window_name: docker
-- layout: 5854,151x41,0,0,15
+- layout: c1c1,173x45,0,0,4
   options:
     automatic-rename: 'off'
   panes:
@@ -33,7 +32,7 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv/src/project/biz/anomaly-jenkins
   window_name: jenkins
-- layout: 5855,151x41,0,0,16
+- layout: c1c2,173x45,0,0,5
   options:
     automatic-rename: 'off'
   panes:
@@ -41,7 +40,7 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv/src/project/biz/anomaly-core
   window_name: core
-- layout: 5856,151x41,0,0,17
+- layout: c1c3,173x45,0,0,6
   options:
     automatic-rename: 'off'
   panes:
@@ -49,7 +48,7 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv/src/project/biz/anomaly-restapi
   window_name: restapi
-- layout: 5857,151x41,0,0,18
+- layout: c1c4,173x45,0,0,7
   options:
     automatic-rename: 'off'
   panes:
@@ -57,7 +56,7 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv/src/project/biz/anomaly-overseer
   window_name: overseer
-- layout: 5858,151x41,0,0,19
+- layout: c1c5,173x45,0,0,8
   options:
     automatic-rename: 'off'
   panes:
@@ -65,19 +64,20 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv/src/project/biz/anomaly-web
   window_name: web
-- layout: d84f,151x41,0,0,20
+- focus: 'true'
+  layout: c1c6,173x45,0,0,9
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /Users/rv/src/project/biz/anomaly-binary
-  window_name: binary
-- layout: d850,151x41,0,0,21
+  start_directory: /Users/rv/src/project/biz/multi-dimension-anomaly-detection
+  window_name: multi
+- layout: 610f,173x45,0,0,10
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /Users/rv/src/project/biz/anomaly-docker
-  window_name: docker
+  start_directory: /Users/rv/src/project/biz/multi-dimension-anomaly-detection
+  window_name: multi
