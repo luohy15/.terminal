@@ -5,7 +5,6 @@ if empty(glob('~/.vim/autoload/plug.vim'))
     autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 " Specify a directory for plugins
-let s:uname = system("uname -s | tr -d '\n'")
 let s:distro = system("cat /etc/os-release | grep ^ID= | cut -d '=' -f2 | tr -d '\n\"'")
 source ~/.vim/config/basic.vim
 source ~/.vim/config/leader.vim
@@ -26,13 +25,9 @@ if v:version >= 801
     Plug 'mattn/emmet-vim'
     Plug 'fatih/vim-go'
     Plug 'wakatime/vim-wakatime'
-    if executable('rg')
-        let $FZF_DEFAULT_COMMAND = 'rg --files --no-messages "" .'
-    endif
-    let g:fzf_command_prefix = 'Fzf'
-    nnoremap <c-p> :FzfFiles<cr>
-    nnoremap <c-t> :FzfTags<cr>
-    nnoremap <leader>j :call fzf#vim#tags("'".expand('<cword>'))<cr>
+    Plug 'junegunn/goyo.vim'
+    Plug 'junegunn/limelight.vim'
+    Plug 'kien/rainbow_parentheses.vim'
 else
     Plug 'kien/ctrlp.vim'
 endif
@@ -99,15 +94,13 @@ Plug 'rking/ag.vim'
 " if (s:uname == "s5-371" || s:uname == "vmware")
     " Plug 'ryanoasis/vim-devicons'
 " endif
-" Plug 'kien/rainbow_parentheses.vim'
 " Plug 'yuttie/comfortable-motion.vim'
 " Plug 'edkolev/tmuxline.vim'
 " Plug 'powerline/powerline'
 " Plug 'altercation/vim-colors-solarized'
 " Plug 'octol/vim-cpp-enhanced-highlight'
 " Plug 'nathanaelkane/vim-indent-guides'
-" Plug 'junegunn/goyo.vim'
-" Plug 'junegunn/limelight.vim'
+call plug#end()
 
 " detect
 source ~/.vim/config/complete.vim
@@ -116,99 +109,19 @@ source ~/.vim/config/ctrlp.vim
 source ~/.vim/config/translate.vim
 source ~/.vim/config/nerdtree.vim
 source ~/.vim/config/tagbar.vim
-" source ~/.vim/config/ycm.vim
-" source ~/.vim/config/goyo.vim
+source ~/.vim/config/fzf.vim
+source ~/.vim/config/goyo.vim
+source ~/.vim/config/ycm.vim
 " source ~/.vim/config/cpp-hightlight.vim
 " source ~/.vim/config/snip.vim
 " source ~/.vim/config/markdown.vim
 " source ~/.vim/config/vimwiki.vim
 " source ~/.vim/config/goto.vim
 " source ~/.vim/config/powerline-detect.vim
-" source ~/.vim/config/rainbow.vim
 " source ~/.vim/config/zwc.vim
 " source ~/.vim/config/indent-guides.vim
 " source ~/.vim/config/replace.vim
+source ~/.vim/config/rainbow.vim
 source ~/.vim/config/visual-star.vim
-call plug#end()
-
-" basic
-" set viminfo
-" nmap <space> :
-" vmap <space> :
-" cmap w!! w !sudo tee > /dev/null %
-cnoreabbrev <expr> h getcmdtype() == ":" && getcmdline() == 'h' ? 'tab help' : 'h'
-set wildmenu
-set wildmode=full
-set history=2000
-set ruler
-" set laststatus=2
-" set cursorline
-" set cursorcolumn
-set backspace=indent,eol,start
-set tabstop=4 " >> on normal mode
-set shiftwidth=4 " tab on insert mode
-set softtabstop=4 " treat 4 spaces as tab
-set expandtab
-" set smartindent
-" set cindent
-" set autoindent
-set noswapfile
-set nobackup
-set nowritebackup
-" set exrc
-" set secure
-" set foldmethod=syntax
-set mouse=nicr
-set ttymouse=xterm2
-if v:version <= 740 || s:uname == "Darwin"
-    set clipboard=unnamed
-else
-    set clipboard=unnamedplus
-endif
-set pastetoggle=<F5>
-
-" search
-set hls
-set incsearch
-" set nofoldenable
-" set nrformats=
-" set undofile
-" set undodir=~/.dotfiles/
-" inoremap {<CR> {<CR>}<ESC>O
-" inoremap <C-u> <esc>gUiwea
-
-" split navigations
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-h> <C-w>h
-nnoremap <C-l> <C-w>l
-" nnoremap <C-f> <C-w>gf
-" nnoremap gp <C-^>
-
-" navigations
-nnoremap <silent> [b :bprevious<CR>
-nnoremap <silent> ]b :bnext<CR>
-nnoremap <silent> [B :bfirst<CR>
-nnoremap <silent> ]B :blast<CR>
-
-" split resize
-" nnoremap <Leader>j <C-w>5+
-" nnoremap <Leader>k <C-w>5-
-nnoremap <Leader>h <C-w>5<
-nnoremap <Leader>l <C-w>5>
-
-" encoding
-set encoding=utf-8
-set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1
-
-xmap ga <Plug>(EasyAlign)
-nmap ga <Plug>(EasyAlign)
-
-" snipmate
-" imap <C-j> <ESC>a<Plug>snipMateNextOrTrigger
-" smap <C-j> <Plug>snipMateNextOrTrigger
-
-" ttimeoutlen
-" set notimeout
-" set ttimeout
-" set timeoutlen=2000
+source ~/.vim/config/clip.vim
+source ~/.vim/config/align.vim
