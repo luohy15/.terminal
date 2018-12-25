@@ -11,4 +11,5 @@ function! CloseDict()
     windo if expand("%")=="dict-tmp" |q!|endif
 wincmd p
 endfunction
-
+nmap <Leader>yt :call Translate()<CR>
+nmap <Leader>yq :call CloseDict()<CR>

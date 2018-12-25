@@ -6,7 +6,6 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 " Specify a directory for plugins
 source ~/.vim/config/basic.vim
-source ~/.vim/config/leader.vim
 source ~/.vim/config/powerline.vim
 call plug#begin('~/.vim/plugged')
 
@@ -15,10 +14,12 @@ call plug#begin('~/.vim/plugged')
 Plug 'christoomey/vim-tmux-navigator'
 if v:version >= 801
     Plug 'Valloric/YouCompleteMe'
+    Plug 'scrooloose/syntastic'
     Plug 'tpope/vim-fugitive'
     Plug '/usr/local/opt/fzf'
     Plug 'junegunn/fzf.vim'
     Plug 'scrooloose/nerdtree'
+    Plug 'Xuyuanp/nerdtree-git-plugin'
     Plug 'jistr/vim-nerdtree-tabs'
     Plug 'raimondi/delimitmate'
     Plug 'majutsushi/tagbar'
@@ -30,26 +31,24 @@ if v:version >= 801
     Plug 'junegunn/limelight.vim'
     Plug 'kien/rainbow_parentheses.vim'
     Plug 'tpope/vim-surround'
+    Plug 'easymotion/vim-easymotion'
+    Plug 'terryma/vim-expand-region'
+    Plug 'terryma/vim-multiple-cursors'
 else
     Plug 'kien/ctrlp.vim'
+    Plug 'rking/ag.vim'
 endif
-" Plug 'scrooloose/syntastic'
 " Plug 'fholgado/minibufexpl.vim'
 Plug 'scrooloose/nerdcommenter'
 " Plug 'skywind3000/asyncrun.vim'
 " Plug 'jiangmiao/auto-pairs'
 " Plug 'alpertuna/vim-header'
-" Plug 'terryma/vim-multiple-cursors'
 " Plug 'godlygeek/tabular'
 " Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 
 " search
-" Plug 'easymotion/vim-easymotion'
-Plug 'rking/ag.vim'
 " Plug 'mileszs/ack.vim'
 " Plug 'dyng/ctrlsf.vim'
-
-" go
 
 " cpp
 " Plug 'vim-scripts/OmniCppComplete'
@@ -95,7 +94,7 @@ Plug 'rking/ag.vim'
 Plug 'altercation/vim-colors-solarized'
 Plug 'itchyny/lightline.vim'
 " Plug 'powerline/powerline'
-" Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'octol/vim-cpp-enhanced-highlight'
 " Plug 'nathanaelkane/vim-indent-guides'
 
 " detect
@@ -109,6 +108,7 @@ source ~/.vim/config/tagbar.vim
 source ~/.vim/config/fzf.vim
 source ~/.vim/config/goyo.vim
 source ~/.vim/config/ycm.vim
+source ~/.vim/config/easymotion.vim
 " source ~/.vim/config/cpp-hightlight.vim
 " source ~/.vim/config/snip.vim
 " source ~/.vim/config/markdown.vim
@@ -121,4 +121,5 @@ source ~/.vim/config/rainbow.vim
 source ~/.vim/config/visual-star.vim
 source ~/.vim/config/clip.vim
 source ~/.vim/config/align.vim
+
 call plug#end()

@@ -1,7 +1,6 @@
 session_name: biz
 windows:
-- focus: 'true'
-  layout: c1be,173x45,0,0,1
+- layout: 6112,173x45,0,0,13
   options:
     automatic-rename: 'off'
   panes:
@@ -23,8 +22,8 @@ windows:
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /Users/rv
-  window_name: code
+  start_directory: /Users/rv/src/project/biz
+  window_name: biz
 - layout: c1c1,173x45,0,0,4
   options:
     automatic-rename: 'off'
@@ -65,7 +64,8 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv
   window_name: web
-- layout: c1c6,173x45,0,0,9
+- focus: 'true'
+  layout: c1c6,173x45,0,0,9
   options:
     automatic-rename: 'off'
   panes:

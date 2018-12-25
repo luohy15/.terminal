@@ -5,7 +5,11 @@ set number
 nmap <Leader>w :w<CR>
 nmap <Leader>q :q<CR>
 nmap <Leader>x :x<CR>
+nmap <Leader>Q :qa!<CR>
 nmap <Leader>s :source ~/.vimrc<CR>
+nmap <Leader>pi :PlugInstall<CR>
+nmap <Leader>pu :PlugUpdate<CR>
+nmap <Leader>y :%y+<CR>
 cmap w!! w !sudo tee > /dev/null %
 
 " navigation
@@ -35,7 +39,7 @@ nnoremap <Leader>j <C-w>5+
 nnoremap <Leader>k <C-w>5-
 
 " misc
-" set ruler
+set ruler
 set hls
 set incsearch
 set wildmenu
