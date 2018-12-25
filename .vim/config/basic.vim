@@ -35,7 +35,7 @@ nnoremap <Leader>j <C-w>5+
 nnoremap <Leader>k <C-w>5-
 
 " misc
-set ruler
+" set ruler
 set hls
 set incsearch
 set wildmenu
@@ -54,3 +54,5 @@ cnoreabbrev <expr> h getcmdtype() == ":" && getcmdline() == 'h' ? 'tab help' : '
 set encoding=utf-8
 set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1
 set showmatch
+set laststatus=2
+set showtabline=2

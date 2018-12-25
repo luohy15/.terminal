@@ -167,7 +167,6 @@ else
     alias bcs="brew cask search"
 
     alias ctags="`brew --prefix`/bin/ctags"
-    alias vim="`brew --prefix`/bin/mvim -v"
     [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 
 fi

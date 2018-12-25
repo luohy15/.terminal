@@ -7,6 +7,7 @@ endif
 " Specify a directory for plugins
 source ~/.vim/config/basic.vim
 source ~/.vim/config/leader.vim
+source ~/.vim/config/powerline.vim
 call plug#begin('~/.vim/plugged')
 
 " basic
@@ -14,6 +15,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'christoomey/vim-tmux-navigator'
 if v:version >= 801
     Plug 'Valloric/YouCompleteMe'
+    Plug 'tpope/vim-fugitive'
     Plug '/usr/local/opt/fzf'
     Plug 'junegunn/fzf.vim'
     Plug 'scrooloose/nerdtree'
@@ -27,6 +29,7 @@ if v:version >= 801
     Plug 'junegunn/goyo.vim'
     Plug 'junegunn/limelight.vim'
     Plug 'kien/rainbow_parentheses.vim'
+    Plug 'tpope/vim-surround'
 else
     Plug 'kien/ctrlp.vim'
 endif
@@ -64,8 +67,6 @@ Plug 'rking/ag.vim'
 " Plug 'vim-scripts/pythoncomplete'
 " Plug 'tmhedberg/simpylfold'
 " Plug 'vim-scripts/indentpython.vim'
-" Plug 'tpope/vim-fugitive'
-" Plug 'tpope/vim-surround'
 " Plug 'pangloss/vim-javascript'
 " Plug 'xuyuanp/nerdtree-git-plugin'
 " Plug 'ervandew/eclim'
@@ -91,8 +92,9 @@ Plug 'rking/ag.vim'
 " Plug 'ryanoasis/vim-devicons'
 " Plug 'yuttie/comfortable-motion.vim'
 " Plug 'edkolev/tmuxline.vim'
+Plug 'altercation/vim-colors-solarized'
+Plug 'itchyny/lightline.vim'
 " Plug 'powerline/powerline'
-" Plug 'altercation/vim-colors-solarized'
 " Plug 'octol/vim-cpp-enhanced-highlight'
 " Plug 'nathanaelkane/vim-indent-guides'
 
@@ -112,7 +114,6 @@ source ~/.vim/config/ycm.vim
 " source ~/.vim/config/markdown.vim
 " source ~/.vim/config/vimwiki.vim
 " source ~/.vim/config/goto.vim
-" source ~/.vim/config/powerline-detect.vim
 " source ~/.vim/config/zwc.vim
 " source ~/.vim/config/indent-guides.vim
 " source ~/.vim/config/replace.vim

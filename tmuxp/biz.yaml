@@ -1,11 +1,12 @@
 session_name: biz
 windows:
-- layout: c1be,173x45,0,0,1
+- focus: 'true'
+  layout: c1be,173x45,0,0,1
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
-    shell_command: Vim
+    shell_command: zsh
   start_directory: /Users/rv/.terminal
   window_name: terminal
 - layout: c1bf,173x45,0,0,2
@@ -22,8 +23,8 @@ windows:
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /Users/rv/src/project/biz/docker-library
-  window_name: docker
+  start_directory: /Users/rv
+  window_name: code
 - layout: c1c1,173x45,0,0,4
   options:
     automatic-rename: 'off'
@@ -62,10 +63,9 @@ windows:
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /Users/rv/src/project/biz/anomaly-web
+  start_directory: /Users/rv
   window_name: web
-- focus: 'true'
-  layout: c1c6,173x45,0,0,9
+- layout: c1c6,173x45,0,0,9
   options:
     automatic-rename: 'off'
   panes:

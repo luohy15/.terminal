@@ -28,3 +28,6 @@ do
         ln -s ~/.terminal/$dir/$subdir ~/$dir/$subdir
     done
 done
+
+unlink ~/.vim/colors
+ln -s ~/.vim/plugged/vim-colors-solarized/colors ~/.vim/colors
