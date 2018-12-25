@@ -1,5 +1,5 @@
 ## files
-for f in tmux.conf zshrc vimrc tmuxp ycm_extra_conf.py ideavimrc
+for f in tmux.conf zshrc vimrc tmuxp ideavimrc
 do
     echo $f
     if [ ! -L ~/.$f ]; then

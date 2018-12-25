@@ -6,7 +6,6 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 " Specify a directory for plugins
 source ~/.vim/config/basic.vim
-source ~/.vim/config/powerline.vim
 call plug#begin('~/.vim/plugged')
 
 " basic
@@ -34,6 +33,9 @@ if v:version >= 801
     Plug 'easymotion/vim-easymotion'
     Plug 'terryma/vim-expand-region'
     Plug 'terryma/vim-multiple-cursors'
+    Plug 'altercation/vim-colors-solarized'
+    Plug 'mkitt/tabline.vim'
+    Plug 'octol/vim-cpp-enhanced-highlight'
 else
     Plug 'kien/ctrlp.vim'
     Plug 'rking/ag.vim'
@@ -91,10 +93,8 @@ Plug 'scrooloose/nerdcommenter'
 " Plug 'ryanoasis/vim-devicons'
 " Plug 'yuttie/comfortable-motion.vim'
 " Plug 'edkolev/tmuxline.vim'
-Plug 'altercation/vim-colors-solarized'
-Plug 'itchyny/lightline.vim'
+" Plug 'itchyny/lightline.vim'
 " Plug 'powerline/powerline'
-Plug 'octol/vim-cpp-enhanced-highlight'
 " Plug 'nathanaelkane/vim-indent-guides'
 
 " detect
@@ -121,5 +121,8 @@ source ~/.vim/config/rainbow.vim
 source ~/.vim/config/visual-star.vim
 source ~/.vim/config/clip.vim
 source ~/.vim/config/align.vim
+source ~/.vim/config/status.vim
+" source ~/.vim/config/lightline.vim
+" source ~/.vim/config/powerline.vim
 
 call plug#end()
