@@ -112,6 +112,7 @@ export GOPATH="$HOME/go"
 export GOBIN="$GOPATH/bin"
 export PATH="$GOBIN:$PATH"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+. $HOME/.vim/plugged/powerline/powerline/bindings/zsh/powerline.zsh
 
 # system specific
 if [ -f /etc/os-release ]; then
@@ -168,7 +169,6 @@ else
 
     alias ctags="`brew --prefix`/bin/ctags"
     [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
-    . $HOME/.vim/plugged/powerline/powerline/bindings/zsh/powerline.zsh
 fi
 
 cd() {
