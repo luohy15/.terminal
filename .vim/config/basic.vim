@@ -35,8 +35,8 @@ nnoremap <silent> [B :bfirst<CR>
 nnoremap <silent> ]B :blast<CR>
 nnoremap <Leader>h <C-w>5<
 nnoremap <Leader>l <C-w>5>
-nnoremap <Leader>j <C-w>5+
-nnoremap <Leader>k <C-w>5-
+" nnoremap <Leader>j <C-w>5+
+" nnoremap <Leader>k <C-w>5-
 
 " misc
 set ruler
