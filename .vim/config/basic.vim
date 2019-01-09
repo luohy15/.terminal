@@ -44,12 +44,17 @@ set hls
 set incsearch
 set wildmenu
 set wildmode=full
+" if has("autocmd")
+    " filetype plugin indent on
+" endif
 set backspace=indent,eol,start
-set autoindent
 set tabstop=4 " >> on normal mode
-set softtabstop=4
-set shiftwidth=4
 set expandtab
+set shiftwidth=4
+set softtabstop=4
+set autoindent
+set smartindent
+set cindent
 set noswapfile
 set nobackup
 set nowritebackup

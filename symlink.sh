@@ -17,7 +17,7 @@ do
     then
         mkdir ~/$dir
     fi
-    for subdir in `ls $dir`
+    for subdir in `ls -A $dir`
     do
         echo $dir/$subdir
         if [ ! -L ~/$dir/$subdir ]; then

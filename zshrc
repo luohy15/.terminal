@@ -169,6 +169,8 @@ else
 
     alias ctags="`brew --prefix`/bin/ctags"
     [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
+    PIPENV_PATH="/Users/rv/Library/Python/3.7/bin"
+    export PATH=$PIPENV_PATH:$PATH
 fi
 
 cd() {

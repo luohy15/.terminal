@@ -6,6 +6,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 " Specify a directory for plugins
 source ~/.vim/config/basic.vim
+source ~/.vim/config/solarized.vim
 call plug#begin('~/.vim/plugged')
 
 " basic
@@ -33,7 +34,9 @@ if v:version >= 801
     Plug 'easymotion/vim-easymotion'
     Plug 'terryma/vim-expand-region'
     Plug 'terryma/vim-multiple-cursors'
-    Plug 'octol/vim-cpp-enhanced-highlight'
+    " Plug 'w0rp/ale'
+    " Plug 'yggdroot/leaderf'
+    " Plug 'shougo/echodoc'
 else
     Plug 'kien/ctrlp.vim'
 endif
@@ -61,6 +64,10 @@ Plug 'scrooloose/nerdcommenter'
 " Plug 'kshenoy/vim-signature'
 " Plug 'chiel92/vim-autoformat'
 " Plug 'brookhong/cscope.vim'
+" Plug 'google/vim-maktaba'
+" Plug 'google/vim-codefmt'
+" Plug 'google/vim-glaive'
+" Plug 'rhysd/vim-clang-format'
 
 " other language
 " Plug 'vim-scripts/pythoncomplete'
@@ -95,37 +102,34 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'altercation/vim-colors-solarized'
 Plug 'powerline/powerline'
 " Plug 'mkitt/tabline.vim'
-" Plug 'nathanaelkane/vim-indent-guides'
+Plug 'nathanaelkane/vim-indent-guides'
 
 " detect
-if v:version >= 801
-    source ~/.vim/config/python.vim
-    source ~/.vim/config/complete.vim
-    source ~/.vim/config/translate.vim
-    source ~/.vim/config/nerdtree.vim
-    source ~/.vim/config/tagbar.vim
-    source ~/.vim/config/fzf.vim
-    source ~/.vim/config/goyo.vim
-    source ~/.vim/config/ycm.vim
-    source ~/.vim/config/easymotion.vim
-    " source ~/.vim/config/cpp-hightlight.vim
-    " source ~/.vim/config/snip.vim
-    " source ~/.vim/config/markdown.vim
-    " source ~/.vim/config/vimwiki.vim
-    " source ~/.vim/config/goto.vim
-    " source ~/.vim/config/zwc.vim
-    " source ~/.vim/config/indent-guides.vim
-    " source ~/.vim/config/replace.vim
-    source ~/.vim/config/rainbow.vim
-    source ~/.vim/config/visual-star.vim
-    source ~/.vim/config/align.vim
-    source ~/.vim/config/clip.vim
-    " source ~/.vim/config/status.vim
-    " source ~/.vim/config/lightline.vim
-else
-    source ~/.vim/config/ctrlp.vim
-endif
+source ~/.vim/config/python.vim
+source ~/.vim/config/cpp.vim
+source ~/.vim/config/complete.vim
+source ~/.vim/config/translate.vim
+source ~/.vim/config/nerdtree.vim
+source ~/.vim/config/tagbar.vim
+source ~/.vim/config/fzf.vim
+source ~/.vim/config/goyo.vim
+source ~/.vim/config/ycm.vim
+source ~/.vim/config/easymotion.vim
+source ~/.vim/config/cpp-hightlight.vim
+source ~/.vim/config/rainbow.vim
+" source ~/.vim/config/snip.vim
+" source ~/.vim/config/markdown.vim
+" source ~/.vim/config/vimwiki.vim
+" source ~/.vim/config/goto.vim
+" source ~/.vim/config/zwc.vim
+source ~/.vim/config/indent-guides.vim
+" source ~/.vim/config/replace.vim
+source ~/.vim/config/visual-star.vim
+source ~/.vim/config/align.vim
+source ~/.vim/config/clip.vim
+" source ~/.vim/config/status.vim
+" source ~/.vim/config/lightline.vim
+source ~/.vim/config/ctrlp.vim
 source ~/.vim/config/powerline.vim
-source ~/.vim/config/solarized.vim
 
 call plug#end()

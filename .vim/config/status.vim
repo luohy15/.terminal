@@ -1,4 +1,3 @@
-set noshowmode
 set statusline=
 
 set statusline+=\[%{mode()}\]                " current mode
