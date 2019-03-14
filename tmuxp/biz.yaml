@@ -1,6 +1,7 @@
 session_name: biz
 windows:
-- layout: 6758,151x39,0,0,19
+- focus: 'true'
+  layout: c37e,167x45,0,0,1
   options:
     automatic-rename: 'off'
   panes:
@@ -8,7 +9,7 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv/.terminal
   window_name: terminal
-- layout: e74f,151x39,0,0,20
+- layout: c37f,167x45,0,0,2
   options:
     automatic-rename: 'off'
   panes:
@@ -16,7 +17,7 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv/src/project/biz
   window_name: biz
-- layout: e750,151x39,0,0,21
+- layout: c380,167x45,0,0,3
   options:
     automatic-rename: 'off'
   panes:
@@ -24,57 +25,55 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv/src/project/biz
   window_name: biz
-- layout: e751,151x39,0,0,22
+- layout: c381,167x45,0,0,4
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /Users/rv/src/project/biz/anomaly-jenkins
-  window_name: jenkins
-- layout: e752,151x39,0,0,23
+  start_directory: /Users/rv/src/project/biz/anomaly-web
+  window_name: web
+- layout: c382,167x45,0,0,5
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /Users/rv/src/project/biz/anomaly-core
-  window_name: core
-- layout: e753,151x39,0,0,24
+  start_directory: /Users/rv/src/project/biz/anomaly-web
+  window_name: web
+- layout: c383,167x45,0,0,6
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /Users/rv/src/project/biz/anomaly-restapi
-  window_name: restapi
-- layout: e754,151x39,0,0,25
+  start_directory: /Users/rv/src/project/biz/anomaly-web
+  window_name: web
+- layout: c384,167x45,0,0,7
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /Users/rv/src/app/logstash-6.3.2
-  window_name: logstash
-- layout: e755,151x39,0,0,26
+  start_directory: /Users/rv/src/project/myself/luohy15.github.io
+  window_name: blog
+- layout: c385,167x45,0,0,8
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /Users/rv/src/project/biz/multi-dimension-anomaly-detection
-  window_name: git
-- focus: 'true'
-  layout: e90a,151x39,0,0{75x39,0,0,27,75x39,76,0,29}
+  start_directory: /Users/rv/src/project/myself/naive
+  window_name: naive
+- layout: c386,167x45,0,0,9
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
-  - zsh
   start_directory: /Users/rv/src/project/biz/multi-dimension-anomaly-detection
   window_name: multi
-- layout: 6750,151x39,0,0,30
+- layout: 61f0,167x45,0,0,11
   options:
     automatic-rename: 'off'
   panes:
