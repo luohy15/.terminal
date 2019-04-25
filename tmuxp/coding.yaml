@@ -1,6 +1,6 @@
 session_name: coding
 windows:
-- layout: c8be,156x37,0,0,1
+- layout: cefe,147x29,0,0,1
   options:
     automatic-rename: 'off'
   panes:
@@ -8,15 +8,15 @@ windows:
     shell_command: zsh
   start_directory: /home/rv/.terminal
   window_name: "\uF085"
-- layout: c8bf,156x37,0,0,2
+- layout: ceff,147x29,0,0,2
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /home/rv/src/project/programming_basic/leetcode
+  start_directory: /home/rv
   window_name: "\uF121"
-- layout: c8c0,156x37,0,0,3
+- layout: cf00,147x29,0,0,3
   options:
     automatic-rename: 'off'
   panes:
@@ -24,7 +24,7 @@ windows:
     shell_command: zsh
   start_directory: /home/rv
   window_name: "\uF0FB"
-- layout: c8c1,156x37,0,0,4
+- layout: cf01,147x29,0,0,4
   options:
     automatic-rename: 'off'
   panes:
@@ -32,7 +32,7 @@ windows:
     shell_command: zsh
   start_directory: /home/rv
   window_name: "\uF1FB"
-- layout: c8c2,156x37,0,0,5
+- layout: cf02,147x29,0,0,5
   options:
     automatic-rename: 'off'
   panes:
@@ -40,7 +40,7 @@ windows:
     shell_command: zsh
   start_directory: /home/rv
   window_name: "\uF0D0"
-- layout: c8c3,156x37,0,0,6
+- layout: cf03,147x29,0,0,6
   options:
     automatic-rename: 'off'
   panes:
@@ -48,7 +48,7 @@ windows:
     shell_command: zsh
   start_directory: /home/rv
   window_name: "\uF192"
-- layout: c8c4,156x37,0,0,7
+- layout: cf04,147x29,0,0,7
   options:
     automatic-rename: 'off'
   panes:
@@ -56,7 +56,7 @@ windows:
     shell_command: zsh
   start_directory: /home/rv
   window_name: "\uF51E"
-- layout: c8c5,156x37,0,0,8
+- layout: cf05,147x29,0,0,8
   options:
     automatic-rename: 'off'
   panes:
@@ -64,20 +64,21 @@ windows:
     shell_command: zsh
   start_directory: /home/rv
   window_name: "\uF279"
-- focus: 'true'
-  layout: c8c6,156x37,0,0,9
+- layout: 523a,147x29,0,0{73x29,0,0,9,73x29,74,0,11}
   options:
     automatic-rename: 'off'
   panes:
+  - vim
   - focus: 'true'
     shell_command: zsh
-  start_directory: /home/rv
+  start_directory: /home/rv/.dotfiles
   window_name: "\uF0AD"
-- layout: 648f,156x37,0,0,10
+- focus: 'true'
+  layout: 67af,147x29,0,0,10
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /home/rv
+  start_directory: /home/rv/Pictures/wallpaper
   window_name: "\uF1E3"

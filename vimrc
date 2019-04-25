@@ -26,7 +26,6 @@ if v:version >= 801
     Plug 'junegunn/vim-easy-align'
     Plug 'mattn/emmet-vim'
     Plug 'fatih/vim-go'
-    Plug 'wakatime/vim-wakatime'
     Plug 'junegunn/goyo.vim'
     Plug 'junegunn/limelight.vim'
     Plug 'kien/rainbow_parentheses.vim'
@@ -47,6 +46,7 @@ Plug 'scrooloose/nerdcommenter'
 " Plug 'alpertuna/vim-header'
 " Plug 'godlygeek/tabular'
 " Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
+" Plug 'wakatime/vim-wakatime'
 
 " search
 " Plug 'rking/ag.vim'

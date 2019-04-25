@@ -1,70 +1,83 @@
 session_name: basic
 windows:
-- focus: 'true'
-  layout: ce3e,174x48,0,0,1
-  options: {}
+- layout: c126,147x27,0,0{73x27,0,0,1,73x27,74,0,12}
+  options:
+    automatic-rename: 'off'
   panes:
-  - pane
+  - focus: 'true'
+    shell_command: vim
+  - zsh
   start_directory: /home/rv/.terminal
   window_name: zsh
-- layout: ce46,174x48,0,0,9
-  options: {}
-  panes:
-  - focus: 'true'
-    shell_command: zsh
-  start_directory: /home/rv/src/project
-  window_name: zsh
-- layout: ce40,174x48,0,0,3
-  options: {}
+- layout: c6ff,147x27,0,0,2
+  options:
+    automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
   start_directory: /home/rv
   window_name: zsh
-- layout: 674f,174x48,0,0,10
-  options: {}
+- layout: c700,147x27,0,0,3
+  options:
+    automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
   start_directory: /home/rv
   window_name: zsh
-- layout: 6750,174x48,0,0,11
-  options: {}
+- layout: c701,147x27,0,0,4
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/rv
+  window_name: zsh
+- layout: c702,147x27,0,0,5
+  options:
+    automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
   start_directory: /home/rv/.dotfiles
   window_name: zsh
-- layout: 6751,174x48,0,0,12
-  options: {}
+- layout: c703,147x27,0,0,6
+  options:
+    automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
   start_directory: /home/rv
   window_name: zsh
-- layout: 6752,174x48,0,0,13
-  options: {}
+- layout: c704,147x27,0,0,7
+  options:
+    automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
   start_directory: /home/rv
   window_name: zsh
-- layout: 6753,174x48,0,0,14
-  options: {}
+- layout: c705,147x27,0,0,8
+  options:
+    automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
   start_directory: /home/rv
   window_name: zsh
-- layout: 6754,174x48,0,0,15
-  options: {}
+- focus: 'true'
+  layout: 4136,147x27,0,0{73x27,0,0,9,73x27,74,0,11}
+  options:
+    automatic-rename: 'off'
   panes:
   - focus: 'true'
-    shell_command: zsh
-  start_directory: /home/rv
+    shell_command: vim
+  - zsh
+  start_directory: /home/rv/.dotfiles
   window_name: zsh
-- layout: 6755,174x48,0,0,16
-  options: {}
+- layout: 63af,147x27,0,0,10
+  options:
+    automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
