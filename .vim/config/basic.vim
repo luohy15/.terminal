@@ -50,8 +50,8 @@ set wildmode=full
 set backspace=indent,eol,start
 set tabstop=4 " >> on normal mode
 set expandtab
-set shiftwidth=4
-set softtabstop=4
+set shiftwidth=4 " tab on insert mode
+set softtabstop=4 " treat 4 spaces as tab
 set autoindent
 set smartindent
 set cindent

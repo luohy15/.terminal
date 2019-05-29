@@ -33,6 +33,8 @@ if v:version >= 801
     Plug 'easymotion/vim-easymotion'
     Plug 'terryma/vim-expand-region'
     Plug 'terryma/vim-multiple-cursors'
+    Plug 'pangloss/vim-javascript'
+    Plug 'isruslan/vim-es6'
     " Plug 'w0rp/ale'
     " Plug 'yggdroot/leaderf'
     " Plug 'shougo/echodoc'
@@ -73,7 +75,6 @@ Plug 'scrooloose/nerdcommenter'
 " Plug 'vim-scripts/pythoncomplete'
 " Plug 'tmhedberg/simpylfold'
 " Plug 'vim-scripts/indentpython.vim'
-" Plug 'pangloss/vim-javascript'
 " Plug 'xuyuanp/nerdtree-git-plugin'
 " Plug 'ervandew/eclim'
 " Plug 'shirk/vim-gas'
@@ -106,6 +107,7 @@ Plug 'nathanaelkane/vim-indent-guides'
 
 " detect
 source ~/.vim/config/python.vim
+source ~/.vim/config/js.vim
 source ~/.vim/config/cpp.vim
 source ~/.vim/config/complete.vim
 source ~/.vim/config/translate.vim
