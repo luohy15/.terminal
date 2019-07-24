@@ -35,9 +35,11 @@ if v:version >= 801
     Plug 'terryma/vim-multiple-cursors'
     Plug 'pangloss/vim-javascript'
     Plug 'isruslan/vim-es6'
+    Plug 'wakatime/vim-wakatime'
     " Plug 'w0rp/ale'
     " Plug 'yggdroot/leaderf'
     " Plug 'shougo/echodoc'
+    source ~/.vim/config/rainbow.vim
 else
     Plug 'kien/ctrlp.vim'
 endif
@@ -48,7 +50,6 @@ Plug 'scrooloose/nerdcommenter'
 " Plug 'alpertuna/vim-header'
 " Plug 'godlygeek/tabular'
 " Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
-" Plug 'wakatime/vim-wakatime'
 
 " search
 " Plug 'rking/ag.vim'
@@ -118,7 +119,6 @@ source ~/.vim/config/goyo.vim
 source ~/.vim/config/ycm.vim
 source ~/.vim/config/easymotion.vim
 source ~/.vim/config/cpp-hightlight.vim
-source ~/.vim/config/rainbow.vim
 " source ~/.vim/config/snip.vim
 " source ~/.vim/config/markdown.vim
 " source ~/.vim/config/vimwiki.vim
