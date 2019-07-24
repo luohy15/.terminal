@@ -1,7 +1,7 @@
 session_name: biz
 windows:
 - focus: 'true'
-  layout: c37e,167x45,0,0,1
+  layout: c25e,255x64,0,0,1
   options:
     automatic-rename: 'off'
   panes:
@@ -9,75 +9,77 @@ windows:
     shell_command: zsh
   start_directory: /Users/rv/.terminal
   window_name: terminal
-- layout: c37f,167x45,0,0,2
+- layout: c261,255x64,0,0,4
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /Users/rv/src/project/biz
+  start_directory: /Users/rv/src/project/bizseer
   window_name: biz
-- layout: c380,167x45,0,0,3
+- layout: 9091,255x64,0,0{127x64,0,0,5,127x64,128,0,22}
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /Users/rv/src/project/biz
-  window_name: biz
-- layout: c381,167x45,0,0,4
+  - zsh
+  start_directory: /Users/rv/src/project/bizseer/ci-platform-intro
+  window_name: ci
+- layout: 9807,255x64,0,0{126x64,0,0,6,128x64,127,0,7}
+  options:
+    automatic-rename: 'off'
+  panes:
+  - pane
+  - zsh
+  start_directory: /Users/rv/src/project/bizseer/aiops-web
+  window_name: aiops
+- layout: 980a,255x64,0,0{126x64,0,0,8,128x64,127,0,9}
+  options:
+    automatic-rename: 'off'
+  panes:
+  - pane
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /Users/rv/src/project/bizseer/anomaly-web
+  window_name: anomaly
+- layout: 615f,255x64,0,0,10
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /Users/rv/src/project/biz/anomaly-web
-  window_name: web
-- layout: c382,167x45,0,0,5
+  start_directory: /Users/rv
+  window_name: zsh
+- layout: 6161,255x64,0,0,12
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /Users/rv/src/project/biz/anomaly-web
-  window_name: web
-- layout: c383,167x45,0,0,6
+  start_directory: /Users/rv
+  window_name: zsh
+- layout: 6163,255x64,0,0,14
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /Users/rv/src/project/biz/anomaly-web
-  window_name: web
-- layout: c384,167x45,0,0,7
+  start_directory: /Users/rv/src/data
+  window_name: data
+- layout: 6164,255x64,0,0,15
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /Users/rv/src/project/myself/luohy15.github.io
-  window_name: blog
-- layout: c385,167x45,0,0,8
+  start_directory: /Users/rv/src/project/programming_basic/exercises
+  window_name: exercise
+- layout: 6165,255x64,0,0,16
   options:
     automatic-rename: 'off'
   panes:
   - focus: 'true'
     shell_command: zsh
-  start_directory: /Users/rv/src/project/myself/naive
-  window_name: naive
-- layout: c386,167x45,0,0,9
-  options:
-    automatic-rename: 'off'
-  panes:
-  - focus: 'true'
-    shell_command: zsh
-  start_directory: /Users/rv/src/project/biz/multi-dimension-anomaly-detection
-  window_name: multi
-- layout: 61f0,167x45,0,0,11
-  options:
-    automatic-rename: 'off'
-  panes:
-  - focus: 'true'
-    shell_command: zsh
-  start_directory: /Users/rv/src/project/biz/multi-dimension-anomaly-detection
-  window_name: multi
+  start_directory: /Users/rv
+  window_name: misc
