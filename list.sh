@@ -3,8 +3,6 @@ LIST=(
 "tmux"
 "vim"
 "git"
-"autojump"
-"ctags"
 "htop"
 "fzf"
 "cmake"

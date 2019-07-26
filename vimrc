@@ -12,12 +12,12 @@ call plug#begin('~/.vim/plugged')
 " basic
 " Plug 'ajh17/vimcompletesme'
 Plug 'christoomey/vim-tmux-navigator'
+Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf.vim'
 if v:version >= 801
     Plug 'Valloric/YouCompleteMe'
     Plug 'scrooloose/syntastic'
     Plug 'tpope/vim-fugitive'
-    Plug '/usr/local/opt/fzf'
-    Plug 'junegunn/fzf.vim'
     Plug 'scrooloose/nerdtree'
     Plug 'Xuyuanp/nerdtree-git-plugin'
     Plug 'jistr/vim-nerdtree-tabs'

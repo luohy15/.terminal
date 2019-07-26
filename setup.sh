@@ -1,5 +1,6 @@
 #!/bin/bash
 
+bash symlink.sh
 source ./list.sh
 if [ -f /etc/os-release ]; then
     . /etc/os-release
