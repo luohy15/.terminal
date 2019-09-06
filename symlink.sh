@@ -11,7 +11,7 @@ do
 done
 
 ## subdirs
-for dir in .vim .config .ssh
+for dir in .vim .config
 do
     if [ ! -d ~/$dir ]
     then
