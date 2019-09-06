@@ -12,7 +12,6 @@ LIST=(
 )
 PIP_LIST=(
 "powerline-status"
-"tmuxp"
 )
 NPM_LIST=(
 )
