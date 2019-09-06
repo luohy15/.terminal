@@ -1,4 +1,4 @@
- If you come from bash you might have to change your $PATH.
+# If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
@@ -100,7 +100,7 @@ cd() {
 }
 
 function acp() {
-    git add.
+    git add .
     git commit -m "$1"
     git push
 }
@@ -109,6 +109,7 @@ export DISABLE_AUTO_TITLE='true'
 export RPROMPT=$'%*'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 . $HOME/.vim/plugged/powerline/powerline/bindings/zsh/powerline.zsh
+eval $(thefuck --alias)
 
 # system specific
 if [ -f /etc/os-release ]; then
@@ -198,5 +199,3 @@ else
     export GOBIN="$GOPATH/bin"
     export PATH="$GOBIN:$PATH"
 fi
-
-eval $(thefuck --alias)
