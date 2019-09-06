@@ -1,6 +1,5 @@
 #!/bin/bash
 
-bash symlink.sh
 source ./list.sh
 if [ -f /etc/os-release ]; then
     . /etc/os-release
@@ -8,13 +7,13 @@ if [ -f /etc/os-release ]; then
         "ubuntu")
             for s in ${LIST[@]}
             do
-                apt install -y $s
+                sudo apt install -y $s
             done
             ;;
         "centos")
             for s in ${LIST[@]}
             do
-                yum install -y $s
+                sudo yum install -y $s
             done
             ;;
         "arch")
@@ -46,3 +45,4 @@ if [ ! -d ~/.fzf ]
 then
     git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 fi
+bash symlink.sh

@@ -125,7 +125,7 @@ if [ -f /etc/os-release ]; then
             alias agdu="sudo apt upgrade"
             alias acs="apt-cache search"
             alias sdi="sudo dpkg -i"
-
+            if [ /usr/local/bin/kubectl ]; then source <(kubectl completion zsh); fi
             ;;
         "centos")
             # yum alias
@@ -185,6 +185,11 @@ else
     # llvm
     export LDFLAGS="-L/usr/local/opt/llvm/lib"
     export CPPFLAGS="-I/usr/local/opt/llvm/include"
+
+    # java
+    export JAVA_HOME=$(/usr/libexec/java_home)
+    export PATH=$JAVA_HOME/bin:$PATH
+    export CLASS_PATH=$JAVA_HOME/lib
 fi
 
 cd() {
