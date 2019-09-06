@@ -31,7 +31,7 @@ if [ -f /etc/os-release ]; then
 fi
 
 . /etc/os-release
-if [[ $ID != "centos" || $ID != "rhel" ]]
+if [[ $ID != "centos" && $ID != "rhel" ]]
 then
     sudo pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pip -U
     sudo pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
