@@ -85,18 +85,8 @@ export LANGUAGE=en_US.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-# pacman aliases
-alias pac='sudo pacman -S'   # install
-alias pacu='sudo pacman -Syu'    # update, add 'a' to the list of letters to update AUR packages if you use yaourt
-alias pacr='sudo pacman -Rs'   # remove
-alias pacs='sudo pacman -Ss'      # search
-alias paci='sudo pacman -Si'      # info
-alias paclo='sudo pacman -Qdt'    # list orphans
-alias pacro='sudo paclo && sudo pacman -Rns $(pacman -Qtdq)' # remove orphans
-alias pacc='sudo pacman -Scc'    # clean cache
-alias paclf='sudo pacman -Ql'   # list files
 
-# other aliases
+# common aliases
 alias tmux="tmux -2"
 alias cp="cp -i"
 alias mv="mv -i"
@@ -105,12 +95,12 @@ alias cl="clear"
 alias tgz='tar -zxvf'
 alias tbz='tar -jxvf'
 
-# export&source
+cd() {
+	builtin cd "$@" && ls
+}
+
 export DISABLE_AUTO_TITLE='true'
 export RPROMPT=$'%*'
-export GOPATH="$HOME/go"
-export GOBIN="$GOPATH/bin"
-export PATH="$GOBIN:$PATH"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 . $HOME/.vim/plugged/powerline/powerline/bindings/zsh/powerline.zsh
 
@@ -125,7 +115,6 @@ if [ -f /etc/os-release ]; then
             alias agdu="sudo apt upgrade"
             alias acs="apt-cache search"
             alias sdi="sudo dpkg -i"
-            if [ /usr/local/bin/kubectl ]; then source <(kubectl completion zsh); fi
             ;;
         "centos")
             # yum alias
@@ -143,14 +132,18 @@ if [ -f /etc/os-release ]; then
             alias yys='sudo yum -C search'
             alias yyu='sudo yum -y update'
             alias yyyi='sudo yum -Cy install'
-
-            source /usr/share/autojump/autojump.zsh
-            export JAVA_HOME=/home/aiops/jdk1.8.0_191
-            export PATH=$JAVA_HOME/bin:$PATH
-            export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
-            export ZOOKEEPER_HOME=/home/aiops/zookeeper-3.4.10
-            export HADOOP_HOME=/mnt/hdp/hadoop-2.7.6
-            export PATH=$ZOOKEEPER_HOME/bin:$PATH
+            ;;
+        "arch")
+            # pacman aliases
+            alias pac='sudo pacman -S'   # install
+            alias pacu='sudo pacman -Syu'    # update
+            alias pacr='sudo pacman -Rs'   # remove
+            alias pacs='sudo pacman -Ss'      # search
+            alias paci='sudo pacman -Si'      # info
+            alias paclo='sudo pacman -Qdt'    # list orphans
+            alias pacro='sudo paclo && sudo pacman -Rns $(pacman -Qtdq)' # remove orphans
+            alias pacc='sudo pacman -Scc'    # clean cache
+            alias paclf='sudo pacman -Ql'   # list files
             ;;
         *)
             ;;
@@ -166,21 +159,24 @@ else
     alias bl="brew list"
     alias bci="brew cask install"
     alias bcs="brew cask search"
-
     alias ctags="`brew --prefix`/bin/ctags"
+
+    # pyenv
     [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
     export PATH="$HOME/.pyenv/bin:$PATH"
     eval "$(pyenv init -)"
     # eval "$(pyenv virtualenv-init -)"
+    # nvm
+    export NVM_DIR="$HOME/.nvm"
+    [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+    [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
+
     # For compilers to find zlib you may need to set:
     export LDFLAGS="${LDFLAGS} -L/usr/local/opt/zlib/lib"
     export CPPFLAGS="${CPPFLAGS} -I/usr/local/opt/zlib/include"
 
     # For pkg-config to find zlib you may need to set:
     export PKG_CONFIG_PATH="${PKG_CONFIG_PATH} /usr/local/opt/zlib/lib/pkgconfig"
-    export NVM_DIR="$HOME/.nvm"
-    [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-    [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
 
     # llvm
     export LDFLAGS="-L/usr/local/opt/llvm/lib"
@@ -190,8 +186,9 @@ else
     export JAVA_HOME=$(/usr/libexec/java_home)
     export PATH=$JAVA_HOME/bin:$PATH
     export CLASS_PATH=$JAVA_HOME/lib
-fi
 
-cd() {
-	builtin cd "$@" && ls
-}
+    # go
+    export GOPATH="$HOME/go"
+    export GOBIN="$GOPATH/bin"
+    export PATH="$GOBIN:$PATH"
+fi
