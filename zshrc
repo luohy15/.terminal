@@ -1,4 +1,4 @@
-# If you come from bash you might have to change your $PATH.
+ If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
@@ -99,6 +99,12 @@ cd() {
 	builtin cd "$@" && ls
 }
 
+function acp() {
+    git add.
+    git commit -m "$1"
+    git push
+}
+
 export DISABLE_AUTO_TITLE='true'
 export RPROMPT=$'%*'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -192,3 +198,5 @@ else
     export GOBIN="$GOPATH/bin"
     export PATH="$GOBIN:$PATH"
 fi
+
+eval $(thefuck --alias)
