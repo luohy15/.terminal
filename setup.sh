@@ -30,20 +30,16 @@ if [ -f /etc/os-release ]; then
     esac
 fi
 
-. /etc/os-release
-if [[ $ID != "centos" && $ID != "rhel" ]]
-then
-    sudo pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pip -U
-    sudo pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-    for p in ${PIP_LIST[@]}
-    do
-        pip install $p
-    done
-    for n in ${NPM[@]}
-    do
-        npm install -g $p
-    done
-fi
+sudo pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple pip -U
+sudo pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+for p in ${PIP_LIST[@]}
+do
+    sudo pip3 install $p
+done
+for n in ${NPM[@]}
+do
+    npm install -g $p
+done
 if [ ! -d ~/.oh-my-zsh ]
 then
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

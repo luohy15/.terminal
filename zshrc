@@ -116,7 +116,7 @@ if [ -f /etc/os-release ]; then
             alias acs="apt-cache search"
             alias sdi="sudo dpkg -i"
             ;;
-        "centos")
+        "centos" | "rhel")
             # yum alias
             alias ycu='sudo yum check-update'
             alias yi='sudo yum install'

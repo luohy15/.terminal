@@ -7,11 +7,12 @@ LIST=(
 "fzf"
 "cmake"
 "ripgrep"
-"python-pip"
+"python3-pip"
 "wget"
 )
 PIP_LIST=(
 "powerline-status"
+"tmuxp"
 )
 NPM_LIST=(
 )
