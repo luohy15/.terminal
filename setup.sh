@@ -10,7 +10,7 @@ if [ -f /etc/os-release ]; then
                 sudo apt install -y $s
             done
             ;;
-        "centos")
+        "centos" | "rhel")
             for s in ${LIST[@]}
             do
                 sudo yum install -y $s
