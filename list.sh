@@ -8,14 +8,11 @@ LIST=(
 "cmake"
 "ripgrep"
 "python-pip"
+"wget"
 )
 PIP_LIST=(
 "powerline-status"
 "tmuxp"
 )
 NPM_LIST=(
-)
-DEV_LIST=(
-"go"
-"mono"
 )

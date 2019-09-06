@@ -29,6 +29,9 @@ if [ -f /etc/os-release ]; then
             ;;
     esac
 fi
+
+sudo pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pip -U
+sudo pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 for p in ${PIP_LIST[@]}
 do
     pip install $p
@@ -46,3 +49,4 @@ then
     git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 fi
 bash symlink.sh
+vim +PlugInstall +qall
