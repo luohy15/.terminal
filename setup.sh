@@ -36,9 +36,9 @@ for p in ${PIP_LIST[@]}
 do
     sudo pip3 install $p
 done
-for n in ${NPM[@]}
+for n in ${NPM_LIST[@]}
 do
-    npm install -g $p
+    sudo npm install -g $n
 done
 if [ ! -d ~/.oh-my-zsh ]
 then
