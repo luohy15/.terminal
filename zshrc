@@ -105,11 +105,14 @@ function acp() {
     git push
 }
 
+function pro_conf() {
+    . $HOME/.vim/plugged/powerline/powerline/bindings/zsh/powerline.zsh
+    eval $(thefuck --alias)
+}
+
 export DISABLE_AUTO_TITLE='true'
 export RPROMPT=$'%*'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-. $HOME/.vim/plugged/powerline/powerline/bindings/zsh/powerline.zsh
-eval $(thefuck --alias)
 
 # system specific
 if [ -f /etc/os-release ]; then
@@ -151,6 +154,7 @@ if [ -f /etc/os-release ]; then
             alias pacro='sudo paclo && sudo pacman -Rns $(pacman -Qtdq)' # remove orphans
             alias pacc='sudo pacman -Scc'    # clean cache
             alias paclf='sudo pacman -Ql'   # list files
+            pro_conf
             ;;
         *)
             ;;
@@ -167,6 +171,7 @@ else
     alias bci="brew cask install"
     alias bcs="brew cask search"
     alias ctags="`brew --prefix`/bin/ctags"
+    pro_conf
 
     # pyenv
     [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
