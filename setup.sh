@@ -8,9 +8,10 @@ function pro_conf() {
     do
         sudo pip3 install $p
     done
+    sudo npm install -g cnpm --registry=https://registry.npm.taobao.org
     for n in ${NPM_LIST[@]}
     do
-        sudo npm install -g $n
+        sudo cnpm install -g $n
     done
 }
 if [ -f /etc/os-release ]; then
