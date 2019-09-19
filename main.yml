@@ -4,9 +4,9 @@
       - zsh
       - tmux
       - vim
+    advanced:
       - git
       - htop
-    advanced:
       - cmake
       - wget
       - ripgrep
