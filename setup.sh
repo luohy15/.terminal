@@ -24,6 +24,7 @@ if [ -f /etc/os-release ]; then
             done
             ;;
         "centos" | "rhel")
+            sudo yum install -y epel-release
             for s in ${BASIC_LIST[@]}
             do
                 sudo yum install -y $s

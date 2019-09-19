@@ -1,5 +1,5 @@
 ## files
-for f in tmux.conf zshrc vimrc tmuxp ideavimrc
+for f in tmux.conf zshrc vimrc
 do
     echo $f
     if [ ! -L ~/.$f ]; then

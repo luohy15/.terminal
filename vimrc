@@ -36,6 +36,7 @@ if v:version >= 801
     Plug 'pangloss/vim-javascript'
     Plug 'isruslan/vim-es6'
     Plug 'wakatime/vim-wakatime'
+    Plug 'pearofducks/ansible-vim'
     " Plug 'w0rp/ale'
     " Plug 'yggdroot/leaderf'
     " Plug 'shougo/echodoc'
