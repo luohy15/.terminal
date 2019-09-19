@@ -12,7 +12,7 @@
   package:
     name: "{{ advanced }}"
     state: present
-  when: (ansible_facts['distribution'] == "MacOSX") or (ansible_facts['distribution'] == "ArchLinux")
+  when: (ansible_facts['distribution'] == "MacOSX") or (ansible_facts['distribution'] == "Archlinux")
 
 - name: check oh-my-zsh
   stat:
@@ -35,11 +35,11 @@
 
 - name: pip packages
   include_tasks: "pip.yml"
-  when: (ansible_facts['distribution'] == "MacOSX") or (ansible_facts['distribution'] == "ArchLinux")
+  when: (ansible_facts['distribution'] == "MacOSX") or (ansible_facts['distribution'] == "Archlinux")
 
 - name: npm packages
   include_tasks: "npm.yml"
-  when: (ansible_facts['distribution'] == "MacOSX") or (ansible_facts['distribution'] == "ArchLinux")
+  when: (ansible_facts['distribution'] == "MacOSX") or (ansible_facts['distribution'] == "Archlinux")
 
 - name: config vim
   shell: echo TODO
