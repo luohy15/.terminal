@@ -1,6 +1,5 @@
 - hosts: localhost
   vars:
-    isMacOSX: ansible_facts['distribution'] == "MacOSX"
     basic:
       - zsh
       - tmux
