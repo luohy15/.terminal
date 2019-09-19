@@ -1,0 +1,21 @@
+- name: prepare dirs
+  file:
+    path: "~/.{{ item }}"
+    state: directory
+  loop:
+    - vim
+    - config
+
+- name: symlink files
+  file:
+    src: "~/.terminal/{{ item }}"
+    dest: "~/.{{ item }}"
+    state: link
+    force: true
+  loop: "{{ symlinks }}"
+
+- name: symlink vim colors
+  file:
+    src: ~/.vim/plugged/vim-colors-solarized/colors
+    dest: ~/.vim/colors
+    state: link

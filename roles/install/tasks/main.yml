@@ -1,2 +1,47 @@
-- name: test connection
-  ping:
+- name: package manager
+  include_tasks: "{{ ansible_facts['distribution'] }}.yml"
+
+- name: install basic packages
+  become: not isMacOSX
+  package:
+    name: "{{ basic }}"
+    state: present
+
+- name: install advanced packages
+  become: not isMacOSX
+  package:
+    name: "{{ advanced }}"
+    state: present
+  when: (ansible_facts['distribution'] == "MacOSX") or (ansible_facts['distribution'] == "ArchLinux")
+
+- name: check oh-my-zsh
+  stat:
+    path: ~/.oh-my-zsh
+  register: stat_omz
+
+- name: install oh-my-zsh
+  script: install-oh-my-zsh.sh
+  # TODO: chsh
+  when: not stat_omz.stat.exists
+
+- name: check fzf
+  stat:
+    path: ~/.fzf
+  register: stat_fzf
+
+- name: install fzf
+  script: install-fzf.sh 
+  when: not stat_fzf.stat.exists
+
+- name: pip packages
+  include_tasks: "pip.yml"
+  when: (ansible_facts['distribution'] == "MacOSX") or (ansible_facts['distribution'] == "ArchLinux")
+
+- name: npm packages
+  include_tasks: "npm.yml"
+  when: (ansible_facts['distribution'] == "MacOSX") or (ansible_facts['distribution'] == "ArchLinux")
+
+- name: config vim
+  shell: echo TODO
+  tags:
+    - vim

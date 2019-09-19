@@ -1,4 +1,40 @@
-- hosts: all
+- hosts: localhost
+  vars:
+    isMacOSX: ansible_facts['distribution'] == "MacOSX"
+    basic:
+      - zsh
+      - tmux
+      - vim
+      - git
+      - htop
+    advanced:
+      - cmake
+      - wget
+      - ripgrep
+      - nodejs
+      - python3
+    pip:
+      - powerline-status
+      - tmuxp
+      - thefuck
+    npm:
+      - fkill
+      - tldr
+      - git-standup
   roles:
     - install
+  tags:
+    - install
+  
+- hosts: localhost
+  vars:
+    symlinks:
+      - tmux.conf
+      - zshrc
+      - vimrc
+      - vim/config
+      - config/powerline
+  roles:
+    - symlink
+  tags:
     - symlink

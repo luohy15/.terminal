@@ -1,0 +1,13 @@
+- name: update pip
+  ignore_errors: True
+  shell: $(which pip3) install -i https://pypi.tuna.tsinghua.edu.cn/simple pip -U
+
+- name: config pip
+  ignore_errors: True
+  shell: $(which pip3) config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+
+- name: install pip packages
+  ignore_errors: True
+  pip:
+    name: "{{ pip }}"
+    state: present
