@@ -33,6 +33,6 @@ shortcut: reload, split, resize, switch
 ## Setup
 
 ```
-ansible-playbook -i hosts main.yml
+ansible-playbook main.yml
 ```
 
