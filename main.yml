@@ -26,13 +26,6 @@
     - install
   
 - hosts: localhost
-  vars:
-    symlinks:
-      - tmux.conf
-      - zshrc
-      - vimrc
-      - vim/config
-      - config/powerline
   roles:
     - symlink
   tags:

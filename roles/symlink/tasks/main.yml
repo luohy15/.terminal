@@ -8,11 +8,16 @@
 
 - name: symlink files
   file:
-    src: "~/.terminal/{{ item }}"
+    src: "~/.terminal/roles/symlink/files/{{ item }}"
     dest: "~/.{{ item }}"
     state: link
     force: true
-  loop: "{{ symlinks }}"
+  loop:
+    - tmux.conf
+    - zshrc
+    - vimrc
+    - vim/config
+    - config/powerline
 
 - name: symlink vim colors
   file:
