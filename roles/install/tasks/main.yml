@@ -21,7 +21,6 @@
 
 - name: install oh-my-zsh
   script: install-oh-my-zsh.sh
-  # TODO: chsh
   when: not stat_omz.stat.exists
 
 - name: check fzf

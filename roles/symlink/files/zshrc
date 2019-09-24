@@ -203,4 +203,7 @@ else
     export GOPATH="$HOME/go"
     export GOBIN="$GOPATH/bin"
     export PATH="$GOBIN:$PATH"
+
+    # gtar
+    export PATH="/usr/local/opt/gnu-tar/libexec/gnubin:$PATH"
 fi
