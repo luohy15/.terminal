@@ -39,8 +39,3 @@
 - name: npm packages
   include_tasks: "npm.yml"
   when: (ansible_facts['distribution'] == "MacOSX") or (ansible_facts['distribution'] == "Archlinux")
-
-- name: config vim
-  shell: echo TODO
-  tags:
-    - vim

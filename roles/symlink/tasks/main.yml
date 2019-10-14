@@ -19,6 +19,21 @@
     - vim/config
     - config/powerline
 
+- name: turn off solarized
+  lineinfile:
+    path: ~/.vimrc
+    regexp: 'source ~/.vim/config/solarized.vim'
+    line: '" source ~/.vim/config/solarized.vim'
+
+- name: install vim plugin
+  shell: vim +PlugInstall +qa
+
+- name: turn on solarized
+  lineinfile:
+    path: ~/.vimrc
+    regexp: '" source ~/.vim/config/solarized.vim'
+    line: 'source ~/.vim/config/solarized.vim'
+
 - name: symlink vim colors
   file:
     src: ~/.vim/plugged/vim-colors-solarized/colors

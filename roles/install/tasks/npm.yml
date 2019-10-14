@@ -6,5 +6,5 @@
   ignore_errors: True
   become: true
   shell: cnpm install -g {{ item }}
-  with_items:
+  loop:
     "{{ npm }}"

@@ -1,4 +1,4 @@
-# Terminal setup
+# Terminal setup based on ansible
 
 ## Modules
 
@@ -32,7 +32,14 @@ shortcut: reload, split, resize, switch
 
 ## Setup
 
+Requires root privileges:
+
 ```
 ansible-playbook main.yml
 ```
 
+If your need to enter a password, run with `--ask-become-pass` :
+
+```
+ansible-playbook main.yml --ask-become-pass
+```
