@@ -4,8 +4,8 @@
       - zsh
       - tmux
       - vim
-    advanced:
       - git
+    advanced:
       - htop
       - cmake
       - wget
