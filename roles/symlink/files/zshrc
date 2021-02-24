@@ -7,7 +7,7 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="simple"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -51,7 +51,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git golang docker docker-compose kubectl)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -95,10 +95,6 @@ alias cl="clear"
 alias tgz='tar -zxvf'
 alias tbz='tar -jxvf'
 
-cd() {
-	builtin cd "$@" && ls
-}
-
 function acp() {
     git add .
     git commit -m "$1"
@@ -108,6 +104,41 @@ function acp() {
 export DISABLE_AUTO_TITLE='true'
 export RPROMPT=$'%*'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# history
+export SAVEHIST=1000000000
+export HISTFILESIZE=1000000000
+export HISTSIZE=1000000000
+setopt INC_APPEND_HISTORY
+setopt HIST_FIND_NO_DUPS
+
+# network
+alias setproxy="export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087;export HTTP_PROXY=http://127.0.0.1:1087;export HTTPS_PROXY=http://127.0.0.1:1087"
+alias disproxy="unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY"
+alias ip="curl cip.cc"
+
+# go
+export GOPATH="$HOME/go"
+export GOBIN="$GOPATH/bin"
+export PATH="$GOBIN:$PATH"
+export GOPRIVATE="github.com/bizseer,github.com/luohy15"
+export GO111MODULE=on
+export GOPROXY="https://goproxy.cn,https://goproxy.io,direct"
+
+setnamepath() {
+    echo $1 > ~/.namepath/$(pwd | sed 's/\//_/g')
+}
+
+cd() {
+    builtin cd "$@"
+    local W=$(cat ~/.namepath/$(pwd | sed 's/\//_/g') 2>&/dev/null)
+    if [[ -n $W ]]; then
+        tmux renamew "$W"
+    else
+        tmux renamew "$(pwd | sed 's/.*\///')"
+    fi
+    ls -F
+}
 
 # system specific
 if [ -f /etc/os-release ]; then
@@ -188,16 +219,13 @@ else
     export CPPFLAGS="-I/usr/local/opt/llvm/include"
 
     # java
-    export JAVA_HOME=$(/usr/libexec/java_home)
+    export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
     export PATH=$JAVA_HOME/bin:$PATH
     export CLASS_PATH=$JAVA_HOME/lib
 
-    # go
-    export GOPATH="$HOME/go"
-    export GOBIN="$GOPATH/bin"
-    export PATH="$GOBIN:$PATH"
-
     # gtar
     export PATH="/usr/local/opt/gnu-tar/libexec/gnubin:$PATH"
+
+    # other
+    export PATH=$HOME/.cargo/bin:$PATH
 fi
-. $HOME/.vim/plugged/powerline/powerline/bindings/zsh/powerline.zsh
