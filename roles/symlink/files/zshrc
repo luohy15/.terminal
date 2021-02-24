@@ -180,6 +180,7 @@ if [ -f /etc/os-release ]; then
             alias pacro='sudo paclo && sudo pacman -Rns $(pacman -Qtdq)' # remove orphans
             alias pacc='sudo pacman -Scc'    # clean cache
             alias paclf='sudo pacman -Ql'   # list files
+            export PATH="/usr/share/bcc/tools:$PATH"
             ;;
         *)
             ;;
@@ -229,3 +230,4 @@ else
     # other
     export PATH=$HOME/.cargo/bin:$PATH
 fi
+. $HOME/.vim/plugged/powerline/powerline/bindings/zsh/powerline.zsh
